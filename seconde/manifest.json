@@ -1068,6 +1068,500 @@
    ]
   },
   {
+   "id": "s05",
+   "title": "Géosciences et dynamique des paysages",
+   "poster": "clips/s05/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Un paysage se transforme",
+     "dur": 58.44,
+     "v": "clips/s05/c01.mp4",
+     "p": "clips/s05/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.96,
+       "fr": "Un paysage, c'est ce que tu vois quand tu regardes autour de toi : des montagnes, des vallées, des rivières, des plaines.",
+       "sci": false
+      },
+      {
+       "a": 7.24,
+       "b": 13.67,
+       "fr": "Il nous semble immobile, mais en réalité il change sans cesse, très lentement, à l'échelle de milliers ou de millions d'années.",
+       "sci": false
+      },
+      {
+       "a": 14.55,
+       "b": 19.52,
+       "fr": "La première étape de cette transformation, c'est l'altération : les roches se fragmentent.",
+       "sci": false
+      },
+      {
+       "a": 19.8,
+       "b": 21.52,
+       "fr": "L'eau s'infiltre dans les fissures.",
+       "sci": false
+      },
+      {
+       "a": 21.8,
+       "b": 24.71,
+       "fr": "Quand elle gèle, elle gonfle et fait éclater la roche.",
+       "sci": false
+      },
+      {
+       "a": 24.99,
+       "b": 28.29,
+       "fr": "La pluie, légèrement acide, dissout aussi certains minéraux.",
+       "sci": false
+      },
+      {
+       "a": 29.17,
+       "b": 33.89,
+       "fr": "Ensuite, les fragments sont transportés : par les rivières, par le vent, ou par les glaciers.",
+       "sci": false
+      },
+      {
+       "a": 34.17,
+       "b": 37.67,
+       "fr": "Pendant le voyage, les morceaux se cognent, s'usent et s'arrondissent.",
+       "sci": false
+      },
+      {
+       "a": 37.95,
+       "b": 43.53,
+       "fr": "Plus on va loin, plus les grains deviennent petits : les blocs deviennent des galets, puis du sable, puis de la boue.",
+       "sci": false
+      },
+      {
+       "a": 44.41,
+       "b": 49.66,
+       "fr": "En science : l'érosion regroupe l'altération des roches et le transport des particules arrachées.",
+       "sci": true
+      },
+      {
+       "a": 49.94,
+       "b": 53.63,
+       "fr": "L'eau, le gel, le vent et les glaciers en sont les principaux agents.",
+       "sci": true
+      },
+      {
+       "a": 53.91,
+       "b": 57.56,
+       "fr": "Sa vitesse dépend du climat, du relief et de la nature des roches.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Sédimentation et roches sédimentaires",
+     "dur": 61.21,
+     "v": "clips/s05/c02.mp4",
+     "p": "clips/s05/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.92,
+       "fr": "Quand le courant ralentit, par exemple à l'embouchure d'un fleuve ou au fond d'un lac, il ne peut plus porter les particules.",
+       "sci": false
+      },
+      {
+       "a": 7.2,
+       "b": 10.0,
+       "fr": "Elles tombent et se déposent : c'est la sédimentation.",
+       "sci": false
+      },
+      {
+       "a": 10.28,
+       "b": 13.67,
+       "fr": "Les plus lourdes se déposent en premier, les plus fines plus loin.",
+       "sci": false
+      },
+      {
+       "a": 14.55,
+       "b": 18.56,
+       "fr": "Année après année, les dépôts s'empilent en couches, qu'on appelle des strates.",
+       "sci": false
+      },
+      {
+       "a": 18.84,
+       "b": 23.57,
+       "fr": "Si rien ne les a dérangées, une couche est plus récente que celle qui se trouve en dessous.",
+       "sci": false
+      },
+      {
+       "a": 23.85,
+       "b": 29.19,
+       "fr": "C'est le principe de superposition, et il permet de lire l'histoire d'un paysage comme un livre.",
+       "sci": false
+      },
+      {
+       "a": 30.07,
+       "b": 35.12,
+       "fr": "Enfoui sous d'autres couches, le sédiment est tassé, l'eau est chassée, et les grains se collent entre eux.",
+       "sci": false
+      },
+      {
+       "a": 35.4,
+       "b": 38.16,
+       "fr": "Le sédiment devient une roche : c'est la diagenèse.",
+       "sci": false
+      },
+      {
+       "a": 38.44,
+       "b": 43.96,
+       "fr": "Le sable devient du grès, la boue devient de l'argile, et les coquilles accumulées deviennent du calcaire.",
+       "sci": false
+      },
+      {
+       "a": 44.84,
+       "b": 50.77,
+       "fr": "En science : les particules transportées se déposent quand l'énergie du courant diminue ; c'est la sédimentation.",
+       "sci": true
+      },
+      {
+       "a": 51.05,
+       "b": 54.59,
+       "fr": "Les sédiments s'accumulent en strates, les plus récentes au-dessus.",
+       "sci": true
+      },
+      {
+       "a": 54.87,
+       "b": 60.33,
+       "fr": "Par la diagenèse, ils se transforment en roches sédimentaires, comme le grès, l'argile ou le calcaire.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "L'humain et les paysages",
+     "dur": 57.8,
+     "v": "clips/s05/c03.mp4",
+     "p": "clips/s05/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.61,
+       "fr": "Les roches sédimentaires sont très utiles.",
+       "sci": false
+      },
+      {
+       "a": 2.89,
+       "b": 8.63,
+       "fr": "On extrait du sable et des graviers dans des carrières pour fabriquer le béton de nos maisons et de nos routes.",
+       "sci": false
+      },
+      {
+       "a": 8.91,
+       "b": 11.94,
+       "fr": "C'est la ressource la plus utilisée au monde après l'eau.",
+       "sci": false
+      },
+      {
+       "a": 12.82,
+       "b": 15.25,
+       "fr": "Nos aménagements modifient aussi l'érosion.",
+       "sci": false
+      },
+      {
+       "a": 15.53,
+       "b": 21.21,
+       "fr": "Un barrage retient les sédiments du fleuve : ils n'arrivent plus jusqu'à la mer, et certaines plages reculent.",
+       "sci": false
+      },
+      {
+       "a": 21.49,
+       "b": 26.54,
+       "fr": "À l'inverse, couper la forêt sur une pente laisse le sol nu, et la pluie l'emporte plus vite.",
+       "sci": false
+      },
+      {
+       "a": 27.42,
+       "b": 36.13,
+       "fr": "Comprendre ces phénomènes aide à gérer les risques : construire loin des zones inondables, stabiliser les pentes qui pourraient glisser, et protéger les côtes.",
+       "sci": false
+      },
+      {
+       "a": 36.41,
+       "b": 39.91,
+       "fr": "Les géosciences servent donc directement à la vie de tous les jours.",
+       "sci": false
+      },
+      {
+       "a": 40.79,
+       "b": 46.01,
+       "fr": "En science : les roches sédimentaires sont des ressources, comme les granulats utilisés pour le béton.",
+       "sci": true
+      },
+      {
+       "a": 46.29,
+       "b": 53.2,
+       "fr": "Les activités humaines modifient l'érosion et la sédimentation, par exemple avec les barrages ou la déforestation.",
+       "sci": true
+      },
+      {
+       "a": 53.48,
+       "b": 56.92,
+       "fr": "Connaître ces processus permet de gérer les risques naturels.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": "Agrosystèmes et développement durable",
+   "poster": "clips/s06/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Le sol, un milieu vivant",
+     "dur": 57.51,
+     "v": "clips/s06/c01.mp4",
+     "p": "clips/s06/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.62,
+       "fr": "Le sol, c'est la couche meuble qui recouvre les roches, là où poussent les plantes.",
+       "sci": false
+      },
+      {
+       "a": 4.9,
+       "b": 11.13,
+       "fr": "Il se forme lentement : la roche du dessous s'altère, et elle se mélange avec les restes de végétaux et d'animaux.",
+       "sci": false
+      },
+      {
+       "a": 11.41,
+       "b": 13.9,
+       "fr": "On observe plusieurs couches, appelées horizons.",
+       "sci": false
+      },
+      {
+       "a": 14.78,
+       "b": 16.11,
+       "fr": "Le sol est plein de vie.",
+       "sci": false
+      },
+      {
+       "a": 16.39,
+       "b": 18.73,
+       "fr": "Les vers de terre creusent des galeries qui l'aèrent.",
+       "sci": false
+      },
+      {
+       "a": 19.01,
+       "b": 23.53,
+       "fr": "Les champignons et les bactéries, invisibles à l'œil nu, décomposent les feuilles mortes.",
+       "sci": false
+      },
+      {
+       "a": 23.81,
+       "b": 28.08,
+       "fr": "Ils libèrent ainsi des sels minéraux, que les racines des plantes peuvent absorber.",
+       "sci": false
+      },
+      {
+       "a": 28.96,
+       "b": 33.08,
+       "fr": "Il faut souvent plusieurs siècles pour former un seul centimètre de sol.",
+       "sci": false
+      },
+      {
+       "a": 33.36,
+       "b": 36.71,
+       "fr": "Or l'érosion peut en emporter beaucoup plus en quelques années.",
+       "sci": false
+      },
+      {
+       "a": 36.99,
+       "b": 41.72,
+       "fr": "À l'échelle d'une vie humaine, le sol est donc une ressource fragile et non renouvelable.",
+       "sci": false
+      },
+      {
+       "a": 42.6,
+       "b": 50.39,
+       "fr": "En science : le sol résulte de l'altération de la roche mère et de la décomposition de la matière organique par les êtres vivants du sol.",
+       "sci": true
+      },
+      {
+       "a": 50.67,
+       "b": 52.38,
+       "fr": "Il est organisé en horizons.",
+       "sci": true
+      },
+      {
+       "a": 52.66,
+       "b": 56.63,
+       "fr": "Il se forme très lentement : c'est une ressource fragile qu'il faut protéger.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Qu'est-ce qu'un agrosystème ?",
+     "dur": 61.28,
+     "v": "clips/s06/c02.mp4",
+     "p": "clips/s06/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.44,
+       "fr": "Un agrosystème est un écosystème aménagé par l'être humain pour produire de la nourriture : un champ de blé, un verger, un élevage.",
+       "sci": false
+      },
+      {
+       "a": 8.72,
+       "b": 14.92,
+       "fr": "Contrairement à un écosystème naturel, on y favorise souvent une seule espèce, sur une grande surface.",
+       "sci": false
+      },
+      {
+       "a": 15.8,
+       "b": 18.6,
+       "fr": "Quand on récolte, on emporte la plante hors du champ.",
+       "sci": false
+      },
+      {
+       "a": 18.88,
+       "b": 22.1,
+       "fr": "Les sels minéraux qu'elle contenait ne retournent donc pas au sol.",
+       "sci": false
+      },
+      {
+       "a": 22.38,
+       "b": 29.7,
+       "fr": "Pour compenser cette exportation, l'agriculteur ajoute des engrais, qui apportent surtout de l'azote, du phosphore et du potassium.",
+       "sci": false
+      },
+      {
+       "a": 30.58,
+       "b": 38.68,
+       "fr": "Un agrosystème demande aussi d'autres apports : de l'eau pour l'irrigation, des pesticides contre les ravageurs, et de l'énergie pour les machines.",
+       "sci": false
+      },
+      {
+       "a": 38.96,
+       "b": 40.24,
+       "fr": "Ce sont les intrants.",
+       "sci": false
+      },
+      {
+       "a": 40.52,
+       "b": 44.02,
+       "fr": "Ils augmentent les rendements, mais ils ont un coût pour l'environnement.",
+       "sci": false
+      },
+      {
+       "a": 44.9,
+       "b": 50.79,
+       "fr": "En science : un agrosystème est un écosystème géré par l'être humain pour produire de la biomasse.",
+       "sci": true
+      },
+      {
+       "a": 51.07,
+       "b": 55.12,
+       "fr": "La récolte exporte de la matière, ce qui impose d'apporter des engrais.",
+       "sci": true
+      },
+      {
+       "a": 55.4,
+       "b": 60.4,
+       "fr": "Les intrants, comme l'eau, les engrais, les pesticides et l'énergie, augmentent la production.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Vers une agriculture durable",
+     "dur": 61.9,
+     "v": "clips/s06/c03.mp4",
+     "p": "clips/s06/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.66,
+       "fr": "Une agriculture trop intensive a des effets négatifs.",
+       "sci": false
+      },
+      {
+       "a": 3.94,
+       "b": 8.78,
+       "fr": "L'excès d'engrais se retrouve dans les rivières et favorise la prolifération d'algues.",
+       "sci": false
+      },
+      {
+       "a": 9.06,
+       "b": 12.94,
+       "fr": "Les pesticides réduisent le nombre d'insectes, dont les pollinisateurs.",
+       "sci": false
+      },
+      {
+       "a": 13.22,
+       "b": 14.91,
+       "fr": "Et les sols laissés nus s'érodent.",
+       "sci": false
+      },
+      {
+       "a": 15.79,
+       "b": 17.3,
+       "fr": "Il existe des solutions.",
+       "sci": false
+      },
+      {
+       "a": 17.58,
+       "b": 20.19,
+       "fr": "On peut alterner les cultures d'une année à l'autre.",
+       "sci": false
+      },
+      {
+       "a": 20.47,
+       "b": 28.12,
+       "fr": "On peut semer des légumineuses, comme les pois ou la luzerne, dont les racines abritent des bactéries capables d'enrichir le sol en azote.",
+       "sci": false
+      },
+      {
+       "a": 28.4,
+       "b": 31.84,
+       "fr": "On peut aussi replanter des haies, qui abritent les insectes utiles.",
+       "sci": false
+      },
+      {
+       "a": 32.72,
+       "b": 41.38,
+       "fr": "Le défi est immense : il faut nourrir plus de huit milliards d'êtres humains, tout en préservant les sols, l'eau et la biodiversité pour les générations futures.",
+       "sci": false
+      },
+      {
+       "a": 41.66,
+       "b": 44.31,
+       "fr": "C'est ce qu'on appelle le développement durable.",
+       "sci": false
+      },
+      {
+       "a": 45.19,
+       "b": 51.09,
+       "fr": "En science : l'agriculture intensive peut polluer les eaux, réduire la biodiversité et dégrader les sols.",
+       "sci": true
+      },
+      {
+       "a": 51.37,
+       "b": 61.02,
+       "fr": "Des pratiques comme la rotation des cultures, les légumineuses ou les haies permettent une agriculture plus durable, capable de nourrir l'humanité sans épuiser les ressources.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "s07",
    "title": "Procréation et sexualité humaine",
    "poster": "clips/s07/poster.jpg",

@@ -1324,6 +1324,506 @@
    ]
   },
   {
+   "id": "p08",
+   "title": "La structure du globe terrestre",
+   "poster": "clips/p08/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Sonder l'intérieur de la Terre",
+     "dur": 63.77,
+     "v": "clips/p08/c01.mp4",
+     "p": "clips/p08/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.42,
+       "fr": "Personne n'est jamais allé à l'intérieur de la Terre.",
+       "sci": false
+      },
+      {
+       "a": 3.7,
+       "b": 12.96,
+       "fr": "Le forage le plus profond jamais réalisé atteint environ douze kilomètres, alors que le rayon de la Terre mesure environ six mille quatre cents kilomètres.",
+       "sci": false
+      },
+      {
+       "a": 13.24,
+       "b": 15.63,
+       "fr": "C'est comme une piqûre d'épingle sur une pomme.",
+       "sci": false
+      },
+      {
+       "a": 16.51,
+       "b": 19.88,
+       "fr": "Pour connaître l'intérieur de la Terre, on utilise les séismes.",
+       "sci": false
+      },
+      {
+       "a": 20.16,
+       "b": 23.64,
+       "fr": "Un séisme produit des ondes sismiques, qui traversent le globe.",
+       "sci": false
+      },
+      {
+       "a": 23.92,
+       "b": 30.92,
+       "fr": "Leur vitesse change selon les matériaux qu'elles traversent, un peu comme le son qui ne va pas à la même vitesse dans l'air et dans l'eau.",
+       "sci": false
+      },
+      {
+       "a": 31.8,
+       "b": 35.47,
+       "fr": "À certaines profondeurs, la vitesse des ondes change brusquement.",
+       "sci": false
+      },
+      {
+       "a": 35.75,
+       "b": 37.86,
+       "fr": "Ces limites s'appellent des discontinuités.",
+       "sci": false
+      },
+      {
+       "a": 38.14,
+       "b": 40.8,
+       "fr": "La première, le Moho, sépare la croûte du manteau.",
+       "sci": false
+      },
+      {
+       "a": 41.08,
+       "b": 44.88,
+       "fr": "Une autre, à deux mille neuf cents kilomètres, sépare le manteau du noyau.",
+       "sci": false
+      },
+      {
+       "a": 45.76,
+       "b": 50.71,
+       "fr": "En science : la sismologie étudie la propagation des ondes sismiques dans le globe.",
+       "sci": true
+      },
+      {
+       "a": 50.99,
+       "b": 62.89,
+       "fr": "Les variations brusques de vitesse révèlent des discontinuités : le Moho, entre la croûte et le manteau, et la discontinuité de Gutenberg, à environ deux mille neuf cents kilomètres, entre le manteau et le noyau.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les enveloppes de la Terre",
+     "dur": 65.19,
+     "v": "clips/p08/c02.mp4",
+     "p": "clips/p08/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.72,
+       "fr": "La croûte est l'enveloppe la plus externe.",
+       "sci": false
+      },
+      {
+       "a": 3.0,
+       "b": 8.35,
+       "fr": "Sous les continents, elle est épaisse d'environ trente kilomètres, et faite de roches comme le granite.",
+       "sci": false
+      },
+      {
+       "a": 8.63,
+       "b": 15.65,
+       "fr": "Sous les océans, elle est beaucoup plus fine, environ sept kilomètres, et faite de basalte et de gabbro, des roches plus denses.",
+       "sci": false
+      },
+      {
+       "a": 16.53,
+       "b": 20.46,
+       "fr": "Sous la croûte se trouve le manteau, épais de près de trois mille kilomètres.",
+       "sci": false
+      },
+      {
+       "a": 20.74,
+       "b": 23.13,
+       "fr": "Il est formé d'une roche appelée péridotite.",
+       "sci": false
+      },
+      {
+       "a": 23.41,
+       "b": 26.12,
+       "fr": "Attention : le manteau est solide, et non liquide !",
+       "sci": false
+      },
+      {
+       "a": 26.4,
+       "b": 31.67,
+       "fr": "Mais à l'échelle de millions d'années, il peut se déformer lentement, comme de la pâte très épaisse.",
+       "sci": false
+      },
+      {
+       "a": 32.55,
+       "b": 35.28,
+       "fr": "Au centre, le noyau est fait de fer et de nickel.",
+       "sci": false
+      },
+      {
+       "a": 35.56,
+       "b": 42.4,
+       "fr": "Le noyau externe est liquide, et ses mouvements produisent le champ magnétique terrestre, celui qui oriente les boussoles.",
+       "sci": false
+      },
+      {
+       "a": 42.68,
+       "b": 46.91,
+       "fr": "Le noyau interne, appelé graine, est solide à cause de l'énorme pression.",
+       "sci": false
+      },
+      {
+       "a": 47.79,
+       "b": 50.77,
+       "fr": "En science : la Terre est formée d'enveloppes concentriques.",
+       "sci": true
+      },
+      {
+       "a": 51.05,
+       "b": 56.94,
+       "fr": "La croûte continentale est granitique et épaisse ; la croûte océanique est basaltique, fine et plus dense.",
+       "sci": true
+      },
+      {
+       "a": 57.22,
+       "b": 59.38,
+       "fr": "Le manteau, en péridotite, est solide.",
+       "sci": true
+      },
+      {
+       "a": 59.66,
+       "b": 64.31,
+       "fr": "Le noyau, en fer et nickel, a une partie externe liquide et une graine solide.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Lithosphère et asthénosphère",
+     "dur": 57.16,
+     "v": "clips/p08/c03.mp4",
+     "p": "clips/p08/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.32,
+       "fr": "Les géologues découpent aussi la Terre selon la rigidité des roches.",
+       "sci": false
+      },
+      {
+       "a": 4.6,
+       "b": 7.8,
+       "fr": "La lithosphère est la couche rigide de surface.",
+       "sci": false
+      },
+      {
+       "a": 8.08,
+       "b": 12.86,
+       "fr": "Elle comprend la croûte et le sommet du manteau, sur une centaine de kilomètres d'épaisseur.",
+       "sci": false
+      },
+      {
+       "a": 13.74,
+       "b": 18.54,
+       "fr": "En dessous, l'asthénosphère est plus chaude et plus ductile : elle peut se déformer lentement.",
+       "sci": false
+      },
+      {
+       "a": 18.82,
+       "b": 25.47,
+       "fr": "La lithosphère, rigide, est découpée en grandes plaques qui reposent sur l'asthénosphère et se déplacent sur elle.",
+       "sci": false
+      },
+      {
+       "a": 26.35,
+       "b": 29.34,
+       "fr": "Ce qui distingue les deux, c'est surtout la température.",
+       "sci": false
+      },
+      {
+       "a": 29.62,
+       "b": 31.41,
+       "fr": "Plus on descend, plus il fait chaud.",
+       "sci": false
+      },
+      {
+       "a": 31.69,
+       "b": 39.86,
+       "fr": "La limite entre lithosphère et asthénosphère correspond à peu près à la profondeur où la température atteint mille trois cents degrés.",
+       "sci": false
+      },
+      {
+       "a": 40.74,
+       "b": 47.74,
+       "fr": "En science : la lithosphère, rigide, comprend la croûte et le manteau lithosphérique ; elle est découpée en plaques.",
+       "sci": true
+      },
+      {
+       "a": 48.02,
+       "b": 51.18,
+       "fr": "L'asthénosphère, plus chaude et ductile, se trouve en dessous.",
+       "sci": true
+      },
+      {
+       "a": 51.46,
+       "b": 56.28,
+       "fr": "Leur limite correspond approximativement à l'isotherme mille trois cents degrés.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "title": "La dynamique de la lithosphère",
+   "poster": "clips/p09/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Des continents qui bougent",
+     "dur": 59.49,
+     "v": "clips/p09/c01.mp4",
+     "p": "clips/p09/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.46,
+       "fr": "En mille neuf cent douze, Alfred Wegener remarque que les côtes de l'Amérique du Sud et de l'Afrique s'emboîtent comme un puzzle.",
+       "sci": false
+      },
+      {
+       "a": 8.74,
+       "b": 11.51,
+       "fr": "On y trouve aussi les mêmes fossiles et les mêmes roches.",
+       "sci": false
+      },
+      {
+       "a": 11.79,
+       "b": 15.74,
+       "fr": "Il propose que les continents se déplacent : c'est la dérive des continents.",
+       "sci": false
+      },
+      {
+       "a": 16.62,
+       "b": 20.93,
+       "fr": "Aujourd'hui, on sait que les séismes et les volcans ne sont pas répartis au hasard.",
+       "sci": false
+      },
+      {
+       "a": 21.21,
+       "b": 23.83,
+       "fr": "Sur une carte du monde, ils dessinent des lignes.",
+       "sci": false
+      },
+      {
+       "a": 24.11,
+       "b": 27.89,
+       "fr": "Ces lignes marquent les limites entre les plaques lithosphériques.",
+       "sci": false
+      },
+      {
+       "a": 28.77,
+       "b": 30.81,
+       "fr": "On compte une douzaine de grandes plaques.",
+       "sci": false
+      },
+      {
+       "a": 31.09,
+       "b": 36.51,
+       "fr": "Elles se déplacent de quelques centimètres par an, à peu près à la vitesse à laquelle poussent tes ongles.",
+       "sci": false
+      },
+      {
+       "a": 36.79,
+       "b": 41.19,
+       "fr": "C'est très lent, mais en des millions d'années, cela suffit à ouvrir un océan entier.",
+       "sci": false
+      },
+      {
+       "a": 42.07,
+       "b": 49.15,
+       "fr": "En science : la lithosphère est découpée en une douzaine de plaques rigides, qui se déplacent de quelques centimètres par an.",
+       "sci": true
+      },
+      {
+       "a": 49.43,
+       "b": 52.99,
+       "fr": "Leurs limites sont soulignées par la sismicité et le volcanisme.",
+       "sci": true
+      },
+      {
+       "a": 53.27,
+       "b": 58.61,
+       "fr": "Cette idée prolonge l'hypothèse de la dérive des continents proposée par Wegener.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les dorsales : l'océan s'ouvre",
+     "dur": 54.98,
+     "v": "clips/p09/c02.mp4",
+     "p": "clips/p09/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 7.39,
+       "fr": "Au milieu des océans se trouvent des chaînes de montagnes sous-marines, longues de dizaines de milliers de kilomètres : les dorsales.",
+       "sci": false
+      },
+      {
+       "a": 7.67,
+       "b": 10.23,
+       "fr": "À leur niveau, deux plaques s'écartent l'une de l'autre.",
+       "sci": false
+      },
+      {
+       "a": 10.51,
+       "b": 12.07,
+       "fr": "On parle de divergence.",
+       "sci": false
+      },
+      {
+       "a": 12.95,
+       "b": 15.34,
+       "fr": "Quand les plaques s'écartent, le manteau remonte.",
+       "sci": false
+      },
+      {
+       "a": 15.62,
+       "b": 19.5,
+       "fr": "En remontant, la pression diminue, et une petite partie de la roche fond.",
+       "sci": false
+      },
+      {
+       "a": 19.78,
+       "b": 25.2,
+       "fr": "Ce magma monte et refroidit pour former une nouvelle croûte océanique, en basalte et en gabbro.",
+       "sci": false
+      },
+      {
+       "a": 26.08,
+       "b": 33.72,
+       "fr": "La preuve : plus on s'éloigne de la dorsale, plus les roches du fond océanique sont vieilles, et cela de façon symétrique de chaque côté.",
+       "sci": false
+      },
+      {
+       "a": 34.0,
+       "b": 39.41,
+       "fr": "Le fond des océans est donc fabriqué en permanence au niveau des dorsales, comme deux tapis roulants.",
+       "sci": false
+      },
+      {
+       "a": 40.29,
+       "b": 47.14,
+       "fr": "En science : au niveau des dorsales, la lithosphère océanique se forme par remontée et fusion partielle du manteau.",
+       "sci": true
+      },
+      {
+       "a": 47.42,
+       "b": 52.18,
+       "fr": "L'âge des fonds océaniques augmente symétriquement de part et d'autre de la dorsale.",
+       "sci": true
+      },
+      {
+       "a": 52.46,
+       "b": 54.1,
+       "fr": "C'est l'expansion océanique.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Les zones de subduction",
+     "dur": 60.0,
+     "v": "clips/p09/c03.mp4",
+     "p": "clips/p09/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.79,
+       "fr": "Si les océans s'ouvrent quelque part, ils doivent se refermer ailleurs, car la Terre ne grossit pas.",
+       "sci": false
+      },
+      {
+       "a": 6.07,
+       "b": 10.79,
+       "fr": "En vieillissant, la lithosphère océanique se refroidit et devient plus dense.",
+       "sci": false
+      },
+      {
+       "a": 11.07,
+       "b": 14.41,
+       "fr": "Elle finit par plonger sous une autre plaque : c'est la subduction.",
+       "sci": false
+      },
+      {
+       "a": 15.29,
+       "b": 18.92,
+       "fr": "Le long de la plaque qui plonge, il se produit de nombreux séismes.",
+       "sci": false
+      },
+      {
+       "a": 19.2,
+       "b": 26.75,
+       "fr": "Ils sont de plus en plus profonds à mesure qu'on s'éloigne de la fosse océanique, et peuvent atteindre sept cents kilomètres de profondeur.",
+       "sci": false
+      },
+      {
+       "a": 27.03,
+       "b": 29.02,
+       "fr": "Ils dessinent la plaque qui s'enfonce.",
+       "sci": false
+      },
+      {
+       "a": 29.9,
+       "b": 31.75,
+       "fr": "La plaque qui plonge contient de l'eau.",
+       "sci": false
+      },
+      {
+       "a": 32.03,
+       "b": 36.62,
+       "fr": "En s'enfonçant, elle la libère dans le manteau situé au-dessus, qui fond alors en partie.",
+       "sci": false
+      },
+      {
+       "a": 36.9,
+       "b": 41.93,
+       "fr": "Le magma remonte et forme des volcans souvent explosifs, comme dans les Andes ou au Japon.",
+       "sci": false
+      },
+      {
+       "a": 42.81,
+       "b": 48.96,
+       "fr": "En science : dans une zone de subduction, la lithosphère océanique, devenue dense, plonge dans le manteau.",
+       "sci": true
+      },
+      {
+       "a": 49.24,
+       "b": 52.76,
+       "fr": "Les séismes de plus en plus profonds dessinent la plaque plongeante.",
+       "sci": true
+      },
+      {
+       "a": 53.04,
+       "b": 59.12,
+       "fr": "L'eau libérée provoque une fusion partielle du manteau sus-jacent, à l'origine d'un volcanisme explosif.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "p07",
    "title": "Écosystèmes et services environnementaux",
    "poster": "clips/p07/poster.jpg",

@@ -1150,6 +1150,482 @@
    ]
   },
   {
+   "id": "t10",
+   "title": "Dater les roches et les événements géologiques",
+   "poster": "clips/t10/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "La chronologie relative",
+     "dur": 61.96,
+     "v": "clips/t10/c01.mp4",
+     "p": "clips/t10/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.67,
+       "fr": "Pour reconstituer l'histoire de la Terre, on commence par ranger les événements dans l'ordre, sans donner d'âge précis : c'est la chronologie relative.",
+       "sci": false
+      },
+      {
+       "a": 8.95,
+       "b": 15.46,
+       "fr": "Premier principe, la superposition : dans des couches non déformées, celle du dessus est plus récente que celle du dessous.",
+       "sci": false
+      },
+      {
+       "a": 16.34,
+       "b": 23.44,
+       "fr": "Deuxième principe, le recoupement : une faille ou un filon de roche qui traverse des couches est plus récent que les couches qu'il coupe.",
+       "sci": false
+      },
+      {
+       "a": 23.72,
+       "b": 27.45,
+       "fr": "Logique : on ne peut pas couper quelque chose qui n'existe pas encore.",
+       "sci": false
+      },
+      {
+       "a": 28.33,
+       "b": 30.08,
+       "fr": "On utilise aussi les fossiles.",
+       "sci": false
+      },
+      {
+       "a": 30.36,
+       "b": 34.16,
+       "fr": "Certaines espèces ont vécu peu de temps, mais partout sur la planète.",
+       "sci": false
+      },
+      {
+       "a": 34.44,
+       "b": 38.84,
+       "fr": "Si on retrouve leurs fossiles dans deux couches éloignées, ces couches ont le même âge.",
+       "sci": false
+      },
+      {
+       "a": 39.12,
+       "b": 42.34,
+       "fr": "On les appelle des fossiles stratigraphiques, comme les ammonites.",
+       "sci": false
+      },
+      {
+       "a": 43.22,
+       "b": 53.61,
+       "fr": "En science : la chronologie relative ordonne les événements géologiques grâce à des principes : la superposition, le recoupement, l'inclusion et l'identité paléontologique.",
+       "sci": true
+      },
+      {
+       "a": 53.89,
+       "b": 61.08,
+       "fr": "Les fossiles stratigraphiques permettent de corréler des couches éloignées et ont servi à construire l'échelle des temps géologiques.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "La datation absolue",
+     "dur": 70.98,
+     "v": "clips/t10/c02.mp4",
+     "p": "clips/t10/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.96,
+       "fr": "Pour donner un âge en années, on utilise la radioactivité.",
+       "sci": false
+      },
+      {
+       "a": 4.24,
+       "b": 7.91,
+       "fr": "Certains atomes, appelés isotopes radioactifs, sont instables.",
+       "sci": false
+      },
+      {
+       "a": 8.19,
+       "b": 12.0,
+       "fr": "Ils se transforment spontanément en un autre atome, l'élément fils.",
+       "sci": false
+      },
+      {
+       "a": 12.28,
+       "b": 16.47,
+       "fr": "Cette transformation se fait à un rythme constant, comme une horloge.",
+       "sci": false
+      },
+      {
+       "a": 17.35,
+       "b": 23.6,
+       "fr": "Chaque isotope a une période, ou demi-vie : c'est le temps au bout duquel la moitié des atomes se sont transformés.",
+       "sci": false
+      },
+      {
+       "a": 23.88,
+       "b": 31.24,
+       "fr": "Après une période il en reste la moitié, après deux périodes un quart, après trois périodes un huitième, et ainsi de suite.",
+       "sci": false
+      },
+      {
+       "a": 32.12,
+       "b": 39.16,
+       "fr": "En mesurant dans une roche la quantité d'élément père et d'élément fils, on calcule depuis combien de temps l'horloge tourne.",
+       "sci": false
+      },
+      {
+       "a": 39.44,
+       "b": 51.62,
+       "fr": "Il faut choisir le bon chronomètre : le carbone quatorze date des restes de moins de cinquante mille ans, alors que d'autres, comme le potassium-argon ou le rubidium-strontium, datent des roches de plusieurs milliards d'années.",
+       "sci": false
+      },
+      {
+       "a": 52.5,
+       "b": 62.63,
+       "fr": "En science : la datation absolue repose sur la désintégration des isotopes radioactifs, qui suit une loi de décroissance exponentielle caractérisée par la période.",
+       "sci": true
+      },
+      {
+       "a": 62.91,
+       "b": 66.11,
+       "fr": "Le rapport entre élément père et élément fils donne l'âge.",
+       "sci": true
+      },
+      {
+       "a": 66.39,
+       "b": 70.1,
+       "fr": "On choisit le couple radioactif selon l'âge supposé de l'objet.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "L'échelle des temps géologiques",
+     "dur": 62.23,
+     "v": "clips/t10/c03.mp4",
+     "p": "clips/t10/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.51,
+       "fr": "La Terre s'est formée il y a environ quatre milliards six cents millions d'années.",
+       "sci": false
+      },
+      {
+       "a": 4.79,
+       "b": 6.39,
+       "fr": "C'est difficile à imaginer.",
+       "sci": false
+      },
+      {
+       "a": 6.67,
+       "b": 13.24,
+       "fr": "Si toute son histoire tenait en une seule journée, les premiers humains apparaîtraient dans les dernières secondes avant minuit.",
+       "sci": false
+      },
+      {
+       "a": 14.12,
+       "b": 17.09,
+       "fr": "L'histoire de la Terre est découpée en grandes périodes.",
+       "sci": false
+      },
+      {
+       "a": 17.37,
+       "b": 23.68,
+       "fr": "Les coupures correspondent souvent à des crises biologiques, où une grande partie des espèces disparaît brutalement.",
+       "sci": false
+      },
+      {
+       "a": 23.96,
+       "b": 29.91,
+       "fr": "La plus célèbre, il y a soixante-six millions d'années, a fait disparaître les dinosaures, sauf les oiseaux.",
+       "sci": false
+      },
+      {
+       "a": 30.79,
+       "b": 42.4,
+       "fr": "On distingue ainsi trois grandes ères depuis l'explosion de la vie animale : le Paléozoïque, l'ère primaire, le Mésozoïque, l'ère des dinosaures, et le Cénozoïque, celle des mammifères, dans laquelle nous vivons.",
+       "sci": false
+      },
+      {
+       "a": 43.28,
+       "b": 46.93,
+       "fr": "En science : la Terre a environ quatre milliards six cents millions d'années.",
+       "sci": true
+      },
+      {
+       "a": 47.21,
+       "b": 57.34,
+       "fr": "L'échelle des temps géologiques est découpée en ères, périodes et étages, dont les limites correspondent souvent à des crises biologiques, comme celle d'il y a soixante-six millions d'années.",
+       "sci": true
+      },
+      {
+       "a": 57.62,
+       "b": 61.35,
+       "fr": "Les datations absolues ont permis de donner un âge à ces limites.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "Les traces du passé mouvementé de la Terre",
+   "poster": "clips/t11/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Une chaîne de montagnes, comment ça se forme ?",
+     "dur": 62.94,
+     "v": "clips/t11/c01.mp4",
+     "p": "clips/t11/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.08,
+       "fr": "Rappel : la surface de la Terre est découpée en plaques qui bougent.",
+       "sci": false
+      },
+      {
+       "a": 4.36,
+       "b": 10.02,
+       "fr": "Quand un océan se referme complètement, les deux continents qui le bordaient finissent par se percuter.",
+       "sci": false
+      },
+      {
+       "a": 10.3,
+       "b": 14.44,
+       "fr": "Cette collision fait naître une chaîne de montagnes, comme les Alpes ou l'Himalaya.",
+       "sci": false
+      },
+      {
+       "a": 15.32,
+       "b": 18.54,
+       "fr": "Dans les montagnes, on voit que les roches ont été comprimées.",
+       "sci": false
+      },
+      {
+       "a": 18.82,
+       "b": 22.81,
+       "fr": "Les couches, au départ horizontales, sont plissées comme un tapis qu'on pousse.",
+       "sci": false
+      },
+      {
+       "a": 23.09,
+       "b": 29.1,
+       "fr": "Elles sont aussi cassées par des failles, et des paquets de roches glissent les uns sur les autres : ce sont des chevauchements.",
+       "sci": false
+      },
+      {
+       "a": 29.98,
+       "b": 31.65,
+       "fr": "Comprimée, la croûte s'épaissit.",
+       "sci": false
+      },
+      {
+       "a": 31.93,
+       "b": 37.54,
+       "fr": "Sous une chaîne de montagnes, elle peut atteindre soixante-dix kilomètres, deux fois plus que la normale.",
+       "sci": false
+      },
+      {
+       "a": 37.82,
+       "b": 43.19,
+       "fr": "Comme un iceberg, une montagne a une racine profonde, bien plus grande que la partie visible.",
+       "sci": false
+      },
+      {
+       "a": 44.07,
+       "b": 53.52,
+       "fr": "En science : une chaîne de montagnes de collision se forme après la fermeture d'un océan par subduction, quand deux lithosphères continentales se rencontrent.",
+       "sci": true
+      },
+      {
+       "a": 53.8,
+       "b": 62.06,
+       "fr": "Elle présente des indices de raccourcissement, comme les plis, les failles inverses et les chevauchements, et un épaississement crustal formant une racine.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les traces d'un océan disparu",
+     "dur": 67.81,
+     "v": "clips/t11/c02.mp4",
+     "p": "clips/t11/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 10.29,
+       "fr": "Dans les Alpes, au sommet de certaines montagnes, comme le mont Chenaillet, on trouve des roches très surprenantes : des basaltes en forme de coussins, des gabbros et des péridotites.",
+       "sci": false
+      },
+      {
+       "a": 10.57,
+       "b": 13.39,
+       "fr": "Ce sont exactement les roches du fond d'un océan.",
+       "sci": false
+      },
+      {
+       "a": 13.67,
+       "b": 15.27,
+       "fr": "On les appelle des ophiolites.",
+       "sci": false
+      },
+      {
+       "a": 16.15,
+       "b": 18.28,
+       "fr": "On trouve aussi des roches métamorphiques.",
+       "sci": false
+      },
+      {
+       "a": 18.56,
+       "b": 24.41,
+       "fr": "Ce sont des roches qui ont été transformées, sans fondre, par une forte pression et une forte température.",
+       "sci": false
+      },
+      {
+       "a": 24.69,
+       "b": 29.81,
+       "fr": "Certains minéraux, comme la glaucophane ou la coésite, ne se forment qu'à grande profondeur.",
+       "sci": false
+      },
+      {
+       "a": 30.09,
+       "b": 34.25,
+       "fr": "Ils prouvent que ces roches ont été enfouies par subduction, puis sont remontées.",
+       "sci": false
+      },
+      {
+       "a": 35.13,
+       "b": 37.49,
+       "fr": "On peut alors raconter l'histoire des Alpes.",
+       "sci": false
+      },
+      {
+       "a": 37.77,
+       "b": 42.51,
+       "fr": "Un océan s'est ouvert entre l'Europe et l'Afrique il y a environ deux cents millions d'années.",
+       "sci": false
+      },
+      {
+       "a": 42.79,
+       "b": 44.88,
+       "fr": "Puis il s'est refermé par subduction.",
+       "sci": false
+      },
+      {
+       "a": 45.16,
+       "b": 49.19,
+       "fr": "Enfin, les deux continents sont entrés en collision, et la chaîne s'est élevée.",
+       "sci": false
+      },
+      {
+       "a": 50.07,
+       "b": 57.65,
+       "fr": "En science : les ophiolites sont des fragments de lithosphère océanique charriés sur un continent ; elles témoignent d'un océan disparu.",
+       "sci": true
+      },
+      {
+       "a": 57.93,
+       "b": 62.68,
+       "fr": "Les roches métamorphiques de haute pression indiquent un enfouissement par subduction.",
+       "sci": true
+      },
+      {
+       "a": 62.96,
+       "b": 66.93,
+       "fr": "Ces indices permettent de reconstituer l'histoire d'une chaîne de montagnes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "La disparition des reliefs",
+     "dur": 63.35,
+     "v": "clips/t11/c03.mp4",
+     "p": "clips/t11/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.74,
+       "fr": "Une montagne ne reste pas haute pour toujours.",
+       "sci": false
+      },
+      {
+       "a": 3.02,
+       "b": 7.69,
+       "fr": "Dès qu'elle s'élève, l'érosion l'attaque : la pluie, le gel et les glaciers l'usent lentement.",
+       "sci": false
+      },
+      {
+       "a": 7.97,
+       "b": 12.96,
+       "fr": "En quelques dizaines de millions d'années, des sommets immenses peuvent être réduits à des collines.",
+       "sci": false
+      },
+      {
+       "a": 13.84,
+       "b": 21.35,
+       "fr": "Mais quand le sommet s'érode, la racine profonde remonte, un peu comme un glaçon qui flotte : si on en coupe le haut, il remonte dans l'eau.",
+       "sci": false
+      },
+      {
+       "a": 21.63,
+       "b": 23.79,
+       "fr": "Ce réajustement s'appelle l'isostasie.",
+       "sci": false
+      },
+      {
+       "a": 24.07,
+       "b": 27.76,
+       "fr": "Des roches formées en profondeur se retrouvent ainsi à la surface.",
+       "sci": false
+      },
+      {
+       "a": 28.64,
+       "b": 30.99,
+       "fr": "C'est le cas du Massif central, en France.",
+       "sci": false
+      },
+      {
+       "a": 31.27,
+       "b": 37.3,
+       "fr": "C'était autrefois une grande chaîne, aussi haute que l'Himalaya, formée il y a plus de trois cents millions d'années.",
+       "sci": false
+      },
+      {
+       "a": 37.58,
+       "b": 44.11,
+       "fr": "Aujourd'hui érodée, elle montre en surface des granites et des roches métamorphiques qui se sont formés en profondeur.",
+       "sci": false
+      },
+      {
+       "a": 44.99,
+       "b": 48.7,
+       "fr": "En science : les reliefs sont progressivement effacés par l'érosion.",
+       "sci": true
+      },
+      {
+       "a": 48.98,
+       "b": 58.41,
+       "fr": "La racine crustale remonte par réajustement isostatique, ce qui fait affleurer des roches formées en profondeur, comme les granites et les roches métamorphiques.",
+       "sci": true
+      },
+      {
+       "a": 58.69,
+       "b": 62.47,
+       "fr": "Les chaînes anciennes, comme le Massif central, en sont des exemples.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "t07",
    "title": "La plante, une vie fixée",
    "poster": "clips/t07/poster.jpg",
@@ -1381,6 +1857,238 @@
        "a": 59.03,
        "b": 68.48,
        "fr": "La réduction de la diversité génétique des variétés cultivées est un enjeu, qui justifie la conservation des variétés anciennes et des espèces sauvages.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "title": "Les climats de la Terre",
+   "poster": "clips/t12/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Un climat qui se réchauffe",
+     "dur": 66.8,
+     "v": "clips/t12/c01.mp4",
+     "p": "clips/t12/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.89,
+       "fr": "Il ne faut pas confondre la météo et le climat.",
+       "sci": false
+      },
+      {
+       "a": 3.17,
+       "b": 5.92,
+       "fr": "La météo, c'est le temps qu'il fait aujourd'hui ou demain.",
+       "sci": false
+      },
+      {
+       "a": 6.2,
+       "b": 9.21,
+       "fr": "Le climat, c'est la moyenne de ce temps sur au moins trente ans.",
+       "sci": false
+      },
+      {
+       "a": 9.49,
+       "b": 13.03,
+       "fr": "Un hiver froid ne contredit donc pas un réchauffement du climat.",
+       "sci": false
+      },
+      {
+       "a": 13.91,
+       "b": 19.39,
+       "fr": "Les mesures de température, faites partout dans le monde depuis plus de cent cinquante ans, sont claires.",
+       "sci": false
+      },
+      {
+       "a": 19.67,
+       "b": 28.27,
+       "fr": "La Terre s'est réchauffée de plus d'un degré depuis le début de l'ère industrielle, et ce réchauffement s'accélère depuis les années mille neuf cent quatre-vingts.",
+       "sci": false
+      },
+      {
+       "a": 29.15,
+       "b": 30.81,
+       "fr": "La cause principale est connue.",
+       "sci": false
+      },
+      {
+       "a": 31.09,
+       "b": 38.86,
+       "fr": "Certains gaz de l'atmosphère, comme le dioxyde de carbone, retiennent une partie de la chaleur émise par la Terre : c'est l'effet de serre.",
+       "sci": false
+      },
+      {
+       "a": 39.14,
+       "b": 46.14,
+       "fr": "En brûlant du charbon, du pétrole et du gaz, les humains rejettent beaucoup de dioxyde de carbone, et renforcent cet effet.",
+       "sci": false
+      },
+      {
+       "a": 47.02,
+       "b": 51.86,
+       "fr": "En science : le climat est la moyenne des conditions météorologiques sur au moins trente ans.",
+       "sci": true
+      },
+      {
+       "a": 52.14,
+       "b": 57.64,
+       "fr": "La température moyenne de la Terre a augmenté de plus d'un degré depuis l'ère préindustrielle.",
+       "sci": true
+      },
+      {
+       "a": 57.92,
+       "b": 65.92,
+       "fr": "Ce réchauffement est principalement dû au renforcement de l'effet de serre par les émissions humaines de gaz, notamment de dioxyde de carbone.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les climats du passé",
+     "dur": 70.6,
+     "v": "clips/t12/c02.mp4",
+     "p": "clips/t12/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.04,
+       "fr": "Comment connaître le climat d'il y a des milliers d'années, alors que personne ne le mesurait ?",
+       "sci": false
+      },
+      {
+       "a": 5.32,
+       "b": 6.67,
+       "fr": "Grâce à des indices.",
+       "sci": false
+      },
+      {
+       "a": 6.95,
+       "b": 11.3,
+       "fr": "Les glaces de l'Antarctique contiennent des bulles d'air piégées depuis huit cent mille ans.",
+       "sci": false
+      },
+      {
+       "a": 11.58,
+       "b": 15.7,
+       "fr": "Les pollens fossiles indiquent quelles plantes poussaient, et donc quel temps il faisait.",
+       "sci": false
+      },
+      {
+       "a": 16.58,
+       "b": 28.65,
+       "fr": "Ces indices montrent qu'au cours des derniers centaines de milliers d'années, la Terre a alterné entre des périodes glaciaires, très froides, et des périodes plus chaudes, appelées interglaciaires, environ tous les cent mille ans.",
+       "sci": false
+      },
+      {
+       "a": 28.93,
+       "b": 33.6,
+       "fr": "Ces cycles sont liés à de lentes variations de l'orbite de la Terre autour du Soleil.",
+       "sci": false
+      },
+      {
+       "a": 34.48,
+       "b": 41.67,
+       "fr": "Il y a vingt mille ans, pendant le dernier maximum glaciaire, d'immenses calottes de glace couvraient le nord de l'Europe et de l'Amérique.",
+       "sci": false
+      },
+      {
+       "a": 41.95,
+       "b": 49.04,
+       "fr": "Comme beaucoup d'eau était stockée dans la glace, le niveau de la mer était environ cent vingt mètres plus bas qu'aujourd'hui.",
+       "sci": false
+      },
+      {
+       "a": 49.92,
+       "b": 57.0,
+       "fr": "En science : les climats passés sont reconstitués grâce à des indices, comme les bulles d'air des glaces, les pollens ou les sédiments.",
+       "sci": true
+      },
+      {
+       "a": 57.28,
+       "b": 64.3,
+       "fr": "Au Quaternaire, des périodes glaciaires et interglaciaires alternent, en lien avec les variations de l'orbite terrestre.",
+       "sci": true
+      },
+      {
+       "a": 64.58,
+       "b": 69.72,
+       "fr": "Le climat a donc toujours changé, mais l'actuel réchauffement est exceptionnellement rapide.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Agir face au réchauffement",
+     "dur": 67.69,
+     "v": "clips/t12/c03.mp4",
+     "p": "clips/t12/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.78,
+       "fr": "Le réchauffement actuel a des conséquences : la fonte des glaciers, la montée du niveau des mers, des vagues de chaleur et des sécheresses plus fréquentes.",
+       "sci": false
+      },
+      {
+       "a": 9.06,
+       "b": 12.45,
+       "fr": "De nombreuses espèces doivent migrer ou risquent de disparaître.",
+       "sci": false
+      },
+      {
+       "a": 13.33,
+       "b": 24.25,
+       "fr": "Pour limiter le réchauffement, il faut réduire les émissions de gaz à effet de serre : utiliser des énergies qui émettent peu de dioxyde de carbone, isoler les bâtiments, consommer moins d'énergie.",
+       "sci": false
+      },
+      {
+       "a": 24.53,
+       "b": 28.22,
+       "fr": "Protéger les forêts et les sols aide aussi, car ils stockent du carbone.",
+       "sci": false
+      },
+      {
+       "a": 28.5,
+       "b": 29.74,
+       "fr": "C'est l'atténuation.",
+       "sci": false
+      },
+      {
+       "a": 30.62,
+       "b": 39.3,
+       "fr": "Comme une partie du réchauffement est déjà là, il faut aussi s'adapter : végétaliser les villes pour les rafraîchir, économiser l'eau, protéger les côtes.",
+       "sci": false
+      },
+      {
+       "a": 39.58,
+       "b": 45.64,
+       "fr": "Les modèles climatiques montrent que nos choix d'aujourd'hui décideront du climat de la fin du siècle.",
+       "sci": false
+      },
+      {
+       "a": 46.52,
+       "b": 54.61,
+       "fr": "En science : le réchauffement climatique entraîne la montée des mers, des événements extrêmes plus fréquents et des menaces sur la biodiversité.",
+       "sci": true
+      },
+      {
+       "a": 54.89,
+       "b": 62.97,
+       "fr": "L'atténuation consiste à réduire les émissions de gaz à effet de serre ; l'adaptation consiste à limiter les effets déjà inévitables.",
+       "sci": true
+      },
+      {
+       "a": 63.25,
+       "b": 66.81,
+       "fr": "Les modèles climatiques permettent de comparer différents scénarios.",
        "sci": true
       }
      ]
