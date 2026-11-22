@@ -12,7 +12,8 @@ timing = {}
 for f in meta:
     for c in f['clips']:
         cid = f"{f['id']}_c{c['n']}"
-        if only and not cid.startswith(only): continue
+        if only and not any(cid.startswith(o) for o in only.split(',')): continue
+        if os.path.exists(f'build/audio/{cid}.json') and not only: continue
         t0 = time.time(); chunks = [np.zeros(int(SR * LEAD), dtype=np.float32)]; t = LEAD; cues = []
         for qi, q in enumerate(c['cues']):
             qa = t; subs = []

@@ -328,6 +328,506 @@
      ]
     }
    ]
+  },
+  {
+   "id": "t02",
+   "title": "La complexification des génomes",
+   "poster": "clips/t02/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Les accidents de la méiose",
+     "dur": 81.6,
+     "v": "clips/t02/c01.mp4",
+     "p": "clips/t02/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.01,
+       "fr": "Rappel : pendant la méiose, les chromosomes homologues se séparent lors de la première division, puis les chromatides lors de la deuxième.",
+       "sci": false
+      },
+      {
+       "a": 8.29,
+       "b": 11.21,
+       "fr": "Mais parfois, la méiose ne se déroule pas normalement.",
+       "sci": false
+      },
+      {
+       "a": 12.09,
+       "b": 17.96,
+       "fr": "Lors d'un crossing-over, si les deux chromosomes homologues sont mal alignés, l'échange est inégal.",
+       "sci": false
+      },
+      {
+       "a": 18.24,
+       "b": 22.51,
+       "fr": "Un chromosome perd un morceau, et l'autre se retrouve avec un gène en double.",
+       "sci": false
+      },
+      {
+       "a": 22.79,
+       "b": 24.58,
+       "fr": "C'est une duplication de gène.",
+       "sci": false
+      },
+      {
+       "a": 25.46,
+       "b": 30.07,
+       "fr": "Au fil des générations, les deux copies du gène accumulent des mutations différentes.",
+       "sci": false
+      },
+      {
+       "a": 30.35,
+       "b": 34.8,
+       "fr": "Elles deviennent des gènes proches, mais distincts, qui forment une famille multigénique.",
+       "sci": false
+      },
+      {
+       "a": 35.08,
+       "b": 40.33,
+       "fr": "Exemple : les gènes des opsines, des protéines de l'œil qui nous permettent de voir les couleurs.",
+       "sci": false
+      },
+      {
+       "a": 41.21,
+       "b": 44.31,
+       "fr": "Autre accident : une paire de chromosomes ne se sépare pas.",
+       "sci": false
+      },
+      {
+       "a": 44.59,
+       "b": 47.08,
+       "fr": "Un gamète reçoit alors un chromosome en trop.",
+       "sci": false
+      },
+      {
+       "a": 47.36,
+       "b": 51.56,
+       "fr": "Après la fécondation, l'enfant possède trois exemplaires de ce chromosome.",
+       "sci": false
+      },
+      {
+       "a": 51.84,
+       "b": 54.47,
+       "fr": "C'est une trisomie, comme la trisomie vingt-et-un.",
+       "sci": false
+      },
+      {
+       "a": 55.35,
+       "b": 60.15,
+       "fr": "En science : un crossing-over inégal peut provoquer la duplication d'un gène.",
+       "sci": true
+      },
+      {
+       "a": 60.43,
+       "b": 68.49,
+       "fr": "Les copies évoluent ensuite indépendamment par mutations, et forment une famille multigénique, comme celle des opsines ou des globines.",
+       "sci": true
+      },
+      {
+       "a": 68.77,
+       "b": 77.67,
+       "fr": "Une mauvaise répartition des chromosomes pendant la méiose produit des gamètes au nombre anormal de chromosomes, à l'origine par exemple d'une trisomie.",
+       "sci": true
+      },
+      {
+       "a": 77.95,
+       "b": 80.72,
+       "fr": "Ces accidents enrichissent ou modifient les génomes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les transferts horizontaux de gènes",
+     "dur": 65.61,
+     "v": "clips/t02/c02.mp4",
+     "p": "clips/t02/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.41,
+       "fr": "D'habitude, les gènes se transmettent des parents aux enfants : c'est le transfert vertical.",
+       "sci": false
+      },
+      {
+       "a": 5.69,
+       "b": 10.57,
+       "fr": "Mais certains gènes passent d'un individu à un autre, parfois même d'une espèce à une autre.",
+       "sci": false
+      },
+      {
+       "a": 10.85,
+       "b": 12.62,
+       "fr": "C'est le transfert horizontal.",
+       "sci": false
+      },
+      {
+       "a": 13.5,
+       "b": 15.02,
+       "fr": "Les bactéries le font beaucoup.",
+       "sci": false
+      },
+      {
+       "a": 15.3,
+       "b": 19.52,
+       "fr": "Elles échangent de petits anneaux d'ADN, les plasmides, lors d'un contact.",
+       "sci": false
+      },
+      {
+       "a": 19.8,
+       "b": 25.63,
+       "fr": "C'est ainsi qu'un gène de résistance aux antibiotiques peut se répandre très vite parmi les bactéries.",
+       "sci": false
+      },
+      {
+       "a": 26.51,
+       "b": 28.66,
+       "fr": "Les virus aussi transportent des gènes.",
+       "sci": false
+      },
+      {
+       "a": 28.94,
+       "b": 32.16,
+       "fr": "Une partie de notre génome vient de virus très anciens.",
+       "sci": false
+      },
+      {
+       "a": 32.44,
+       "b": 39.5,
+       "fr": "Un de ces gènes d'origine virale, la syncytine, est même indispensable à la formation du placenta chez les mammifères.",
+       "sci": false
+      },
+      {
+       "a": 40.38,
+       "b": 49.75,
+       "fr": "En science : le transfert horizontal est le passage de matériel génétique entre individus, en dehors de la reproduction, parfois entre espèces différentes.",
+       "sci": true
+      },
+      {
+       "a": 50.03,
+       "b": 57.77,
+       "fr": "Chez les bactéries, il se fait notamment par échange de plasmides, ce qui explique la diffusion rapide des résistances aux antibiotiques.",
+       "sci": true
+      },
+      {
+       "a": 58.05,
+       "b": 62.43,
+       "fr": "Les virus peuvent aussi transférer des gènes, comme la syncytine chez les mammifères.",
+       "sci": true
+      },
+      {
+       "a": 62.71,
+       "b": 64.73,
+       "fr": "Ces transferts enrichissent les génomes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "L'endosymbiose",
+     "dur": 80.79,
+     "v": "clips/t02/c03.mp4",
+     "p": "clips/t02/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.17,
+       "fr": "Les cellules animales et végétales contiennent des mitochondries, qui produisent l'énergie de la cellule.",
+       "sci": false
+      },
+      {
+       "a": 6.45,
+       "b": 11.49,
+       "fr": "Les cellules végétales contiennent aussi des chloroplastes, qui réalisent la photosynthèse.",
+       "sci": false
+      },
+      {
+       "a": 12.37,
+       "b": 15.33,
+       "fr": "Ces organites ressemblent étrangement à des bactéries.",
+       "sci": false
+      },
+      {
+       "a": 15.61,
+       "b": 22.89,
+       "fr": "Ils ont à peu près la même taille, ils se divisent seuls, et ils possèdent leur propre ADN, circulaire, comme celui des bactéries.",
+       "sci": false
+      },
+      {
+       "a": 23.77,
+       "b": 29.29,
+       "fr": "On pense qu'il y a environ deux milliards d'années, une cellule a englobé une bactérie, sans la digérer.",
+       "sci": false
+      },
+      {
+       "a": 29.57,
+       "b": 32.88,
+       "fr": "Les deux ont vécu ensemble, chacune profitant de l'autre.",
+       "sci": false
+      },
+      {
+       "a": 33.16,
+       "b": 37.32,
+       "fr": "Cette association à l'intérieur d'une cellule s'appelle une endosymbiose.",
+       "sci": false
+      },
+      {
+       "a": 38.2,
+       "b": 45.07,
+       "fr": "Au fil du temps, la bactérie est devenue une mitochondrie, et beaucoup de ses gènes sont passés dans le noyau de la cellule hôte.",
+       "sci": false
+      },
+      {
+       "a": 45.35,
+       "b": 52.11,
+       "fr": "Plus tard, une deuxième endosymbiose, avec une bactérie capable de photosynthèse, a donné les chloroplastes.",
+       "sci": false
+      },
+      {
+       "a": 52.99,
+       "b": 58.48,
+       "fr": "En science : la théorie endosymbiotique explique l'origine des mitochondries et des chloroplastes.",
+       "sci": true
+      },
+      {
+       "a": 58.76,
+       "b": 65.5,
+       "fr": "Ils descendent de bactéries englobées par une cellule ancestrale, il y a environ deux milliards d'années pour les mitochondries.",
+       "sci": true
+      },
+      {
+       "a": 65.78,
+       "b": 72.01,
+       "fr": "Les arguments sont leur taille, leur division autonome, et leur ADN circulaire proche de celui des bactéries.",
+       "sci": true
+      },
+      {
+       "a": 72.29,
+       "b": 75.15,
+       "fr": "Une partie de leurs gènes a été transférée au noyau.",
+       "sci": true
+      },
+      {
+       "a": 75.43,
+       "b": 79.91,
+       "fr": "L'endosymbiose est un autre mécanisme de complexification des génomes.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t03",
+   "title": "L'évolution des génomes dans les populations",
+   "poster": "clips/t03/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : fréquences alléliques",
+     "dur": 51.54,
+     "v": "clips/t03/c01.mp4",
+     "p": "clips/t03/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.13,
+       "fr": "Rappel : un gène peut exister sous plusieurs formes, les allèles.",
+       "sci": false
+      },
+      {
+       "a": 4.41,
+       "b": 10.38,
+       "fr": "Dans une population, chaque allèle a une fréquence : c'est la proportion des copies du gène qui portent cet allèle.",
+       "sci": false
+      },
+      {
+       "a": 11.26,
+       "b": 17.75,
+       "fr": "Exemple : dans une population de cinquante individus, il y a cent copies du gène, puisque chacun en possède deux.",
+       "sci": false
+      },
+      {
+       "a": 18.03,
+       "b": 22.97,
+       "fr": "Si soixante copies portent l'allèle grand A, la fréquence de A est de zéro virgule six.",
+       "sci": false
+      },
+      {
+       "a": 23.25,
+       "b": 26.54,
+       "fr": "Celle de l'autre allèle, petit a, est de zéro virgule quatre.",
+       "sci": false
+      },
+      {
+       "a": 27.42,
+       "b": 32.71,
+       "fr": "On dit qu'une population évolue quand les fréquences de ses allèles changent d'une génération à l'autre.",
+       "sci": false
+      },
+      {
+       "a": 33.59,
+       "b": 39.56,
+       "fr": "En science : la fréquence d'un allèle est sa proportion parmi toutes les copies du gène dans la population.",
+       "sci": true
+      },
+      {
+       "a": 39.84,
+       "b": 44.69,
+       "fr": "Pour un gène à deux allèles, on note p et q leurs fréquences, avec p plus q égale un.",
+       "sci": true
+      },
+      {
+       "a": 44.97,
+       "b": 50.66,
+       "fr": "L'évolution d'une population se traduit par la variation de ces fréquences au fil des générations.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le modèle de Hardy-Weinberg",
+     "dur": 62.63,
+     "v": "clips/t03/c02.mp4",
+     "p": "clips/t03/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 12.21,
+       "fr": "Au début du vingtième siècle, Hardy et Weinberg ont imaginé une population idéale : très grande, où les couples se forment au hasard, sans mutation, sans migration, et sans sélection.",
+       "sci": false
+      },
+      {
+       "a": 13.09,
+       "b": 17.12,
+       "fr": "Dans ce cas, les fréquences des allèles restent les mêmes à chaque génération.",
+       "sci": false
+      },
+      {
+       "a": 17.4,
+       "b": 26.77,
+       "fr": "Si p est la fréquence de grand A, et q celle de petit a, les génotypes se répartissent ainsi : p au carré pour A A, deux p q pour A a, et q au carré pour a a.",
+       "sci": false
+      },
+      {
+       "a": 27.65,
+       "b": 29.48,
+       "fr": "Ce modèle sert de référence.",
+       "sci": false
+      },
+      {
+       "a": 29.76,
+       "b": 38.0,
+       "fr": "Si, dans une vraie population, les fréquences observées sont très différentes de celles prévues par le modèle, c'est qu'une force évolutive est à l'œuvre.",
+       "sci": false
+      },
+      {
+       "a": 38.88,
+       "b": 51.53,
+       "fr": "En science : le modèle de Hardy-Weinberg prévoit que, dans une population très grande, à reproduction aléatoire, sans mutation, migration ni sélection, les fréquences alléliques et génotypiques restent stables.",
+       "sci": true
+      },
+      {
+       "a": 51.81,
+       "b": 56.25,
+       "fr": "Les génotypes suivent alors les proportions p au carré, deux p q et q au carré.",
+       "sci": true
+      },
+      {
+       "a": 56.53,
+       "b": 61.75,
+       "fr": "Un écart entre les observations et ces prévisions révèle l'action de forces évolutives.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Les forces évolutives",
+     "dur": 76.45,
+     "v": "clips/t03/c03.mp4",
+     "p": "clips/t03/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.17,
+       "fr": "Quelles forces font évoluer les fréquences des allèles ?",
+       "sci": false
+      },
+      {
+       "a": 3.45,
+       "b": 10.04,
+       "fr": "D'abord les mutations, qui créent de nouveaux allèles, et les migrations, qui apportent des allèles venus d'une autre population.",
+       "sci": false
+      },
+      {
+       "a": 10.92,
+       "b": 15.78,
+       "fr": "Ensuite, la dérive génétique : le hasard de la reproduction fait varier les fréquences.",
+       "sci": false
+      },
+      {
+       "a": 16.06,
+       "b": 23.23,
+       "fr": "Son effet est fort dans les petites populations, où un allèle peut disparaître ou, au contraire, se fixer en quelques générations.",
+       "sci": false
+      },
+      {
+       "a": 24.11,
+       "b": 29.89,
+       "fr": "Enfin, la sélection naturelle : un allèle qui augmente la survie ou la reproduction devient plus fréquent.",
+       "sci": false
+      },
+      {
+       "a": 30.17,
+       "b": 36.91,
+       "fr": "Par exemple, chez les bactéries, en présence d'un antibiotique, l'allèle de résistance devient très vite majoritaire.",
+       "sci": false
+      },
+      {
+       "a": 37.79,
+       "b": 46.07,
+       "fr": "Quand deux populations restent séparées longtemps, ces forces les font diverger, jusqu'au moment où leurs individus ne peuvent plus se reproduire entre eux.",
+       "sci": false
+      },
+      {
+       "a": 46.35,
+       "b": 49.02,
+       "fr": "Une nouvelle espèce est née : c'est la spéciation.",
+       "sci": false
+      },
+      {
+       "a": 49.9,
+       "b": 56.55,
+       "fr": "En science : les forces évolutives sont les mutations, les migrations, la dérive génétique et la sélection naturelle.",
+       "sci": true
+      },
+      {
+       "a": 56.83,
+       "b": 61.57,
+       "fr": "La dérive est un effet du hasard, d'autant plus fort que la population est petite.",
+       "sci": true
+      },
+      {
+       "a": 61.85,
+       "b": 68.16,
+       "fr": "La sélection naturelle favorise les allèles qui augmentent le succès reproducteur dans un environnement donné.",
+       "sci": true
+      },
+      {
+       "a": 68.44,
+       "b": 75.57,
+       "fr": "L'accumulation de différences entre populations isolées peut conduire à la formation de nouvelles espèces : la spéciation.",
+       "sci": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -2,6 +2,566 @@
  "level": "premiere",
  "films": [
   {
+   "id": "p02",
+   "title": "Divisions cellulaires et réplication",
+   "poster": "clips/p02/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : chromosomes et cycle cellulaire",
+     "dur": 70.12,
+     "v": "clips/p02/c01.mp4",
+     "p": "clips/p02/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.38,
+       "fr": "Rappel : chaque cellule contient de l'ADN, découpé en chromosomes.",
+       "sci": false
+      },
+      {
+       "a": 4.66,
+       "b": 9.29,
+       "fr": "Chez l'humain, une cellule du corps en contient quarante-six, groupés en vingt-trois paires.",
+       "sci": false
+      },
+      {
+       "a": 10.17,
+       "b": 16.57,
+       "fr": "Ton corps compte des dizaines de milliers de milliards de cellules, toutes issues d'une seule cellule de départ, la cellule-œuf.",
+       "sci": false
+      },
+      {
+       "a": 16.85,
+       "b": 20.07,
+       "fr": "Pour en arriver là, les cellules se divisent, encore et encore.",
+       "sci": false
+      },
+      {
+       "a": 20.95,
+       "b": 22.77,
+       "fr": "La vie d'une cellule suit un cycle.",
+       "sci": false
+      },
+      {
+       "a": 23.05,
+       "b": 28.08,
+       "fr": "Pendant une longue période appelée interphase, la cellule grandit et copie son ADN.",
+       "sci": false
+      },
+      {
+       "a": 28.36,
+       "b": 32.65,
+       "fr": "Puis vient la mitose, la division proprement dite, qui donne deux cellules filles.",
+       "sci": false
+      },
+      {
+       "a": 33.53,
+       "b": 40.59,
+       "fr": "Pendant la copie de l'ADN, chaque chromosome passe d'une chromatide à deux chromatides identiques, reliées par le centromère.",
+       "sci": false
+      },
+      {
+       "a": 40.87,
+       "b": 46.03,
+       "fr": "La quantité d'ADN de la cellule double, puis elle est divisée par deux lors de la mitose.",
+       "sci": false
+      },
+      {
+       "a": 46.91,
+       "b": 50.54,
+       "fr": "En science : le cycle cellulaire comprend l'interphase et la mitose.",
+       "sci": true
+      },
+      {
+       "a": 50.82,
+       "b": 59.2,
+       "fr": "L'interphase se divise en trois phases : G1, la croissance ; S, la réplication de l'ADN ; et G2, la préparation à la division.",
+       "sci": true
+      },
+      {
+       "a": 59.48,
+       "b": 64.92,
+       "fr": "Pendant la phase S, la quantité d'ADN double et chaque chromosome passe à deux chromatides.",
+       "sci": true
+      },
+      {
+       "a": 65.2,
+       "b": 69.24,
+       "fr": "La mitose répartit ensuite ces chromatides entre deux cellules filles.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "La réplication de l'ADN",
+     "dur": 73.64,
+     "v": "clips/p02/c02.mp4",
+     "p": "clips/p02/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.16,
+       "fr": "Avant de se diviser, la cellule doit copier tout son ADN, sans erreur, pour en donner un exemplaire complet à chaque cellule fille.",
+       "sci": false
+      },
+      {
+       "a": 8.44,
+       "b": 10.47,
+       "fr": "Cette copie s'appelle la réplication.",
+       "sci": false
+      },
+      {
+       "a": 11.35,
+       "b": 17.15,
+       "fr": "Pour copier l'ADN, la cellule commence par séparer les deux brins, comme on ouvre une fermeture éclair.",
+       "sci": false
+      },
+      {
+       "a": 17.43,
+       "b": 22.04,
+       "fr": "Cela se fait à de nombreux endroits à la fois, qu'on appelle des yeux de réplication.",
+       "sci": false
+      },
+      {
+       "a": 22.92,
+       "b": 31.6,
+       "fr": "Ensuite, une enzyme, l'ADN polymérase, lit chaque brin, et place en face les nucléotides complémentaires : A en face de T, C en face de G.",
+       "sci": false
+      },
+      {
+       "a": 31.88,
+       "b": 35.61,
+       "fr": "Chaque ancien brin sert ainsi de modèle pour fabriquer un nouveau brin.",
+       "sci": false
+      },
+      {
+       "a": 36.49,
+       "b": 39.61,
+       "fr": "Résultat : on obtient deux molécules d'ADN identiques.",
+       "sci": false
+      },
+      {
+       "a": 39.89,
+       "b": 42.55,
+       "fr": "Chacune contient un ancien brin et un brin neuf.",
+       "sci": false
+      },
+      {
+       "a": 42.83,
+       "b": 46.61,
+       "fr": "C'est pour cela qu'on dit que la réplication est semi-conservative.",
+       "sci": false
+      },
+      {
+       "a": 47.49,
+       "b": 51.48,
+       "fr": "En science : la réplication a lieu pendant la phase S de l'interphase.",
+       "sci": true
+      },
+      {
+       "a": 51.76,
+       "b": 58.14,
+       "fr": "Les deux brins de l'ADN se séparent, et l'ADN polymérase synthétise un brin complémentaire sur chacun d'eux.",
+       "sci": true
+      },
+      {
+       "a": 58.42,
+       "b": 65.48,
+       "fr": "La réplication est semi-conservative : chaque nouvelle molécule contient un brin parental et un brin néosynthétisé.",
+       "sci": true
+      },
+      {
+       "a": 65.76,
+       "b": 72.76,
+       "fr": "Ce modèle a été démontré par l'expérience de Meselson et Stahl, en 1958.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "La mitose",
+     "dur": 67.71,
+     "v": "clips/p02/c03.mp4",
+     "p": "clips/p02/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.38,
+       "fr": "La mitose partage les chromosomes copiés entre deux cellules filles.",
+       "sci": false
+      },
+      {
+       "a": 4.66,
+       "b": 9.83,
+       "fr": "Elle se déroule en quatre étapes : la prophase, la métaphase, l'anaphase et la télophase.",
+       "sci": false
+      },
+      {
+       "a": 10.71,
+       "b": 14.25,
+       "fr": "En prophase, les chromosomes se condensent et deviennent visibles.",
+       "sci": false
+      },
+      {
+       "a": 14.53,
+       "b": 19.9,
+       "fr": "En métaphase, ils s'alignent au milieu de la cellule, sur ce qu'on appelle la plaque équatoriale.",
+       "sci": false
+      },
+      {
+       "a": 20.78,
+       "b": 27.59,
+       "fr": "En anaphase, les deux chromatides de chaque chromosome se séparent, et sont tirées vers les deux pôles opposés de la cellule.",
+       "sci": false
+      },
+      {
+       "a": 27.87,
+       "b": 30.28,
+       "fr": "En télophase, la cellule se coupe en deux.",
+       "sci": false
+      },
+      {
+       "a": 31.16,
+       "b": 37.79,
+       "fr": "Résultat : deux cellules filles, avec exactement les mêmes chromosomes que la cellule mère, chacun à une chromatide.",
+       "sci": false
+      },
+      {
+       "a": 38.07,
+       "b": 39.93,
+       "fr": "Elles sont génétiquement identiques.",
+       "sci": false
+      },
+      {
+       "a": 40.21,
+       "b": 44.67,
+       "fr": "Un ensemble de cellules issues d'une même cellule par mitose s'appelle un clone.",
+       "sci": false
+      },
+      {
+       "a": 45.55,
+       "b": 48.39,
+       "fr": "En science : la mitose est une division conforme.",
+       "sci": true
+      },
+      {
+       "a": 48.67,
+       "b": 52.61,
+       "fr": "Elle conserve le nombre de chromosomes et l'information génétique.",
+       "sci": true
+      },
+      {
+       "a": 52.89,
+       "b": 59.1,
+       "fr": "Elle comprend la prophase, la métaphase, l'anaphase, où les chromatides sœurs se séparent, et la télophase.",
+       "sci": true
+      },
+      {
+       "a": 59.38,
+       "b": 66.83,
+       "fr": "La réplication, puis la mitose, assurent la transmission à l'identique de l'information génétique d'une cellule à ses cellules filles.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "title": "Les mutations de l'ADN",
+   "poster": "clips/p03/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : séquence et types de mutations",
+     "dur": 75.2,
+     "v": "clips/p03/c01.mp4",
+     "p": "clips/p03/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.73,
+       "fr": "Rappel : l'information génétique, c'est l'ordre des nucléotides le long de l'ADN, qu'on appelle la séquence.",
+       "sci": false
+      },
+      {
+       "a": 7.01,
+       "b": 10.7,
+       "fr": "Un gène est une portion de cette séquence, qui code une protéine.",
+       "sci": false
+      },
+      {
+       "a": 11.58,
+       "b": 14.72,
+       "fr": "Une mutation, c'est une modification de cette séquence.",
+       "sci": false
+      },
+      {
+       "a": 15.0,
+       "b": 21.44,
+       "fr": "Elle peut toucher un seul nucléotide, on parle alors de mutation ponctuelle, ou un morceau plus grand de l'ADN.",
+       "sci": false
+      },
+      {
+       "a": 22.32,
+       "b": 25.26,
+       "fr": "Il existe trois grands types de mutations ponctuelles.",
+       "sci": false
+      },
+      {
+       "a": 25.54,
+       "b": 29.19,
+       "fr": "La substitution, où un nucléotide est remplacé par un autre.",
+       "sci": false
+      },
+      {
+       "a": 29.47,
+       "b": 31.92,
+       "fr": "La délétion, où un nucléotide disparaît.",
+       "sci": false
+      },
+      {
+       "a": 32.2,
+       "b": 34.83,
+       "fr": "Et l'insertion, où un nucléotide est ajouté.",
+       "sci": false
+      },
+      {
+       "a": 35.71,
+       "b": 37.54,
+       "fr": "Les conséquences sont variables.",
+       "sci": false
+      },
+      {
+       "a": 37.82,
+       "b": 42.75,
+       "fr": "Une substitution peut ne rien changer, si le nouveau codon code le même acide aminé.",
+       "sci": false
+      },
+      {
+       "a": 43.03,
+       "b": 47.66,
+       "fr": "Mais une délétion ou une insertion décale toute la lecture des codons qui suivent.",
+       "sci": false
+      },
+      {
+       "a": 47.94,
+       "b": 50.99,
+       "fr": "La protéine est alors souvent complètement modifiée.",
+       "sci": false
+      },
+      {
+       "a": 51.87,
+       "b": 56.03,
+       "fr": "En science : une mutation est une modification de la séquence de l'ADN.",
+       "sci": true
+      },
+      {
+       "a": 56.31,
+       "b": 61.69,
+       "fr": "Les mutations ponctuelles sont la substitution, la délétion et l'insertion d'un nucléotide.",
+       "sci": true
+      },
+      {
+       "a": 61.97,
+       "b": 69.86,
+       "fr": "Une substitution peut être silencieuse, si le codon muté code le même acide aminé, grâce à la redondance du code génétique.",
+       "sci": true
+      },
+      {
+       "a": 70.14,
+       "b": 74.32,
+       "fr": "Une délétion ou une insertion provoque un décalage du cadre de lecture.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "L'origine des mutations",
+     "dur": 76.99,
+     "v": "clips/p03/c02.mp4",
+     "p": "clips/p03/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.12,
+       "fr": "Les mutations sont surtout des erreurs de copie.",
+       "sci": false
+      },
+      {
+       "a": 3.4,
+       "b": 10.91,
+       "fr": "Pendant la réplication, l'ADN polymérase place parfois le mauvais nucléotide, environ une fois tous les cent mille nucléotides.",
+       "sci": false
+      },
+      {
+       "a": 11.19,
+       "b": 14.09,
+       "fr": "Mais la plupart de ces erreurs sont aussitôt corrigées.",
+       "sci": false
+      },
+      {
+       "a": 14.97,
+       "b": 21.46,
+       "fr": "Grâce aux systèmes de réparation de la cellule, il reste moins d'une erreur pour un milliard de nucléotides copiés.",
+       "sci": false
+      },
+      {
+       "a": 21.74,
+       "b": 25.03,
+       "fr": "Les mutations sont donc rares, et elles se produisent au hasard.",
+       "sci": false
+      },
+      {
+       "a": 25.91,
+       "b": 35.68,
+       "fr": "Certains agents, dits mutagènes, augmentent la fréquence des mutations : les rayons ultraviolets du soleil, certaines substances de la fumée de tabac, ou les rayons X.",
+       "sci": false
+      },
+      {
+       "a": 35.96,
+       "b": 39.45,
+       "fr": "Ils abîment l'ADN plus vite que la cellule ne peut le réparer.",
+       "sci": false
+      },
+      {
+       "a": 40.33,
+       "b": 42.13,
+       "fr": "On peut le montrer chez des levures.",
+       "sci": false
+      },
+      {
+       "a": 42.41,
+       "b": 48.98,
+       "fr": "Si on expose des boîtes de culture à des UV de plus en plus longtemps, on compte de plus en plus de colonies mutantes.",
+       "sci": false
+      },
+      {
+       "a": 49.26,
+       "b": 52.71,
+       "fr": "C'est une preuve expérimentale de l'effet mutagène des UV.",
+       "sci": false
+      },
+      {
+       "a": 53.59,
+       "b": 58.5,
+       "fr": "En science : les mutations spontanées viennent surtout d'erreurs de réplication non corrigées.",
+       "sci": true
+      },
+      {
+       "a": 58.78,
+       "b": 65.16,
+       "fr": "Leur fréquence est faible, car l'ADN polymérase et des systèmes de réparation corrigent la plupart des erreurs.",
+       "sci": true
+      },
+      {
+       "a": 65.44,
+       "b": 73.74,
+       "fr": "Les agents mutagènes, physiques comme les UV et les rayons X, ou chimiques comme certaines molécules du tabac, augmentent la fréquence des mutations.",
+       "sci": true
+      },
+      {
+       "a": 74.02,
+       "b": 76.11,
+       "fr": "Les mutations se produisent au hasard.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Mutation somatique ou germinale ?",
+     "dur": 62.67,
+     "v": "clips/p03/c03.mp4",
+     "p": "clips/p03/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.68,
+       "fr": "Une mutation n'a pas les mêmes conséquences selon la cellule où elle se produit.",
+       "sci": false
+      },
+      {
+       "a": 4.96,
+       "b": 8.4,
+       "fr": "Dans une cellule du corps, on parle de mutation somatique.",
+       "sci": false
+      },
+      {
+       "a": 8.68,
+       "b": 12.49,
+       "fr": "Elle n'est transmise qu'aux cellules filles de cette cellule, et jamais aux enfants.",
+       "sci": false
+      },
+      {
+       "a": 13.37,
+       "b": 18.47,
+       "fr": "Une mutation somatique, recopiée à chaque mitose, peut donner un groupe de cellules mutées.",
+       "sci": false
+      },
+      {
+       "a": 18.75,
+       "b": 24.9,
+       "fr": "Si elle touche les gènes qui contrôlent la division cellulaire, les cellules peuvent se multiplier sans contrôle.",
+       "sci": false
+      },
+      {
+       "a": 25.18,
+       "b": 26.76,
+       "fr": "C'est le début d'un cancer.",
+       "sci": false
+      },
+      {
+       "a": 27.64,
+       "b": 32.84,
+       "fr": "Si la mutation touche une cellule qui va donner des gamètes, on parle de mutation germinale.",
+       "sci": false
+      },
+      {
+       "a": 33.12,
+       "b": 38.43,
+       "fr": "Elle peut alors être transmise à un enfant, et elle se retrouvera dans toutes les cellules de son corps.",
+       "sci": false
+      },
+      {
+       "a": 39.31,
+       "b": 43.43,
+       "fr": "En science : une mutation somatique touche une cellule non reproductrice.",
+       "sci": true
+      },
+      {
+       "a": 43.71,
+       "b": 50.22,
+       "fr": "Elle est transmise à toutes les cellules issues de cette cellule par mitose, formant un clone, mais pas à la descendance.",
+       "sci": true
+      },
+      {
+       "a": 50.5,
+       "b": 52.55,
+       "fr": "Elle peut être à l'origine d'un cancer.",
+       "sci": true
+      },
+      {
+       "a": 52.83,
+       "b": 56.45,
+       "fr": "Une mutation germinale touche une cellule de la lignée germinale.",
+       "sci": true
+      },
+      {
+       "a": 56.73,
+       "b": 61.79,
+       "fr": "Elle est héréditaire : elle est la source des nouveaux allèles, et donc de la diversité génétique.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "p01",
    "title": "Du gène à la protéine",
    "poster": "clips/p01/poster.jpg",

@@ -334,6 +334,292 @@
      ]
     }
    ]
+  },
+  {
+   "id": "s04",
+   "title": "La biodiversité et son évolution",
+   "poster": "clips/s04/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : les trois niveaux de la biodiversité",
+     "dur": 79.88,
+     "v": "clips/s04/c01.mp4",
+     "p": "clips/s04/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.29,
+       "fr": "La biodiversité, c'est la diversité du vivant.",
+       "sci": false
+      },
+      {
+       "a": 3.57,
+       "b": 15.8,
+       "fr": "On la décrit à trois échelles : la diversité des écosystèmes, comme une forêt, une mare ou un récif ; la diversité des espèces qui y vivent ; et la diversité génétique, à l'intérieur de chaque espèce.",
+       "sci": false
+      },
+      {
+       "a": 16.68,
+       "b": 25.13,
+       "fr": "Rappel : une espèce, c'est un ensemble d'individus qui se ressemblent, et qui peuvent se reproduire entre eux en donnant des descendants eux-mêmes fertiles.",
+       "sci": false
+      },
+      {
+       "a": 26.01,
+       "b": 32.79,
+       "fr": "À l'intérieur d'une espèce, les individus ne sont pas identiques, car ils portent des allèles différents pour certains gènes.",
+       "sci": false
+      },
+      {
+       "a": 33.07,
+       "b": 39.62,
+       "fr": "Par exemple, chez l'escargot des haies, la coquille peut être jaune, rose ou brune, selon les allèles qu'il possède.",
+       "sci": false
+      },
+      {
+       "a": 40.5,
+       "b": 42.74,
+       "fr": "La biodiversité change au cours du temps.",
+       "sci": false
+      },
+      {
+       "a": 43.02,
+       "b": 45.47,
+       "fr": "Des espèces apparaissent, d'autres disparaissent.",
+       "sci": false
+      },
+      {
+       "a": 45.75,
+       "b": 51.39,
+       "fr": "Les fossiles montrent qu'il y a eu plusieurs grandes crises, où beaucoup d'espèces ont disparu en peu de temps.",
+       "sci": false
+      },
+      {
+       "a": 51.67,
+       "b": 57.55,
+       "fr": "La plus connue a eu lieu il y a soixante-six millions d'années, avec la disparition des dinosaures non aviens.",
+       "sci": false
+      },
+      {
+       "a": 58.43,
+       "b": 67.56,
+       "fr": "En science : la biodiversité se décrit à trois échelles : celle des écosystèmes, celle des espèces, et la diversité génétique au sein des espèces.",
+       "sci": true
+      },
+      {
+       "a": 67.84,
+       "b": 75.25,
+       "fr": "Elle n'est pas figée : elle évolue au cours du temps, avec l'apparition et l'extinction d'espèces, et elle a connu plusieurs crises majeures.",
+       "sci": true
+      },
+      {
+       "a": 75.53,
+       "b": 79.0,
+       "fr": "La biodiversité actuelle n'est qu'une étape de cette histoire.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Mutations, dérive et sélection",
+     "dur": 82.93,
+     "v": "clips/s04/c02.mp4",
+     "p": "clips/s04/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.98,
+       "fr": "Comment la diversité génétique d'une population évolue-t-elle ?",
+       "sci": false
+      },
+      {
+       "a": 4.26,
+       "b": 5.86,
+       "fr": "Tout commence par les mutations.",
+       "sci": false
+      },
+      {
+       "a": 6.14,
+       "b": 9.34,
+       "fr": "En modifiant l'ADN au hasard, elles créent de nouveaux allèles.",
+       "sci": false
+      },
+      {
+       "a": 10.22,
+       "b": 12.03,
+       "fr": "Ensuite, le hasard joue un rôle.",
+       "sci": false
+      },
+      {
+       "a": 12.31,
+       "b": 18.77,
+       "fr": "À chaque génération, seuls certains individus se reproduisent, et chacun ne transmet qu'une partie de ses allèles.",
+       "sci": false
+      },
+      {
+       "a": 19.05,
+       "b": 24.92,
+       "fr": "Dans une petite population, un allèle peut ainsi devenir fréquent, ou disparaître, par simple hasard.",
+       "sci": false
+      },
+      {
+       "a": 25.2,
+       "b": 26.76,
+       "fr": "C'est la dérive génétique.",
+       "sci": false
+      },
+      {
+       "a": 27.64,
+       "b": 29.54,
+       "fr": "Enfin, l'environnement fait un tri.",
+       "sci": false
+      },
+      {
+       "a": 29.82,
+       "b": 36.52,
+       "fr": "Si un allèle donne un avantage pour survivre ou se reproduire, les individus qui le portent laissent plus de descendants.",
+       "sci": false
+      },
+      {
+       "a": 36.8,
+       "b": 41.04,
+       "fr": "Cet allèle devient donc de plus en plus fréquent : c'est la sélection naturelle.",
+       "sci": false
+      },
+      {
+       "a": 41.92,
+       "b": 48.79,
+       "fr": "Un exemple célèbre : en Angleterre, pendant la révolution industrielle, les troncs d'arbres sont devenus noirs de suie.",
+       "sci": false
+      },
+      {
+       "a": 49.07,
+       "b": 55.53,
+       "fr": "Les phalènes claires, bien visibles, étaient mangées par les oiseaux, alors que les phalènes sombres passaient inaperçues.",
+       "sci": false
+      },
+      {
+       "a": 55.81,
+       "b": 59.63,
+       "fr": "En quelques dizaines d'années, la forme sombre est devenue majoritaire.",
+       "sci": false
+      },
+      {
+       "a": 60.51,
+       "b": 63.59,
+       "fr": "En science : les mutations créent de nouveaux allèles, au hasard.",
+       "sci": true
+      },
+      {
+       "a": 63.87,
+       "b": 71.29,
+       "fr": "La dérive génétique fait varier la fréquence des allèles par le seul hasard de la reproduction, surtout dans les petites populations.",
+       "sci": true
+      },
+      {
+       "a": 71.57,
+       "b": 79.04,
+       "fr": "La sélection naturelle augmente la fréquence des allèles qui avantagent la survie ou la reproduction dans un environnement donné.",
+       "sci": true
+      },
+      {
+       "a": 79.32,
+       "b": 82.05,
+       "fr": "Ces mécanismes font évoluer la biodiversité.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Une parenté entre toutes les espèces",
+     "dur": 87.48,
+     "v": "clips/s04/c03.mp4",
+     "p": "clips/s04/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.53,
+       "fr": "Tous les êtres vivants ont des points communs.",
+       "sci": false
+      },
+      {
+       "a": 2.81,
+       "b": 9.93,
+       "fr": "Ils sont faits de cellules, et ils utilisent tous l'ADN comme support de l'information génétique, avec le même code génétique.",
+       "sci": false
+      },
+      {
+       "a": 10.21,
+       "b": 13.05,
+       "fr": "Cela indique qu'ils descendent tous d'un ancêtre commun.",
+       "sci": false
+      },
+      {
+       "a": 13.93,
+       "b": 19.77,
+       "fr": "Pour retrouver les liens de parenté, on compare les espèces et on cherche les caractères qu'elles partagent.",
+       "sci": false
+      },
+      {
+       "a": 20.05,
+       "b": 29.61,
+       "fr": "Par exemple, l'humain, le chat et la chauve-souris ont des membres antérieurs construits sur le même plan : un os dans le bras, puis deux os dans l'avant-bras, puis les os de la main.",
+       "sci": false
+      },
+      {
+       "a": 30.49,
+       "b": 36.55,
+       "fr": "Plus deux espèces partagent de caractères, plus elles sont proches parentes, car leur ancêtre commun est plus récent.",
+       "sci": false
+      },
+      {
+       "a": 36.83,
+       "b": 44.79,
+       "fr": "On représente ces liens par un arbre de parenté : les espèces actuelles sont au bout des branches, et les ancêtres communs aux embranchements.",
+       "sci": false
+      },
+      {
+       "a": 45.67,
+       "b": 49.55,
+       "fr": "Attention à une erreur fréquente : l'humain ne descend pas du chimpanzé.",
+       "sci": false
+      },
+      {
+       "a": 49.83,
+       "b": 54.55,
+       "fr": "L'humain et le chimpanzé sont deux espèces actuelles, qui partagent un ancêtre commun.",
+       "sci": false
+      },
+      {
+       "a": 54.83,
+       "b": 60.44,
+       "fr": "Cet ancêtre a vécu il y a environ sept millions d'années, et ce n'était ni un humain, ni un chimpanzé.",
+       "sci": false
+      },
+      {
+       "a": 61.32,
+       "b": 69.4,
+       "fr": "En science : l'organisation en cellules et l'universalité de l'ADN et du code génétique montrent que tous les êtres vivants sont apparentés.",
+       "sci": true
+      },
+      {
+       "a": 69.68,
+       "b": 77.47,
+       "fr": "On établit les liens de parenté en comparant les caractères partagés : plus deux espèces en partagent, plus leur ancêtre commun est récent.",
+       "sci": true
+      },
+      {
+       "a": 77.75,
+       "b": 86.6,
+       "fr": "On les représente par un arbre de parenté, où l'on ne trouve que des ancêtres communs, jamais des espèces actuelles qui descendraient d'autres espèces actuelles.",
+       "sci": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

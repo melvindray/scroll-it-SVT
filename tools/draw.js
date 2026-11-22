@@ -42,3 +42,29 @@ function mrna(x0, y, seq, o = {}) { let s = `<rect x="${x0 - 8}" y="${y - 6}" wi
 function ribosome(cx, cy, acc) { return `<ellipse cx="${cx}" cy="${cy - 76}" rx="74" ry="40" fill="${acc}"/><ellipse cx="${cx}" cy="${cy + 26}" rx="62" ry="18" fill="${acc}" opacity=".8"/>`; }
 function book(x, y, w, h, label, col = C.ink) { return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="${col}" fill-opacity=".14" stroke="${col}" stroke-width="3"/><line x1="${x + 14}" y1="${y}" x2="${x + 14}" y2="${y + h}" stroke="${col}" stroke-width="3"/>` + [0, 1, 2, 3].map(i => `<line x1="${x + 30}" y1="${y + 28 + i * 22}" x2="${x + w - 16}" y2="${y + 28 + i * 22}" stroke="${col}" stroke-opacity=".5" stroke-width="3"/>`).join('') + (label ? T(x + w / 2, y + h + 30, label, { fs: 19 }) : ''); }
 function person(x, y, s = 1, col = C.ink) { return `<g transform="translate(${x} ${y}) scale(${s})"><circle cx="0" cy="-70" r="24" fill="${col}"/><rect x="-28" y="-40" width="56" height="78" rx="22" fill="${col}"/><rect x="-24" y="34" width="18" height="60" rx="9" fill="${col}"/><rect x="6" y="34" width="18" height="60" rx="9" fill="${col}"/></g>`; }
+// ---- extra primitives (lot 1+)
+function bars(x0, y0, w, h, data, o = {}) { // data: [[label, value, color]] ; value 0..max
+  const max = o.max || Math.max(...data.map(d => d[1])), bw = w / data.length; let s = `<line x1="${x0}" y1="${y0 + h}" x2="${x0 + w}" y2="${y0 + h}" stroke="${C.mut}" stroke-width="2"/>`;
+  data.forEach(([l, v, c], i) => { const bh = h * v / max, x = x0 + i * bw + bw * .18; s += `<rect x="${x}" y="${y0 + h - bh}" width="${bw * .64}" height="${bh}" rx="6" fill="${c || C.ink}"/>` + T(x + bw * .32, y0 + h + 26, l, { fs: o.fs || 17, c: C.mut }) + (o.val ? T(x + bw * .32, y0 + h - bh - 10, o.val(v), { fs: 18 }) : ''); });
+  return s; }
+function lineChart(x0, y0, w, h, series, o = {}) { // series: [[points 0..1], color, label]
+  let s = `<line x1="${x0}" y1="${y0 + h}" x2="${x0 + w}" y2="${y0 + h}" stroke="${C.mut}" stroke-width="2"/><line x1="${x0}" y1="${y0}" x2="${x0}" y2="${y0 + h}" stroke="${C.mut}" stroke-width="2"/>`;
+  series.forEach(([pts, c, l]) => { const d = pts.map((p, i) => (i ? 'L' : 'M') + (x0 + w * i / (pts.length - 1)).toFixed(1) + ' ' + (y0 + h - h * p).toFixed(1)).join(''); s += `<path d="${d}" fill="none" stroke="${c}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>`; if (l) s += T(x0 + w + 6, y0 + h - h * pts[pts.length - 1] + 6, l, { a: 'start', fs: 17, c }); });
+  if (o.x) s += T(x0 + w / 2, y0 + h + 30, o.x, { fs: 17, c: C.mut }); if (o.y) s += T(x0 - 8, y0 - 12, o.y, { a: 'start', fs: 17, c: C.mut });
+  return s; }
+function box(x, y, w, h, label, col, o = {}) { return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.r || 14}" fill="${col}" fill-opacity="${o.fo ?? .2}" stroke="${col}" stroke-width="3"/>` + (label ? T(x + w / 2, y + h / 2 + 7, label, { fs: o.fs || 20, w: o.w || 700, c: o.c || C.ink }) : ''); }
+function bacterium(x, y, s = 1, col = C.C, o = {}) { return `<g transform="translate(${x} ${y}) scale(${s}) rotate(${o.rot || 0})"><rect x="-60" y="-28" width="120" height="56" rx="28" fill="${col}" fill-opacity=".3" stroke="${col}" stroke-width="4"/>${o.plasmid ? `<circle cx="28" cy="0" r="11" fill="none" stroke="${o.plasmid}" stroke-width="4"/>` : ''}${o.dna !== false ? `<path d="M-40 0 C -30 -14, -10 14, 0 0 S 10 -14, 14 0" fill="none" stroke="${C.ink}" stroke-width="3"/>` : ''}</g>`; }
+function mito(x, y, s = 1, col = C.A) { return `<g transform="translate(${x} ${y}) scale(${s})"><ellipse rx="60" ry="30" fill="${col}" fill-opacity=".3" stroke="${col}" stroke-width="4"/><path d="M-44 0 L-34 -18 L-24 14 L-12 -18 L0 14 L12 -18 L24 14 L34 -18 L44 0" fill="none" stroke="${col}" stroke-width="3"/></g>`; }
+function chloro(x, y, s = 1, col = C.ok) { return `<g transform="translate(${x} ${y}) scale(${s})"><ellipse rx="60" ry="30" fill="${col}" fill-opacity=".3" stroke="${col}" stroke-width="4"/>${[-30, -10, 10, 30].map(dx => `<rect x="${dx - 7}" y="-14" width="14" height="28" rx="4" fill="${col}"/>`).join('')}</g>`; }
+function treeDiag(leaves, nodes, o = {}) { // leaves: [[x,label]], nodes: [[x,y,childXs]] drawn as lines from (x,y) to child tops
+  const yL = o.yL || 380; let s = '';
+  nodes.forEach(([x, y, kids]) => kids.forEach(k => { const ky = k[1] ?? yL; s += `<path d="M${x} ${y} L${k[0]} ${ky}" stroke="${o.c || C.ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`; }));
+  nodes.forEach(([x, y], i) => { s += `<circle cx="${x}" cy="${y}" r="7" fill="${o.nc || C.ink}"/>`; });
+  leaves.forEach(([x, l]) => s += T(x, yL + 32, l, { fs: o.fs || 19 }));
+  return s; }
+function snail(x, y, col, s = 1) { return `<g transform="translate(${x} ${y}) scale(${s})"><path d="M-50 30 H50 Q60 30 58 20 L40 18" fill="${C.mut}" stroke="${C.mut}" stroke-width="4"/><circle cx="-6" cy="-6" r="36" fill="${col}"/><path d="M-6 -6 m-24 0 a24 24 0 1 1 24 24 a14 14 0 1 1 -10 -16" fill="none" stroke="#0F1417" stroke-width="4" opacity=".5"/><path d="M44 18 L52 -6 M50 18 L62 -2" stroke="${C.mut}" stroke-width="4"/></g>`; }
+function moth(x, y, col, s = 1) { return `<g transform="translate(${x} ${y}) scale(${s})"><path d="M0 0 C -30 -30, -50 -10, -40 10 C -30 25, -10 15, 0 5 C 10 15, 30 25, 40 10 C 50 -10, 30 -30, 0 0Z" fill="${col}"/><rect x="-3" y="-12" width="6" height="26" rx="3" fill="${C.bg}"/></g>`; }
+function cycleWheel(cx, cy, r, segs) { // segs: [[label, frac, color]]
+  let a = -Math.PI / 2, s = ''; segs.forEach(([l, f, c]) => { const a2 = a + f * 2 * Math.PI, la = (a + a2) / 2, big = f > .5 ? 1 : 0;
+    s += `<path d="M${cx + r * Math.cos(a)} ${cy + r * Math.sin(a)} A${r} ${r} 0 ${big} 1 ${cx + r * Math.cos(a2)} ${cy + r * Math.sin(a2)}" fill="none" stroke="${c}" stroke-width="34"/>` + T(cx + (r + 52) * Math.cos(la), cy + (r + 52) * Math.sin(la) + 7, l, { fs: 19 }); a = a2; });
+  return s; }
