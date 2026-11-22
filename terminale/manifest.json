@@ -2096,6 +2096,748 @@
    ]
   },
   {
+   "id": "t13",
+   "title": "Les réflexes : le chapitre en détail",
+   "poster": "clips/t13/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Les mouvements réflexes",
+     "dur": 99.35,
+     "v": "clips/t13/c01.mp4",
+     "p": "clips/t13/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 7.45,
+       "fr": "Beaucoup de nos comportements sont des réactions à une stimulation : garder l'équilibre, fuir un danger, attraper un objet.",
+       "sci": false
+      },
+      {
+       "a": 7.73,
+       "b": 10.76,
+       "fr": "Les mouvements qui les permettent peuvent être volontaires, ou non.",
+       "sci": false
+      },
+      {
+       "a": 11.04,
+       "b": 16.78,
+       "fr": "Un réflexe est une réaction involontaire, qui se produit très rapidement en réponse à un stimulus.",
+       "sci": false
+      },
+      {
+       "a": 17.66,
+       "b": 24.85,
+       "fr": "Le réflexe myotatique concerne les muscles squelettiques, c'est-à-dire les muscles attachés aux os, qui font bouger le squelette.",
+       "sci": false
+      },
+      {
+       "a": 25.13,
+       "b": 29.53,
+       "fr": "Quand un de ces muscles est étiré, il réagit immédiatement en se contractant.",
+       "sci": false
+      },
+      {
+       "a": 29.81,
+       "b": 36.16,
+       "fr": "Ce réflexe agit sans qu'on y pense, à tout moment, et il assure le maintien de la posture et l'équilibre du corps.",
+       "sci": false
+      },
+      {
+       "a": 37.04,
+       "b": 40.82,
+       "fr": "Le médecin s'en sert pour tester le système nerveux et les muscles.",
+       "sci": false
+      },
+      {
+       "a": 41.1,
+       "b": 45.92,
+       "fr": "En frappant légèrement le tendon d'Achille avec un marteau, il étire le muscle du mollet.",
+       "sci": false
+      },
+      {
+       "a": 46.2,
+       "b": 51.28,
+       "fr": "Celui-ci se contracte brusquement, et le pied se tend vers le bas : c'est le réflexe achilléen.",
+       "sci": false
+      },
+      {
+       "a": 52.16,
+       "b": 56.66,
+       "fr": "Avec des électrodes collées sur la peau, on enregistre la contraction du muscle.",
+       "sci": false
+      },
+      {
+       "a": 56.94,
+       "b": 64.43,
+       "fr": "On constate que le réflexe est rapide, involontaire, toujours le même, c'est-à-dire stéréotypé, mais que son intensité peut varier.",
+       "sci": false
+      },
+      {
+       "a": 64.71,
+       "b": 73.43,
+       "fr": "Son temps de réponse montre qu'il passe par le système nerveux central : le message fait un aller-retour entre le muscle et le bas de la moelle épinière.",
+       "sci": false
+      },
+      {
+       "a": 73.71,
+       "b": 75.78,
+       "fr": "C'est pourquoi on parle d'arc-réflexe.",
+       "sci": false
+      },
+      {
+       "a": 76.66,
+       "b": 81.23,
+       "fr": "En science : un réflexe est une réaction involontaire et rapide à un stimulus.",
+       "sci": true
+      },
+      {
+       "a": 81.51,
+       "b": 89.1,
+       "fr": "Le réflexe myotatique est la contraction d'un muscle squelettique en réponse à son propre étirement ; il assure le maintien de la posture.",
+       "sci": true
+      },
+      {
+       "a": 89.38,
+       "b": 98.47,
+       "fr": "Il est rapide, involontaire, stéréotypé, d'intensité variable, et fait intervenir un centre nerveux, la moelle épinière : c'est un arc-réflexe.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les éléments d'un arc-réflexe",
+     "dur": 90.49,
+     "v": "clips/t13/c02.mp4",
+     "p": "clips/t13/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.53,
+       "fr": "Un réflexe fait intervenir cinq éléments, les uns après les autres.",
+       "sci": false
+      },
+      {
+       "a": 4.81,
+       "b": 9.97,
+       "fr": "D'abord, un récepteur sensoriel, qui capte le stimulus et fabrique un message nerveux.",
+       "sci": false
+      },
+      {
+       "a": 10.25,
+       "b": 16.06,
+       "fr": "Ensuite, des fibres nerveuses, regroupées en nerf, qui transportent ce message jusqu'à un centre nerveux.",
+       "sci": false
+      },
+      {
+       "a": 16.94,
+       "b": 23.15,
+       "fr": "Le centre nerveux, ici la moelle épinière, reçoit tous les messages et élabore un message nerveux moteur.",
+       "sci": false
+      },
+      {
+       "a": 23.43,
+       "b": 30.06,
+       "fr": "D'autres fibres nerveuses transmettent ce message moteur jusqu'à l'organe effecteur, le muscle, qui se contracte.",
+       "sci": false
+      },
+      {
+       "a": 30.94,
+       "b": 33.86,
+       "fr": "Le réflexe myotatique est un réflexe très simple.",
+       "sci": false
+      },
+      {
+       "a": 34.14,
+       "b": 36.79,
+       "fr": "Il ne fait intervenir que deux types de neurones.",
+       "sci": false
+      },
+      {
+       "a": 37.07,
+       "b": 40.61,
+       "fr": "Un neurone sensoriel, qui va du muscle à la moelle épinière.",
+       "sci": false
+      },
+      {
+       "a": 40.89,
+       "b": 44.3,
+       "fr": "Et un neurone moteur, qui va de la moelle épinière au muscle.",
+       "sci": false
+      },
+      {
+       "a": 45.18,
+       "b": 46.68,
+       "fr": "Comment le message naît-il ?",
+       "sci": false
+      },
+      {
+       "a": 46.96,
+       "b": 53.44,
+       "fr": "Le récepteur du réflexe myotatique est un récepteur sensible à l'étirement, appelé fuseau neuromusculaire.",
+       "sci": false
+      },
+      {
+       "a": 53.72,
+       "b": 59.78,
+       "fr": "Ce sont des fibres musculaires particulières, autour desquelles s'enroulent les dendrites du neurone sensoriel.",
+       "sci": false
+      },
+      {
+       "a": 60.06,
+       "b": 66.46,
+       "fr": "Quand le muscle s'étire, le fuseau s'étire aussi, et un message nerveux de nature électrique naît dans ces dendrites.",
+       "sci": false
+      },
+      {
+       "a": 67.34,
+       "b": 77.71,
+       "fr": "En science : un arc-réflexe comprend un récepteur sensoriel, des fibres nerveuses sensorielles, un centre nerveux, des fibres nerveuses motrices et un organe effecteur.",
+       "sci": true
+      },
+      {
+       "a": 77.99,
+       "b": 89.61,
+       "fr": "Dans le réflexe myotatique, le récepteur est le fuseau neuromusculaire, un mécanorécepteur sensible à l'étirement, et seuls deux neurones interviennent : un neurone sensoriel et un neurone moteur.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "La moelle épinière, centre nerveux du réflexe",
+     "dur": 100.42,
+     "v": "clips/t13/c03.mp4",
+     "p": "clips/t13/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.07,
+       "fr": "La moelle épinière est un cordon nerveux protégé dans la colonne vertébrale.",
+       "sci": false
+      },
+      {
+       "a": 5.35,
+       "b": 11.08,
+       "fr": "En coupe, on voit une substance grise au centre, en forme de papillon, entourée de substance blanche.",
+       "sci": false
+      },
+      {
+       "a": 11.36,
+       "b": 19.13,
+       "fr": "Elle est reliée aux organes par des nerfs rachidiens, qui se divisent en une racine dorsale, à l'arrière, et une racine ventrale, à l'avant.",
+       "sci": false
+      },
+      {
+       "a": 20.01,
+       "b": 24.23,
+       "fr": "Le neurone sensoriel a une forme particulière : on l'appelle neurone en T.",
+       "sci": false
+      },
+      {
+       "a": 24.51,
+       "b": 29.89,
+       "fr": "Son corps cellulaire se trouve dans un renflement de la racine dorsale, le ganglion rachidien.",
+       "sci": false
+      },
+      {
+       "a": 30.17,
+       "b": 35.4,
+       "fr": "Il possède un très long prolongement, appelé dendrite, qui conduit le message depuis le muscle.",
+       "sci": false
+      },
+      {
+       "a": 35.68,
+       "b": 39.32,
+       "fr": "Puis un court axone entre dans la substance grise de la moelle.",
+       "sci": false
+      },
+      {
+       "a": 40.2,
+       "b": 48.42,
+       "fr": "Dans la partie avant de la substance grise, l'axone du neurone sensoriel transmet le message au neurone moteur, aussi appelé motoneurone.",
+       "sci": false
+      },
+      {
+       "a": 48.7,
+       "b": 52.32,
+       "fr": "Cette zone de connexion entre deux neurones s'appelle une synapse.",
+       "sci": false
+      },
+      {
+       "a": 52.6,
+       "b": 57.87,
+       "fr": "Le corps cellulaire du motoneurone est donc dans la substance grise ventrale de la moelle.",
+       "sci": false
+      },
+      {
+       "a": 58.75,
+       "b": 60.69,
+       "fr": "L'axone du motoneurone est très long.",
+       "sci": false
+      },
+      {
+       "a": 60.97,
+       "b": 69.36,
+       "fr": "C'est une fibre nerveuse qui sort par la racine ventrale du nerf rachidien, et qui conduit le message nerveux moteur jusqu'à une fibre musculaire.",
+       "sci": false
+      },
+      {
+       "a": 69.64,
+       "b": 73.39,
+       "fr": "Le circuit est complet : du muscle, à la moelle, et retour au muscle.",
+       "sci": false
+      },
+      {
+       "a": 74.27,
+       "b": 78.63,
+       "fr": "En science : la moelle épinière est le centre nerveux du réflexe myotatique.",
+       "sci": true
+      },
+      {
+       "a": 78.91,
+       "b": 89.76,
+       "fr": "Le corps cellulaire du neurone sensoriel, ou neurone en T, est dans le ganglion rachidien de la racine dorsale ; sa dendrite vient du muscle et son court axone gagne la substance grise.",
+       "sci": true
+      },
+      {
+       "a": 90.04,
+       "b": 99.54,
+       "fr": "Il fait synapse avec un motoneurone, dont le corps cellulaire est dans la substance grise ventrale ; son long axone sort par la racine ventrale jusqu'au muscle.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Le message nerveux : potentiel de repos et potentiel d’action",
+     "dur": 101.13,
+     "v": "clips/t13/c04.mp4",
+     "p": "clips/t13/c04.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.05,
+       "fr": "On peut enregistrer le message nerveux avec des électrodes très fines, des microélectrodes, implantées à l'intérieur d'une fibre.",
+       "sci": false
+      },
+      {
+       "a": 8.33,
+       "b": 18.61,
+       "fr": "Sans aucune stimulation, on constate que la membrane du neurone est polarisée : il existe une tension électrique permanente de moins soixante-dix millivolts entre ses deux faces.",
+       "sci": false
+      },
+      {
+       "a": 18.89,
+       "b": 21.73,
+       "fr": "L'intérieur est négatif par rapport à l'extérieur.",
+       "sci": false
+      },
+      {
+       "a": 22.01,
+       "b": 23.7,
+       "fr": "C'est le potentiel de repos.",
+       "sci": false
+      },
+      {
+       "a": 24.58,
+       "b": 29.14,
+       "fr": "Après une stimulation, on enregistre des variations très brèves de cette tension.",
+       "sci": false
+      },
+      {
+       "a": 29.42,
+       "b": 31.85,
+       "fr": "Chaque signal s'appelle un potentiel d'action.",
+       "sci": false
+      },
+      {
+       "a": 32.13,
+       "b": 37.66,
+       "fr": "C'est une inversion brusque de la polarisation : pendant un instant, l'intérieur devient positif.",
+       "sci": false
+      },
+      {
+       "a": 37.94,
+       "b": 42.61,
+       "fr": "Son amplitude est d'environ cent millivolts, et il dure environ une milliseconde.",
+       "sci": false
+      },
+      {
+       "a": 42.89,
+       "b": 46.37,
+       "fr": "L'ensemble des potentiels d'action forme le message nerveux.",
+       "sci": false
+      },
+      {
+       "a": 47.25,
+       "b": 50.66,
+       "fr": "Le message nerveux dépend de l'intensité du stimulus.",
+       "sci": false
+      },
+      {
+       "a": 50.94,
+       "b": 55.36,
+       "fr": "Plus le stimulus est fort, plus il y a de potentiels d'action par unité de temps.",
+       "sci": false
+      },
+      {
+       "a": 55.64,
+       "b": 61.25,
+       "fr": "Mais attention : quelle que soit l'intensité, l'amplitude de chaque potentiel d'action reste la même.",
+       "sci": false
+      },
+      {
+       "a": 62.13,
+       "b": 66.91,
+       "fr": "C'est donc la fréquence des potentiels d'action qui code l'intensité de la stimulation.",
+       "sci": false
+      },
+      {
+       "a": 67.19,
+       "b": 70.17,
+       "fr": "On dit que le message nerveux est codé en fréquence.",
+       "sci": false
+      },
+      {
+       "a": 70.45,
+       "b": 76.24,
+       "fr": "Retiens bien : l'amplitude ne change pas, c'est le nombre de potentiels d'action par seconde qui change.",
+       "sci": false
+      },
+      {
+       "a": 77.12,
+       "b": 86.18,
+       "fr": "En science : au repos, la membrane du neurone est polarisée ; c'est le potentiel de repos, d'environ moins soixante-dix millivolts, l'intérieur étant négatif.",
+       "sci": true
+      },
+      {
+       "a": 86.46,
+       "b": 93.99,
+       "fr": "Un potentiel d'action est une inversion brève et locale de cette polarisation, d'environ cent millivolts et d'une milliseconde.",
+       "sci": true
+      },
+      {
+       "a": 94.27,
+       "b": 100.25,
+       "fr": "Son amplitude est constante : l'intensité du stimulus est codée par la fréquence des potentiels d'action.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "La propagation du message nerveux",
+     "dur": 85.82,
+     "v": "clips/t13/c05.mp4",
+     "p": "clips/t13/c05.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.2,
+       "fr": "Le message nerveux se propage le long des fibres nerveuses, dendrites ou axones, sans s'affaiblir.",
+       "sci": false
+      },
+      {
+       "a": 6.48,
+       "b": 14.84,
+       "fr": "Les nerfs rachidiens, qui relient les organes à la moelle épinière, sont des nerfs mixtes : ils regroupent de très nombreuses fibres sensorielles et motrices.",
+       "sci": false
+      },
+      {
+       "a": 15.72,
+       "b": 18.51,
+       "fr": "Chaque fibre conduit le message dans un seul sens.",
+       "sci": false
+      },
+      {
+       "a": 18.79,
+       "b": 21.52,
+       "fr": "Dans une dendrite, il va vers le corps cellulaire.",
+       "sci": false
+      },
+      {
+       "a": 21.8,
+       "b": 24.28,
+       "fr": "Dans un axone, il part du corps cellulaire.",
+       "sci": false
+      },
+      {
+       "a": 24.56,
+       "b": 30.79,
+       "fr": "La conduction se fait de proche en proche, à une vitesse variable, de l'ordre de cent mètres par seconde.",
+       "sci": false
+      },
+      {
+       "a": 31.67,
+       "b": 35.76,
+       "fr": "Certaines fibres sont entourées d'une gaine de myéline, une sorte d'isolant.",
+       "sci": false
+      },
+      {
+       "a": 36.04,
+       "b": 39.88,
+       "fr": "Cette gaine augmente la vitesse de propagation du message nerveux.",
+       "sci": false
+      },
+      {
+       "a": 40.76,
+       "b": 43.96,
+       "fr": "Le message passe d'une cellule à l'autre au niveau des synapses.",
+       "sci": false
+      },
+      {
+       "a": 44.24,
+       "b": 55.32,
+       "fr": "Après la synapse neuro-neuronale, entre le neurone sensoriel et le motoneurone, l'axone du motoneurone conduit le message jusqu'à une synapse neuromusculaire, aussi appelée plaque motrice.",
+       "sci": false
+      },
+      {
+       "a": 55.6,
+       "b": 61.08,
+       "fr": "C'est la zone de connexion entre les boutons synaptiques au bout de l'axone, et une fibre musculaire.",
+       "sci": false
+      },
+      {
+       "a": 61.96,
+       "b": 72.69,
+       "fr": "En science : le message nerveux se propage sans s'atténuer, dans un seul sens, de proche en proche, à une vitesse de l'ordre de cent mètres par seconde, augmentée par la gaine de myéline.",
+       "sci": true
+      },
+      {
+       "a": 72.97,
+       "b": 74.72,
+       "fr": "Les nerfs rachidiens sont mixtes.",
+       "sci": true
+      },
+      {
+       "a": 75.0,
+       "b": 84.94,
+       "fr": "Le message passe du neurone sensoriel au motoneurone par une synapse neuro-neuronale, puis du motoneurone au muscle par une synapse neuromusculaire, ou plaque motrice.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Le fonctionnement de la synapse",
+     "dur": 106.37,
+     "v": "clips/t13/c06.mp4",
+     "p": "clips/t13/c06.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.72,
+       "fr": "Les synapses neuro-neuronales et neuromusculaires fonctionnent de la même façon.",
+       "sci": false
+      },
+      {
+       "a": 5.0,
+       "b": 10.27,
+       "fr": "Entre les deux cellules, il y a un espace de vingt à cinquante nanomètres : la fente synaptique.",
+       "sci": false
+      },
+      {
+       "a": 10.55,
+       "b": 17.79,
+       "fr": "Au microscope électronique, on voit que l'extrémité de la fibre pré-synaptique, celle d'avant, contient de nombreuses vésicules.",
+       "sci": false
+      },
+      {
+       "a": 18.67,
+       "b": 22.31,
+       "fr": "Le message électrique ne peut pas sauter directement la fente.",
+       "sci": false
+      },
+      {
+       "a": 22.59,
+       "b": 27.63,
+       "fr": "Il est relayé par une substance chimique, le neurotransmetteur, stocké dans les vésicules.",
+       "sci": false
+      },
+      {
+       "a": 27.91,
+       "b": 31.94,
+       "fr": "Dans le réflexe myotatique, ce neurotransmetteur est l'acétylcholine.",
+       "sci": false
+      },
+      {
+       "a": 32.22,
+       "b": 41.37,
+       "fr": "Quand les potentiels d'action arrivent au bout de la fibre, des vésicules fusionnent avec la membrane et libèrent l'acétylcholine dans la fente : c'est l'exocytose.",
+       "sci": false
+      },
+      {
+       "a": 42.25,
+       "b": 48.52,
+       "fr": "La membrane de la cellule post-synaptique porte des récepteurs, sur lesquels l'acétylcholine peut se fixer.",
+       "sci": false
+      },
+      {
+       "a": 48.8,
+       "b": 54.88,
+       "fr": "Si assez d'acétylcholine se fixe, de nouveaux potentiels d'action naissent dans la cellule post-synaptique.",
+       "sci": false
+      },
+      {
+       "a": 55.16,
+       "b": 61.41,
+       "fr": "Ensuite, une enzyme, l'acétylcholinestérase, détruit l'acétylcholine, ce qui met fin à son action.",
+       "sci": false
+      },
+      {
+       "a": 62.29,
+       "b": 64.81,
+       "fr": "À la synapse, le message est codé autrement.",
+       "sci": false
+      },
+      {
+       "a": 65.09,
+       "b": 75.12,
+       "fr": "Plus les potentiels d'action arrivent nombreux, plus la concentration d'acétylcholine dans la fente est élevée, et plus la fréquence des potentiels d'action post-synaptiques est élevée.",
+       "sci": false
+      },
+      {
+       "a": 75.4,
+       "b": 78.77,
+       "fr": "C'est un codage en concentration de neurotransmetteur.",
+       "sci": false
+      },
+      {
+       "a": 79.65,
+       "b": 91.28,
+       "fr": "En science : au niveau de la synapse, l'arrivée des potentiels d'action déclenche l'exocytose de vésicules et la libération d'un neurotransmetteur, ici l'acétylcholine, dans la fente synaptique.",
+       "sci": true
+      },
+      {
+       "a": 91.56,
+       "b": 99.21,
+       "fr": "Il se fixe sur des récepteurs post-synaptiques et, en quantité suffisante, déclenche des potentiels d'action post-synaptiques.",
+       "sci": true
+      },
+      {
+       "a": 99.49,
+       "b": 101.59,
+       "fr": "L'acétylcholinestérase l'élimine.",
+       "sci": true
+      },
+      {
+       "a": 101.87,
+       "b": 105.49,
+       "fr": "Le message est codé en concentration de neurotransmetteur.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Drogues, poisons et contraction du muscle",
+     "dur": 95.45,
+     "v": "clips/t13/c07.mp4",
+     "p": "clips/t13/c07.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.89,
+       "fr": "Certaines substances perturbent la synapse.",
+       "sci": false
+      },
+      {
+       "a": 3.17,
+       "b": 12.41,
+       "fr": "Le curare, un poison utilisé autrefois sur les flèches de chasse, se fixe sur les récepteurs de l'acétylcholine, mais ne déclenche pas de potentiel d'action.",
+       "sci": false
+      },
+      {
+       "a": 12.69,
+       "b": 15.42,
+       "fr": "Il bloque donc la place : c'est un antagoniste.",
+       "sci": false
+      },
+      {
+       "a": 15.7,
+       "b": 19.13,
+       "fr": "Il provoque un relâchement durable des muscles, une paralysie.",
+       "sci": false
+      },
+      {
+       "a": 20.01,
+       "b": 24.26,
+       "fr": "D'autres substances empêchent l'élimination de l'acétylcholine dans la fente.",
+       "sci": false
+      },
+      {
+       "a": 24.54,
+       "b": 27.44,
+       "fr": "Elle reste alors plus longtemps et son action est prolongée.",
+       "sci": false
+      },
+      {
+       "a": 27.72,
+       "b": 32.13,
+       "fr": "Ces substances qui renforcent l'effet du neurotransmetteur sont des agonistes.",
+       "sci": false
+      },
+      {
+       "a": 33.01,
+       "b": 35.38,
+       "fr": "Enfin, comment le muscle se contracte-t-il ?",
+       "sci": false
+      },
+      {
+       "a": 35.66,
+       "b": 41.68,
+       "fr": "Après la plaque motrice, les potentiels d'action se propagent le long de la membrane de la fibre musculaire.",
+       "sci": false
+      },
+      {
+       "a": 41.96,
+       "b": 51.69,
+       "fr": "Ils provoquent l'ouverture de canaux ioniques, des protéines, qui libèrent des ions calcium stockés dans un réseau de cavités de la cellule : le réticulum sarcoplasmique.",
+       "sci": false
+      },
+      {
+       "a": 52.57,
+       "b": 60.14,
+       "fr": "C'est l'augmentation de la concentration en ions calcium dans le cytoplasme de la fibre qui provoque la contraction musculaire.",
+       "sci": false
+      },
+      {
+       "a": 60.42,
+       "b": 69.83,
+       "fr": "Le circuit du réflexe est terminé : étirement, message sensoriel, moelle épinière, synapse, message moteur, plaque motrice, calcium, et contraction.",
+       "sci": false
+      },
+      {
+       "a": 70.71,
+       "b": 73.65,
+       "fr": "En science : certaines molécules perturbent la synapse.",
+       "sci": true
+      },
+      {
+       "a": 73.93,
+       "b": 81.83,
+       "fr": "Un antagoniste, comme le curare, se fixe sur les récepteurs de l'acétylcholine sans les activer, et provoque un relâchement musculaire.",
+       "sci": true
+      },
+      {
+       "a": 82.11,
+       "b": 85.18,
+       "fr": "Un agoniste prolonge l'action du neurotransmetteur.",
+       "sci": true
+      },
+      {
+       "a": 85.46,
+       "b": 94.57,
+       "fr": "Dans la fibre musculaire, les potentiels d'action déclenchent la libération d'ions calcium par le réticulum sarcoplasmique, ce qui provoque la contraction.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "t04",
    "title": "Comportements, mouvement et système nerveux",
    "poster": "clips/t04/poster.jpg",
