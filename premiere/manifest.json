@@ -894,6 +894,524 @@
      ]
     }
    ]
+  },
+  {
+   "id": "p05",
+   "title": "Variation génétique et santé",
+   "poster": "clips/p05/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "La mucoviscidose, une maladie génétique",
+     "dur": 68.36,
+     "v": "clips/p05/c01.mp4",
+     "p": "clips/p05/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.64,
+       "fr": "Rappel : chaque gène existe en deux exemplaires, un venant de chaque parent.",
+       "sci": false
+      },
+      {
+       "a": 4.92,
+       "b": 8.46,
+       "fr": "Certaines maladies sont dues à un allèle muté d'un seul gène.",
+       "sci": false
+      },
+      {
+       "a": 8.74,
+       "b": 13.95,
+       "fr": "C'est le cas de la mucoviscidose, la maladie génétique grave la plus fréquente en France.",
+       "sci": false
+      },
+      {
+       "a": 14.83,
+       "b": 21.84,
+       "fr": "Le gène en cause, appelé CFTR, code une protéine qui fait passer des ions chlorure à travers la membrane des cellules.",
+       "sci": false
+      },
+      {
+       "a": 22.12,
+       "b": 28.03,
+       "fr": "Quand elle ne fonctionne pas, le mucus qui tapisse les bronches et le tube digestif devient épais et collant.",
+       "sci": false
+      },
+      {
+       "a": 28.91,
+       "b": 34.8,
+       "fr": "Ce mucus encombre les poumons, ce qui provoque des infections à répétition, et il gêne la digestion.",
+       "sci": false
+      },
+      {
+       "a": 35.08,
+       "b": 41.52,
+       "fr": "Pour être malade, il faut avoir hérité de deux allèles mutés, un de chaque parent : on dit que l'allèle est récessif.",
+       "sci": false
+      },
+      {
+       "a": 42.4,
+       "b": 47.4,
+       "fr": "En science : la mucoviscidose est une maladie monogénique à transmission récessive.",
+       "sci": true
+      },
+      {
+       "a": 47.68,
+       "b": 52.13,
+       "fr": "Elle est due à des mutations du gène CFTR, qui code un canal à ions chlorure.",
+       "sci": true
+      },
+      {
+       "a": 52.41,
+       "b": 56.83,
+       "fr": "Le mucus déshydraté provoque des atteintes respiratoires et digestives.",
+       "sci": true
+      },
+      {
+       "a": 57.11,
+       "b": 64.56,
+       "fr": "Les traitements associent kinésithérapie, antibiotiques, et désormais des médicaments qui corrigent le fonctionnement de la protéine.",
+       "sci": true
+      },
+      {
+       "a": 64.84,
+       "b": 67.48,
+       "fr": "La thérapie génique est une piste de recherche.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le cancer, une maladie des gènes",
+     "dur": 64.26,
+     "v": "clips/p05/c02.mp4",
+     "p": "clips/p05/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.56,
+       "fr": "Rappel : les mutations somatiques se produisent dans les cellules du corps, et sont transmises à leurs cellules filles.",
+       "sci": false
+      },
+      {
+       "a": 6.84,
+       "b": 11.75,
+       "fr": "Le cancer est une maladie qui commence ainsi, par des mutations dans une seule cellule.",
+       "sci": false
+      },
+      {
+       "a": 12.63,
+       "b": 16.34,
+       "fr": "Ces mutations touchent des gènes qui contrôlent la division cellulaire.",
+       "sci": false
+      },
+      {
+       "a": 16.62,
+       "b": 21.95,
+       "fr": "Certains gènes sont comme un accélérateur bloqué, qui pousse la cellule à se diviser sans arrêt.",
+       "sci": false
+      },
+      {
+       "a": 22.23,
+       "b": 25.54,
+       "fr": "D'autres sont comme des freins cassés, qui n'arrêtent plus la division.",
+       "sci": false
+      },
+      {
+       "a": 26.42,
+       "b": 32.65,
+       "fr": "Il faut en général plusieurs mutations, accumulées au fil des années, pour qu'une cellule devienne cancéreuse.",
+       "sci": false
+      },
+      {
+       "a": 32.93,
+       "b": 40.33,
+       "fr": "C'est pour cela que le risque augmente avec l'âge, et avec l'exposition à des agents mutagènes comme le tabac, l'alcool ou les UV.",
+       "sci": false
+      },
+      {
+       "a": 41.21,
+       "b": 50.7,
+       "fr": "En science : un cancer résulte de l'accumulation de mutations somatiques dans une lignée de cellules, qui se divisent alors de façon incontrôlée et forment une tumeur.",
+       "sci": true
+      },
+      {
+       "a": 50.98,
+       "b": 57.0,
+       "fr": "Des facteurs environnementaux, comme le tabac, l'alcool, les UV ou certains virus, augmentent ce risque.",
+       "sci": true
+      },
+      {
+       "a": 57.28,
+       "b": 63.38,
+       "fr": "La prévention, le dépistage précoce et des traitements ciblant les cellules cancéreuses améliorent la survie.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "La résistance aux antibiotiques",
+     "dur": 63.53,
+     "v": "clips/p05/c03.mp4",
+     "p": "clips/p05/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.11,
+       "fr": "Rappel : les antibiotiques sont des médicaments qui tuent les bactéries ou empêchent leur multiplication.",
+       "sci": false
+      },
+      {
+       "a": 6.39,
+       "b": 12.73,
+       "fr": "Mais dans une population de bactéries, quelques-unes peuvent porter, par hasard, une mutation qui les rend résistantes.",
+       "sci": false
+      },
+      {
+       "a": 13.61,
+       "b": 19.64,
+       "fr": "Quand on prend l'antibiotique, les bactéries sensibles meurent, mais les résistantes survivent et se multiplient.",
+       "sci": false
+      },
+      {
+       "a": 19.92,
+       "b": 22.59,
+       "fr": "Peu à peu, toute la population devient résistante.",
+       "sci": false
+      },
+      {
+       "a": 22.87,
+       "b": 27.41,
+       "fr": "C'est un exemple de sélection naturelle, que l'on peut observer en quelques jours.",
+       "sci": false
+      },
+      {
+       "a": 28.29,
+       "b": 32.9,
+       "fr": "Les bactéries peuvent aussi échanger leurs gènes de résistance, grâce aux plasmides.",
+       "sci": false
+      },
+      {
+       "a": 33.18,
+       "b": 40.44,
+       "fr": "Pour limiter ce problème, il faut utiliser les antibiotiques seulement quand c'est nécessaire, et suivre le traitement jusqu'au bout.",
+       "sci": false
+      },
+      {
+       "a": 41.32,
+       "b": 52.07,
+       "fr": "En science : l'antibiorésistance résulte de la sélection, par l'antibiotique, de bactéries porteuses de mutations ou de gènes de résistance, acquis parfois par transfert horizontal.",
+       "sci": true
+      },
+      {
+       "a": 52.35,
+       "b": 56.74,
+       "fr": "L'usage excessif ou inadapté des antibiotiques accélère ce phénomène.",
+       "sci": true
+      },
+      {
+       "a": 57.02,
+       "b": 62.65,
+       "fr": "La lutte passe par un usage raisonné, l'hygiène, la vaccination et la recherche de nouveaux traitements.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "title": "Le système immunitaire",
+   "poster": "clips/p04/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "L'immunité innée",
+     "dur": 68.45,
+     "v": "clips/p04/c01.mp4",
+     "p": "clips/p04/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.15,
+       "fr": "Rappel : notre corps est sans cesse exposé à des microorganismes.",
+       "sci": false
+      },
+      {
+       "a": 4.43,
+       "b": 7.14,
+       "fr": "La peau et les muqueuses forment une première barrière.",
+       "sci": false
+      },
+      {
+       "a": 7.42,
+       "b": 12.45,
+       "fr": "Quand un microbe la franchit, par exemple par une coupure, le système immunitaire réagit.",
+       "sci": false
+      },
+      {
+       "a": 13.33,
+       "b": 20.76,
+       "fr": "La première réponse est rapide, en quelques minutes à quelques heures, et elle est la même quel que soit le microbe : c'est l'immunité innée.",
+       "sci": false
+      },
+      {
+       "a": 21.04,
+       "b": 27.03,
+       "fr": "Elle provoque une réaction inflammatoire, avec quatre signes : rougeur, chaleur, gonflement et douleur.",
+       "sci": false
+      },
+      {
+       "a": 27.91,
+       "b": 30.79,
+       "fr": "Des cellules immunitaires arrivent alors sur place.",
+       "sci": false
+      },
+      {
+       "a": 31.07,
+       "b": 36.21,
+       "fr": "Certaines, comme les macrophages, englobent les microbes et les digèrent : c'est la phagocytose.",
+       "sci": false
+      },
+      {
+       "a": 36.49,
+       "b": 40.82,
+       "fr": "Elles libèrent aussi des messagers chimiques qui attirent d'autres cellules immunitaires.",
+       "sci": false
+      },
+      {
+       "a": 41.7,
+       "b": 44.99,
+       "fr": "En science : l'immunité innée est présente chez tous les animaux.",
+       "sci": true
+      },
+      {
+       "a": 45.27,
+       "b": 47.25,
+       "fr": "Elle est immédiate, et peu spécifique.",
+       "sci": true
+      },
+      {
+       "a": 47.53,
+       "b": 55.11,
+       "fr": "Elle se manifeste par la réaction inflammatoire aiguë, dont les symptômes sont la rougeur, la chaleur, le gonflement et la douleur.",
+       "sci": true
+      },
+      {
+       "a": 55.39,
+       "b": 63.56,
+       "fr": "Des cellules comme les macrophages reconnaissent des motifs communs aux microbes, les phagocytent, et sécrètent des médiateurs chimiques de l'inflammation.",
+       "sci": true
+      },
+      {
+       "a": 63.84,
+       "b": 67.57,
+       "fr": "Des médicaments anti-inflammatoires peuvent en réduire les symptômes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "L'immunité adaptative",
+     "dur": 92.87,
+     "v": "clips/p04/c02.mp4",
+     "p": "clips/p04/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.33,
+       "fr": "Chez les vertébrés, une deuxième réponse prend le relais, plus lente, environ une semaine, mais très précise : c'est l'immunité adaptative.",
+       "sci": false
+      },
+      {
+       "a": 8.61,
+       "b": 14.9,
+       "fr": "Elle repose sur des globules blancs particuliers, les lymphocytes, capables de reconnaître un microbe bien précis.",
+       "sci": false
+      },
+      {
+       "a": 15.78,
+       "b": 22.31,
+       "fr": "Chaque lymphocyte possède un récepteur unique, qui reconnaît une seule molécule étrangère, appelée antigène.",
+       "sci": false
+      },
+      {
+       "a": 22.59,
+       "b": 28.12,
+       "fr": "Quand un lymphocyte rencontre son antigène, il se multiplie beaucoup : c'est la sélection clonale.",
+       "sci": false
+      },
+      {
+       "a": 29.0,
+       "b": 31.66,
+       "fr": "Il existe deux grandes familles de lymphocytes.",
+       "sci": false
+      },
+      {
+       "a": 31.94,
+       "b": 40.03,
+       "fr": "Les lymphocytes B produisent des anticorps, des molécules en forme de Y, qui se fixent sur les antigènes et neutralisent les microbes.",
+       "sci": false
+      },
+      {
+       "a": 40.31,
+       "b": 44.55,
+       "fr": "Les lymphocytes T tueurs, eux, détruisent les cellules infectées par un virus.",
+       "sci": false
+      },
+      {
+       "a": 45.43,
+       "b": 52.28,
+       "fr": "Ces deux armées sont coordonnées par un troisième type de lymphocytes, les lymphocytes T auxiliaires, ou CD4.",
+       "sci": false
+      },
+      {
+       "a": 52.56,
+       "b": 55.87,
+       "fr": "Ils stimulent la multiplication des lymphocytes B et T.",
+       "sci": false
+      },
+      {
+       "a": 56.15,
+       "b": 61.31,
+       "fr": "C'est pour cela que le VIH, qui détruit ces cellules, affaiblit tout le système immunitaire.",
+       "sci": false
+      },
+      {
+       "a": 62.19,
+       "b": 67.35,
+       "fr": "En science : l'immunité adaptative, propre aux vertébrés, est spécifique d'un antigène.",
+       "sci": true
+      },
+      {
+       "a": 67.63,
+       "b": 73.18,
+       "fr": "Les lymphocytes porteurs du bon récepteur sont sélectionnés, se multiplient, puis se différencient.",
+       "sci": true
+      },
+      {
+       "a": 73.46,
+       "b": 77.68,
+       "fr": "Les lymphocytes B deviennent des plasmocytes qui sécrètent des anticorps.",
+       "sci": true
+      },
+      {
+       "a": 77.96,
+       "b": 83.4,
+       "fr": "Les anticorps se lient aux antigènes et forment des complexes immuns, éliminés par phagocytose.",
+       "sci": true
+      },
+      {
+       "a": 83.68,
+       "b": 88.63,
+       "fr": "Les lymphocytes T CD8 deviennent cytotoxiques et détruisent les cellules infectées.",
+       "sci": true
+      },
+      {
+       "a": 88.91,
+       "b": 91.99,
+       "fr": "Les lymphocytes T CD4 coordonnent ces réponses.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Mémoire immunitaire et vaccination",
+     "dur": 76.28,
+     "v": "clips/p04/c03.mp4",
+     "p": "clips/p04/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.81,
+       "fr": "Après une infection, certains lymphocytes restent dans le corps pendant des années : ce sont les lymphocytes mémoire.",
+       "sci": false
+      },
+      {
+       "a": 7.09,
+       "b": 11.02,
+       "fr": "Ils sont plus nombreux et réagissent plus vite que les lymphocytes de départ.",
+       "sci": false
+      },
+      {
+       "a": 11.9,
+       "b": 16.98,
+       "fr": "Si le même microbe revient, la réponse est donc beaucoup plus rapide et beaucoup plus forte.",
+       "sci": false
+      },
+      {
+       "a": 17.26,
+       "b": 19.33,
+       "fr": "Souvent, on ne tombe même pas malade.",
+       "sci": false
+      },
+      {
+       "a": 20.21,
+       "b": 22.43,
+       "fr": "La vaccination utilise ce principe.",
+       "sci": false
+      },
+      {
+       "a": 22.71,
+       "b": 28.4,
+       "fr": "On injecte un microbe tué, affaibli, ou seulement une partie de ce microbe, qui ne rend pas malade.",
+       "sci": false
+      },
+      {
+       "a": 28.68,
+       "b": 34.95,
+       "fr": "Le corps fabrique alors des lymphocytes mémoire, prêts à réagir le jour où il rencontrera le vrai microbe.",
+       "sci": false
+      },
+      {
+       "a": 35.83,
+       "b": 40.59,
+       "fr": "Quand une grande partie de la population est vaccinée, le microbe circule beaucoup moins.",
+       "sci": false
+      },
+      {
+       "a": 40.87,
+       "b": 46.97,
+       "fr": "Les personnes qui ne peuvent pas être vaccinées, comme les nouveau-nés ou les malades, sont alors protégées elles aussi.",
+       "sci": false
+      },
+      {
+       "a": 47.25,
+       "b": 48.87,
+       "fr": "C'est l'immunité collective.",
+       "sci": false
+      },
+      {
+       "a": 49.75,
+       "b": 54.94,
+       "fr": "En science : après un premier contact avec un antigène, des cellules mémoire persistent.",
+       "sci": true
+      },
+      {
+       "a": 55.22,
+       "b": 60.59,
+       "fr": "Lors d'un second contact, la réponse secondaire est plus rapide, plus intense et plus durable.",
+       "sci": true
+      },
+      {
+       "a": 60.87,
+       "b": 68.98,
+       "fr": "La vaccination déclenche une réponse primaire grâce à un antigène inoffensif, accompagné d'un adjuvant qui stimule l'immunité innée.",
+       "sci": true
+      },
+      {
+       "a": 69.26,
+       "b": 75.4,
+       "fr": "Une couverture vaccinale élevée limite la circulation du pathogène et protège toute la population.",
+       "sci": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

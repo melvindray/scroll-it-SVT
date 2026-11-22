@@ -828,6 +828,774 @@
      ]
     }
    ]
+  },
+  {
+   "id": "t04",
+   "title": "Comportements, mouvement et système nerveux",
+   "poster": "clips/t04/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Le réflexe myotatique",
+     "dur": 67.28,
+     "v": "clips/t04/c01.mp4",
+     "p": "clips/t04/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.04,
+       "fr": "Quand un médecin tape sous ton genou avec un marteau, ta jambe se lève toute seule.",
+       "sci": false
+      },
+      {
+       "a": 5.32,
+       "b": 10.51,
+       "fr": "C'est un réflexe : une réponse involontaire, rapide et toujours identique à un stimulus.",
+       "sci": false
+      },
+      {
+       "a": 10.79,
+       "b": 15.42,
+       "fr": "Celui-ci s'appelle le réflexe myotatique, car il répond à l'étirement d'un muscle.",
+       "sci": false
+      },
+      {
+       "a": 16.3,
+       "b": 17.96,
+       "fr": "Voici le chemin du message.",
+       "sci": false
+      },
+      {
+       "a": 18.24,
+       "b": 20.25,
+       "fr": "Le coup étire le muscle de la cuisse.",
+       "sci": false
+      },
+      {
+       "a": 20.53,
+       "b": 26.91,
+       "fr": "Des récepteurs dans ce muscle envoient un message nerveux, par un neurone sensoriel, jusqu'à la moelle épinière.",
+       "sci": false
+      },
+      {
+       "a": 27.79,
+       "b": 35.06,
+       "fr": "Dans la moelle épinière, le neurone sensoriel transmet directement le message à un neurone moteur, au niveau d'une synapse.",
+       "sci": false
+      },
+      {
+       "a": 35.34,
+       "b": 38.88,
+       "fr": "Le neurone moteur renvoie l'ordre au muscle, qui se contracte.",
+       "sci": false
+      },
+      {
+       "a": 39.16,
+       "b": 41.38,
+       "fr": "Ce circuit s'appelle un arc réflexe.",
+       "sci": false
+      },
+      {
+       "a": 42.26,
+       "b": 47.96,
+       "fr": "En science : le réflexe myotatique est la contraction d'un muscle en réponse à son propre étirement.",
+       "sci": true
+      },
+      {
+       "a": 48.24,
+       "b": 59.37,
+       "fr": "Son support est un arc réflexe monosynaptique : récepteur sensoriel du muscle, neurone sensoriel, centre nerveux, ici la moelle épinière, neurone moteur, et muscle effecteur.",
+       "sci": true
+      },
+      {
+       "a": 59.65,
+       "b": 61.89,
+       "fr": "Il participe au maintien de la posture.",
+       "sci": true
+      },
+      {
+       "a": 62.17,
+       "b": 66.4,
+       "fr": "Il est utilisé en médecine pour tester le fonctionnement du système nerveux.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le message nerveux et la synapse",
+     "dur": 70.65,
+     "v": "clips/t04/c02.mp4",
+     "p": "clips/t04/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.51,
+       "fr": "Le message nerveux circule le long des neurones sous forme électrique.",
+       "sci": false
+      },
+      {
+       "a": 4.79,
+       "b": 10.34,
+       "fr": "Il est codé par des potentiels d'action, de petites impulsions électriques, toujours de même taille.",
+       "sci": false
+      },
+      {
+       "a": 10.62,
+       "b": 15.69,
+       "fr": "Plus le stimulus est fort, plus ils sont nombreux par seconde : c'est un codage en fréquence.",
+       "sci": false
+      },
+      {
+       "a": 16.57,
+       "b": 19.77,
+       "fr": "Entre deux neurones, il y a un petit espace : la synapse.",
+       "sci": false
+      },
+      {
+       "a": 20.05,
+       "b": 22.51,
+       "fr": "Le message électrique ne peut pas le franchir.",
+       "sci": false
+      },
+      {
+       "a": 22.79,
+       "b": 28.4,
+       "fr": "Au bout du premier neurone, il déclenche la libération de molécules chimiques, les neurotransmetteurs.",
+       "sci": false
+      },
+      {
+       "a": 29.28,
+       "b": 36.72,
+       "fr": "Ces neurotransmetteurs se fixent sur des récepteurs du neurone suivant, ou du muscle, et y font naître un nouveau message électrique.",
+       "sci": false
+      },
+      {
+       "a": 37.0,
+       "b": 40.63,
+       "fr": "Au niveau du muscle, le neurotransmetteur est l'acétylcholine.",
+       "sci": false
+      },
+      {
+       "a": 40.91,
+       "b": 43.0,
+       "fr": "La synapse est donc un relais chimique.",
+       "sci": false
+      },
+      {
+       "a": 43.88,
+       "b": 49.92,
+       "fr": "En science : le message nerveux est électrique le long des neurones, codé en fréquence de potentiels d'action.",
+       "sci": true
+      },
+      {
+       "a": 50.2,
+       "b": 59.01,
+       "fr": "Au niveau des synapses, il devient chimique : des neurotransmetteurs, libérés dans la fente synaptique, se fixent sur des récepteurs de la cellule suivante.",
+       "sci": true
+      },
+      {
+       "a": 59.29,
+       "b": 65.84,
+       "fr": "À la jonction entre neurone et muscle, la synapse neuromusculaire, le neurotransmetteur est l'acétylcholine.",
+       "sci": true
+      },
+      {
+       "a": 66.12,
+       "b": 69.77,
+       "fr": "Certaines substances, comme le curare, peuvent bloquer ces récepteurs.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Le mouvement volontaire et le cerveau",
+     "dur": 70.03,
+     "v": "clips/t04/c03.mp4",
+     "p": "clips/t04/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.64,
+       "fr": "Contrairement au réflexe, un mouvement volontaire est décidé par le cerveau.",
+       "sci": false
+      },
+      {
+       "a": 4.92,
+       "b": 9.59,
+       "fr": "La commande part d'une zone précise de la surface du cerveau, le cortex moteur.",
+       "sci": false
+      },
+      {
+       "a": 9.87,
+       "b": 14.52,
+       "fr": "Le message descend ensuite par la moelle épinière jusqu'aux neurones moteurs.",
+       "sci": false
+      },
+      {
+       "a": 15.4,
+       "b": 19.82,
+       "fr": "Chaque partie du corps est commandée par une zone particulière du cortex moteur.",
+       "sci": false
+      },
+      {
+       "a": 20.1,
+       "b": 25.77,
+       "fr": "Les zones qui commandent la main et la bouche sont très grandes, car ces parties font des mouvements fins et précis.",
+       "sci": false
+      },
+      {
+       "a": 26.65,
+       "b": 28.93,
+       "fr": "Le cerveau change avec l'apprentissage.",
+       "sci": false
+      },
+      {
+       "a": 29.21,
+       "b": 37.34,
+       "fr": "Quand on s'entraîne, par exemple au piano ou au sport, les connexions entre neurones se renforcent, et la zone du cortex concernée s'agrandit.",
+       "sci": false
+      },
+      {
+       "a": 37.62,
+       "b": 39.5,
+       "fr": "C'est la plasticité cérébrale.",
+       "sci": false
+      },
+      {
+       "a": 39.78,
+       "b": 43.62,
+       "fr": "Elle permet aussi une récupération partielle après un accident.",
+       "sci": false
+      },
+      {
+       "a": 44.5,
+       "b": 49.64,
+       "fr": "En science : le mouvement volontaire est commandé par les aires motrices du cortex cérébral.",
+       "sci": true
+      },
+      {
+       "a": 49.92,
+       "b": 54.7,
+       "fr": "Les messages descendent par la moelle épinière jusqu'aux neurones moteurs, puis aux muscles.",
+       "sci": true
+      },
+      {
+       "a": 54.98,
+       "b": 59.25,
+       "fr": "Le cortex moteur est organisé en une carte du corps, la somatotopie.",
+       "sci": true
+      },
+      {
+       "a": 59.53,
+       "b": 69.15,
+       "fr": "La plasticité cérébrale, c'est-à-dire la capacité des réseaux de neurones à se remodeler, permet l'apprentissage et une récupération partielle après une lésion.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t05",
+   "title": "Produire le mouvement : le muscle et son énergie",
+   "poster": "clips/t05/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Du muscle aux protéines contractiles",
+     "dur": 60.21,
+     "v": "clips/t05/c01.mp4",
+     "p": "clips/t05/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.94,
+       "fr": "Rappel : un mouvement est produit par la contraction d'un muscle, qui tire sur un os par l'intermédiaire d'un tendon.",
+       "sci": false
+      },
+      {
+       "a": 7.22,
+       "b": 9.36,
+       "fr": "Mais comment un muscle se raccourcit-il ?",
+       "sci": false
+      },
+      {
+       "a": 9.64,
+       "b": 11.32,
+       "fr": "Il faut zoomer, de plus en plus.",
+       "sci": false
+      },
+      {
+       "a": 12.2,
+       "b": 15.49,
+       "fr": "Un muscle est fait de longues cellules, les fibres musculaires.",
+       "sci": false
+      },
+      {
+       "a": 15.77,
+       "b": 22.59,
+       "fr": "Chacune contient des milliers de filaments, les myofibrilles, découpées en petites unités qui se répètent : les sarcomères.",
+       "sci": false
+      },
+      {
+       "a": 23.47,
+       "b": 29.89,
+       "fr": "Dans chaque sarcomère, deux sortes de filaments de protéines s'emboîtent : l'actine, fine, et la myosine, épaisse.",
+       "sci": false
+      },
+      {
+       "a": 30.17,
+       "b": 34.36,
+       "fr": "Lors de la contraction, les têtes de myosine s'accrochent à l'actine et la tirent.",
+       "sci": false
+      },
+      {
+       "a": 34.64,
+       "b": 38.58,
+       "fr": "Les filaments glissent les uns sur les autres, et le sarcomère raccourcit.",
+       "sci": false
+      },
+      {
+       "a": 39.46,
+       "b": 47.1,
+       "fr": "En science : la contraction musculaire repose sur le glissement des filaments d'actine le long des filaments de myosine, dans chaque sarcomère.",
+       "sci": true
+      },
+      {
+       "a": 47.38,
+       "b": 54.59,
+       "fr": "Ce glissement est déclenché par l'arrivée de calcium dans la cellule, à la suite du message nerveux, et il consomme de l'ATP.",
+       "sci": true
+      },
+      {
+       "a": 54.87,
+       "b": 59.33,
+       "fr": "Le raccourcissement de milliers de sarcomères produit le raccourcissement du muscle.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "L'ATP, la monnaie d'énergie",
+     "dur": 70.75,
+     "v": "clips/t05/c02.mp4",
+     "p": "clips/t05/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.36,
+       "fr": "Pour se contracter, la myosine a besoin d'énergie.",
+       "sci": false
+      },
+      {
+       "a": 3.64,
+       "b": 6.35,
+       "fr": "Cette énergie est fournie par une molécule, l'ATP.",
+       "sci": false
+      },
+      {
+       "a": 6.63,
+       "b": 13.75,
+       "fr": "On peut la comparer à une pile rechargeable : quand elle est utilisée, elle devient de l'ADP, puis elle est rechargée en ATP.",
+       "sci": false
+      },
+      {
+       "a": 14.63,
+       "b": 19.58,
+       "fr": "Le muscle ne contient qu'un tout petit stock d'ATP, de quoi tenir quelques secondes.",
+       "sci": false
+      },
+      {
+       "a": 19.86,
+       "b": 25.09,
+       "fr": "Il doit donc en refabriquer en permanence, à partir des nutriments, surtout le glucose.",
+       "sci": false
+      },
+      {
+       "a": 25.97,
+       "b": 28.06,
+       "fr": "Deux voies permettent de recharger l'ATP.",
+       "sci": false
+      },
+      {
+       "a": 28.34,
+       "b": 36.53,
+       "fr": "La respiration, dans les mitochondries, utilise du dioxygène : elle produit beaucoup d'ATP, et rejette du dioxyde de carbone et de l'eau.",
+       "sci": false
+      },
+      {
+       "a": 36.81,
+       "b": 42.87,
+       "fr": "La fermentation, sans dioxygène, est rapide mais produit peu d'ATP, et elle produit de l'acide lactique.",
+       "sci": false
+      },
+      {
+       "a": 43.75,
+       "b": 48.66,
+       "fr": "En science : l'ATP est la molécule qui fournit directement l'énergie de la contraction.",
+       "sci": true
+      },
+      {
+       "a": 48.94,
+       "b": 53.29,
+       "fr": "Elle est régénérée en permanence à partir des métabolites, comme le glucose.",
+       "sci": true
+      },
+      {
+       "a": 53.57,
+       "b": 62.23,
+       "fr": "La respiration cellulaire, dans le cytoplasme puis la mitochondrie, oxyde complètement le glucose grâce au dioxygène et produit beaucoup d'ATP.",
+       "sci": true
+      },
+      {
+       "a": 62.51,
+       "b": 67.33,
+       "fr": "La fermentation lactique, en absence suffisante de dioxygène, produit peu d'ATP.",
+       "sci": true
+      },
+      {
+       "a": 67.61,
+       "b": 69.87,
+       "fr": "Les deux voies commencent par la glycolyse.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "L'effort et le contrôle de la glycémie",
+     "dur": 65.08,
+     "v": "clips/t05/c03.mp4",
+     "p": "clips/t05/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.89,
+       "fr": "Pendant un effort, les muscles consomment beaucoup de glucose.",
+       "sci": false
+      },
+      {
+       "a": 4.17,
+       "b": 10.06,
+       "fr": "Pourtant, la quantité de glucose dans le sang, la glycémie, reste stable, autour d'un gramme par litre.",
+       "sci": false
+      },
+      {
+       "a": 10.34,
+       "b": 12.3,
+       "fr": "Le corps la régule en permanence.",
+       "sci": false
+      },
+      {
+       "a": 13.18,
+       "b": 17.51,
+       "fr": "Le glucose est stocké sous forme de glycogène, dans le foie et dans les muscles.",
+       "sci": false
+      },
+      {
+       "a": 17.79,
+       "b": 21.12,
+       "fr": "Quand la glycémie baisse, le foie libère du glucose dans le sang.",
+       "sci": false
+      },
+      {
+       "a": 21.4,
+       "b": 25.35,
+       "fr": "Après un repas, au contraire, le glucose en trop est mis en réserve.",
+       "sci": false
+      },
+      {
+       "a": 26.23,
+       "b": 29.11,
+       "fr": "Ce sont deux hormones du pancréas qui donnent les ordres.",
+       "sci": false
+      },
+      {
+       "a": 29.39,
+       "b": 33.04,
+       "fr": "L'insuline fait baisser la glycémie, en favorisant le stockage.",
+       "sci": false
+      },
+      {
+       "a": 33.32,
+       "b": 38.44,
+       "fr": "Le glucagon fait monter la glycémie, en provoquant la libération du glucose par le foie.",
+       "sci": false
+      },
+      {
+       "a": 39.32,
+       "b": 42.86,
+       "fr": "En science : la glycémie est maintenue autour d'un gramme par litre.",
+       "sci": true
+      },
+      {
+       "a": 43.14,
+       "b": 47.13,
+       "fr": "Le glucose est stocké sous forme de glycogène dans le foie et les muscles.",
+       "sci": true
+      },
+      {
+       "a": 47.41,
+       "b": 53.42,
+       "fr": "Le pancréas sécrète l'insuline, hormone hypoglycémiante, et le glucagon, hormone hyperglycémiante.",
+       "sci": true
+      },
+      {
+       "a": 53.7,
+       "b": 64.2,
+       "fr": "Pendant un effort, l'apport en glucose et en dioxygène aux muscles augmente, grâce à l'adaptation de la respiration, du rythme cardiaque et de cette régulation hormonale.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t06",
+   "title": "Comportements et stress",
+   "poster": "clips/t06/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "La réponse au stress aigu",
+     "dur": 70.41,
+     "v": "clips/t06/c01.mp4",
+     "p": "clips/t06/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.65,
+       "fr": "Imagine qu'un chien surgit en aboyant.",
+       "sci": false
+      },
+      {
+       "a": 2.93,
+       "b": 9.25,
+       "fr": "En une fraction de seconde, ton cœur s'accélère, ta respiration aussi, et tes muscles se préparent à fuir.",
+       "sci": false
+      },
+      {
+       "a": 9.53,
+       "b": 14.01,
+       "fr": "C'est la réponse de stress : elle prépare le corps à faire face à un danger.",
+       "sci": false
+      },
+      {
+       "a": 14.89,
+       "b": 16.57,
+       "fr": "La réponse se fait en deux temps.",
+       "sci": false
+      },
+      {
+       "a": 16.85,
+       "b": 23.53,
+       "fr": "D'abord, très vite, le système nerveux fait libérer de l'adrénaline par les glandes surrénales, situées au-dessus des reins.",
+       "sci": false
+      },
+      {
+       "a": 23.81,
+       "b": 29.06,
+       "fr": "L'adrénaline augmente le rythme cardiaque et libère du glucose pour les muscles.",
+       "sci": false
+      },
+      {
+       "a": 29.94,
+       "b": 34.48,
+       "fr": "Ensuite, en quelques minutes, une deuxième hormone prend le relais : le cortisol.",
+       "sci": false
+      },
+      {
+       "a": 34.76,
+       "b": 39.2,
+       "fr": "Sa sécrétion est commandée par le cerveau, via l'hypothalamus et l'hypophyse.",
+       "sci": false
+      },
+      {
+       "a": 39.48,
+       "b": 43.94,
+       "fr": "Le cortisol maintient un apport élevé de glucose, pour tenir dans la durée.",
+       "sci": false
+      },
+      {
+       "a": 44.82,
+       "b": 49.43,
+       "fr": "En science : le stress aigu est une réponse adaptative de l'organisme.",
+       "sci": true
+      },
+      {
+       "a": 49.71,
+       "b": 56.41,
+       "fr": "Une première phase, très rapide, met en jeu le système nerveux et l'adrénaline sécrétée par la médullosurrénale.",
+       "sci": true
+      },
+      {
+       "a": 56.69,
+       "b": 64.09,
+       "fr": "Une seconde phase met en jeu l'axe hypothalamo-hypophyso-corticosurrénalien, qui aboutit à la sécrétion de cortisol.",
+       "sci": true
+      },
+      {
+       "a": 64.37,
+       "b": 69.53,
+       "fr": "Ces hormones augmentent la disponibilité du glucose et l'activité cardiovasculaire.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le retour au calme",
+     "dur": 59.61,
+     "v": "clips/t06/c02.mp4",
+     "p": "clips/t06/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.89,
+       "fr": "Une fois le danger passé, le corps doit revenir à la normale.",
+       "sci": false
+      },
+      {
+       "a": 4.17,
+       "b": 7.67,
+       "fr": "C'est le cortisol lui-même qui déclenche ce retour au calme.",
+       "sci": false
+      },
+      {
+       "a": 8.55,
+       "b": 14.91,
+       "fr": "Quand le cortisol est abondant dans le sang, il agit sur l'hypothalamus et l'hypophyse, et freine leur activité.",
+       "sci": false
+      },
+      {
+       "a": 15.19,
+       "b": 17.66,
+       "fr": "La production de cortisol diminue donc.",
+       "sci": false
+      },
+      {
+       "a": 17.94,
+       "b": 23.55,
+       "fr": "On appelle cela un rétrocontrôle négatif : le produit final freine sa propre fabrication.",
+       "sci": false
+      },
+      {
+       "a": 24.43,
+       "b": 26.67,
+       "fr": "Ce système fonctionne comme un thermostat.",
+       "sci": false
+      },
+      {
+       "a": 26.95,
+       "b": 31.43,
+       "fr": "Il permet de répondre fortement à un danger, puis de revenir à l'équilibre.",
+       "sci": false
+      },
+      {
+       "a": 31.71,
+       "b": 35.51,
+       "fr": "Le cerveau, notamment l'hippocampe, participe aussi à ce freinage.",
+       "sci": false
+      },
+      {
+       "a": 36.39,
+       "b": 41.3,
+       "fr": "En science : la sécrétion de cortisol est régulée par un rétrocontrôle négatif.",
+       "sci": true
+      },
+      {
+       "a": 41.58,
+       "b": 46.87,
+       "fr": "Le cortisol inhibe l'hypothalamus et l'hypophyse, ce qui limite sa propre sécrétion.",
+       "sci": true
+      },
+      {
+       "a": 47.15,
+       "b": 51.03,
+       "fr": "Des structures cérébrales comme l'hippocampe participent à ce contrôle.",
+       "sci": true
+      },
+      {
+       "a": 51.31,
+       "b": 58.73,
+       "fr": "Cette régulation permet un retour à l'état initial après la réponse au stress : c'est la résilience de l'organisme.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Quand le stress devient chronique",
+     "dur": 69.79,
+     "v": "clips/t06/c03.mp4",
+     "p": "clips/t06/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 8.07,
+       "fr": "Si le stress dure des semaines ou des mois, par exemple à cause d'une pression permanente, le système de freinage s'épuise.",
+       "sci": false
+      },
+      {
+       "a": 8.35,
+       "b": 10.61,
+       "fr": "Le cortisol reste élevé trop longtemps.",
+       "sci": false
+      },
+      {
+       "a": 11.49,
+       "b": 22.33,
+       "fr": "Cela a des effets négatifs : fatigue, troubles du sommeil, anxiété, baisse des défenses immunitaires, et même des modifications de certains neurones du cerveau, notamment dans l'hippocampe.",
+       "sci": false
+      },
+      {
+       "a": 23.21,
+       "b": 24.71,
+       "fr": "Heureusement, on peut agir.",
+       "sci": false
+      },
+      {
+       "a": 24.99,
+       "b": 32.39,
+       "fr": "Une activité physique régulière, un bon sommeil, la relaxation et le soutien des autres aident à mieux gérer le stress.",
+       "sci": false
+      },
+      {
+       "a": 32.67,
+       "b": 40.86,
+       "fr": "Dans certains cas, des médicaments, comme les anxiolytiques, peuvent être prescrits, mais ils ont des effets secondaires et peuvent créer une dépendance.",
+       "sci": false
+      },
+      {
+       "a": 41.74,
+       "b": 49.08,
+       "fr": "En science : un stress chronique provoque une sécrétion prolongée de cortisol et un dérèglement de son rétrocontrôle.",
+       "sci": true
+      },
+      {
+       "a": 49.36,
+       "b": 55.18,
+       "fr": "Il peut altérer le fonctionnement du système nerveux, notamment l'hippocampe, et du système immunitaire.",
+       "sci": true
+      },
+      {
+       "a": 55.46,
+       "b": 60.52,
+       "fr": "Des approches comme l'activité physique, la relaxation et le sommeil limitent ses effets.",
+       "sci": true
+      },
+      {
+       "a": 60.8,
+       "b": 68.91,
+       "fr": "Des molécules anxiolytiques, comme les benzodiazépines, agissent sur les synapses, mais exposent à des effets secondaires et à une dépendance.",
+       "sci": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }

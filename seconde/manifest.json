@@ -620,6 +620,536 @@
      ]
     }
    ]
+  },
+  {
+   "id": "s07",
+   "title": "Procréation et sexualité humaine",
+   "poster": "clips/s07/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : appareils reproducteurs et gamètes",
+     "dur": 73.06,
+     "v": "clips/s07/c01.mp4",
+     "p": "clips/s07/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 9.65,
+       "fr": "Pour avoir un enfant, il faut la rencontre de deux cellules reproductrices, les gamètes : un spermatozoïde, produit par l'homme, et un ovule, produit par la femme.",
+       "sci": false
+      },
+      {
+       "a": 9.93,
+       "b": 12.19,
+       "fr": "Cette rencontre s'appelle la fécondation.",
+       "sci": false
+      },
+      {
+       "a": 13.07,
+       "b": 19.03,
+       "fr": "Chez l'homme, les spermatozoïdes sont fabriqués en continu, à partir de la puberté, dans les testicules.",
+       "sci": false
+      },
+      {
+       "a": 19.31,
+       "b": 27.39,
+       "fr": "Ils sont ensuite transportés par les spermiductes, et mélangés à des liquides produits par des glandes, comme la prostate, pour former le sperme.",
+       "sci": false
+      },
+      {
+       "a": 28.27,
+       "b": 32.94,
+       "fr": "Chez la femme, les ovaires contiennent des follicules, qui renferment chacun un ovocyte.",
+       "sci": false
+      },
+      {
+       "a": 33.22,
+       "b": 38.66,
+       "fr": "À partir de la puberté, environ une fois par mois, un ovocyte est libéré : c'est l'ovulation.",
+       "sci": false
+      },
+      {
+       "a": 38.94,
+       "b": 42.46,
+       "fr": "Il est capté par la trompe, où peut avoir lieu la fécondation.",
+       "sci": false
+      },
+      {
+       "a": 42.74,
+       "b": 45.15,
+       "fr": "L'embryon s'implante ensuite dans l'utérus.",
+       "sci": false
+      },
+      {
+       "a": 46.03,
+       "b": 48.21,
+       "fr": "La fécondation produit une cellule-œuf.",
+       "sci": false
+      },
+      {
+       "a": 48.49,
+       "b": 55.21,
+       "fr": "En se divisant, elle donne un embryon, qui se développe pendant environ neuf mois dans l'utérus, nourri par le placenta.",
+       "sci": false
+      },
+      {
+       "a": 56.09,
+       "b": 65.41,
+       "fr": "En science : les gamètes sont produits par les gonades : les testicules chez l'homme, en continu à partir de la puberté, et les ovaires chez la femme, de façon cyclique.",
+       "sci": true
+      },
+      {
+       "a": 65.69,
+       "b": 72.18,
+       "fr": "La fécondation, dans la trompe, forme une cellule-œuf, qui se développe en embryon puis en fœtus dans l'utérus.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Puberté, hormones et cycle",
+     "dur": 86.89,
+     "v": "clips/s07/c02.mp4",
+     "p": "clips/s07/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 13.09,
+       "fr": "À la puberté, le corps change : les organes reproducteurs deviennent fonctionnels, et les caractères sexuels secondaires apparaissent, comme la pilosité, la mue de la voix chez les garçons, ou le développement des seins chez les filles.",
+       "sci": false
+      },
+      {
+       "a": 13.37,
+       "b": 15.76,
+       "fr": "Ces changements sont commandés par des hormones.",
+       "sci": false
+      },
+      {
+       "a": 16.64,
+       "b": 23.55,
+       "fr": "Une hormone est une molécule fabriquée par une glande, transportée par le sang, et qui agit sur des cellules cibles éloignées.",
+       "sci": false
+      },
+      {
+       "a": 23.83,
+       "b": 29.91,
+       "fr": "Tout part du cerveau : l'hypothalamus et l'hypophyse envoient des hormones qui stimulent les testicules ou les ovaires.",
+       "sci": false
+      },
+      {
+       "a": 30.79,
+       "b": 37.98,
+       "fr": "En réponse, les testicules produisent de la testostérone, et les ovaires produisent des œstrogènes et de la progestérone.",
+       "sci": false
+      },
+      {
+       "a": 38.26,
+       "b": 43.16,
+       "fr": "Ce sont ces hormones sexuelles qui font apparaître les caractères sexuels secondaires.",
+       "sci": false
+      },
+      {
+       "a": 44.04,
+       "b": 46.31,
+       "fr": "Chez la femme, le fonctionnement est cyclique.",
+       "sci": false
+      },
+      {
+       "a": 46.59,
+       "b": 48.74,
+       "fr": "Un cycle dure environ vingt-huit jours.",
+       "sci": false
+      },
+      {
+       "a": 49.02,
+       "b": 53.14,
+       "fr": "Il commence par les règles, et l'ovulation a lieu vers le quatorzième jour.",
+       "sci": false
+      },
+      {
+       "a": 53.42,
+       "b": 58.15,
+       "fr": "Pendant ce temps, la muqueuse de l'utérus s'épaissit pour accueillir un éventuel embryon.",
+       "sci": false
+      },
+      {
+       "a": 58.43,
+       "b": 62.12,
+       "fr": "Sans fécondation, elle se détruit : ce sont les règles suivantes.",
+       "sci": false
+      },
+      {
+       "a": 63.0,
+       "b": 69.34,
+       "fr": "En science : la puberté est déclenchée par l'hypothalamus et l'hypophyse, dont les hormones stimulent les gonades.",
+       "sci": true
+      },
+      {
+       "a": 69.62,
+       "b": 75.1,
+       "fr": "Les testicules sécrètent la testostérone, les ovaires les œstrogènes et la progestérone.",
+       "sci": true
+      },
+      {
+       "a": 75.38,
+       "b": 78.63,
+       "fr": "Ces hormones agissent par voie sanguine sur des cellules cibles.",
+       "sci": true
+      },
+      {
+       "a": 78.91,
+       "b": 86.01,
+       "fr": "Chez la femme, le fonctionnement des ovaires et de l'utérus est cyclique, avec une ovulation par cycle d'environ vingt-huit jours.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Maîtriser sa fécondité et se protéger",
+     "dur": 90.87,
+     "v": "clips/s07/c03.mp4",
+     "p": "clips/s07/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.79,
+       "fr": "Comprendre les hormones permet de maîtriser sa fécondité.",
+       "sci": false
+      },
+      {
+       "a": 4.07,
+       "b": 8.97,
+       "fr": "La pilule contraceptive contient des hormones de synthèse proches de celles des ovaires.",
+       "sci": false
+      },
+      {
+       "a": 9.25,
+       "b": 14.82,
+       "fr": "En agissant sur le cerveau, elles bloquent l'ovulation : sans ovocyte, pas de fécondation possible.",
+       "sci": false
+      },
+      {
+       "a": 15.7,
+       "b": 20.93,
+       "fr": "Il existe d'autres moyens de contraception : le préservatif, le stérilet, ou l'implant.",
+       "sci": false
+      },
+      {
+       "a": 21.21,
+       "b": 28.67,
+       "fr": "La contraception d'urgence, à prendre le plus tôt possible après un rapport non protégé, peut empêcher une grossesse non désirée.",
+       "sci": false
+      },
+      {
+       "a": 29.55,
+       "b": 39.69,
+       "fr": "Le préservatif est le seul moyen de contraception qui protège aussi des infections sexuellement transmissibles, comme le VIH, la chlamydia ou le papillomavirus.",
+       "sci": false
+      },
+      {
+       "a": 39.97,
+       "b": 46.09,
+       "fr": "Un dépistage permet de les détecter et de les traiter, et un vaccin protège contre le papillomavirus.",
+       "sci": false
+      },
+      {
+       "a": 46.97,
+       "b": 53.8,
+       "fr": "Enfin, quand un couple n'arrive pas à avoir d'enfant, la médecine peut l'aider : c'est l'assistance médicale à la procréation.",
+       "sci": false
+      },
+      {
+       "a": 54.08,
+       "b": 62.57,
+       "fr": "Par exemple, avec la fécondation in vitro, la rencontre des gamètes se fait au laboratoire, puis l'embryon est placé dans l'utérus.",
+       "sci": false
+      },
+      {
+       "a": 63.45,
+       "b": 70.76,
+       "fr": "En science : les contraceptifs hormonaux, comme la pilule, empêchent l'ovulation en agissant sur l'hypothalamus et l'hypophyse.",
+       "sci": true
+      },
+      {
+       "a": 71.04,
+       "b": 76.61,
+       "fr": "Le préservatif est le seul moyen qui protège aussi des infections sexuellement transmissibles.",
+       "sci": true
+      },
+      {
+       "a": 76.89,
+       "b": 83.23,
+       "fr": "Le dépistage et la vaccination, contre le papillomavirus par exemple, font partie de la prévention.",
+       "sci": true
+      },
+      {
+       "a": 83.51,
+       "b": 89.99,
+       "fr": "L'assistance médicale à la procréation, comme la fécondation in vitro, aide les couples infertiles.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": "Microorganismes et santé",
+   "poster": "clips/s08/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : le monde microbien",
+     "dur": 67.13,
+     "v": "clips/s08/c01.mp4",
+     "p": "clips/s08/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.81,
+       "fr": "Les microorganismes sont des êtres vivants trop petits pour être vus à l'œil nu.",
+       "sci": false
+      },
+      {
+       "a": 5.09,
+       "b": 6.71,
+       "fr": "On les observe au microscope.",
+       "sci": false
+      },
+      {
+       "a": 6.99,
+       "b": 11.34,
+       "fr": "Ce sont surtout des bactéries, des levures et d'autres champignons microscopiques.",
+       "sci": false
+      },
+      {
+       "a": 11.62,
+       "b": 15.23,
+       "fr": "Les virus, eux, ne sont pas des cellules, mais on les étudie avec eux.",
+       "sci": false
+      },
+      {
+       "a": 16.11,
+       "b": 27.44,
+       "fr": "Pour se rendre compte des tailles : une cellule humaine mesure environ vingt micromètres, une bactérie environ deux micromètres, et un virus environ cent nanomètres, soit vingt fois plus petit qu'une bactérie.",
+       "sci": false
+      },
+      {
+       "a": 27.72,
+       "b": 30.43,
+       "fr": "Un micromètre, c'est un millième de millimètre.",
+       "sci": false
+      },
+      {
+       "a": 31.31,
+       "b": 35.12,
+       "fr": "Les microorganismes sont partout : dans l'air, l'eau, le sol, et sur nous.",
+       "sci": false
+      },
+      {
+       "a": 35.4,
+       "b": 39.65,
+       "fr": "Notre corps héberge des milliers de milliards de bactéries, surtout dans l'intestin.",
+       "sci": false
+      },
+      {
+       "a": 39.93,
+       "b": 42.13,
+       "fr": "Cet ensemble s'appelle le microbiote.",
+       "sci": false
+      },
+      {
+       "a": 42.41,
+       "b": 45.99,
+       "fr": "La grande majorité de ces microbes ne nous rendent pas malades.",
+       "sci": false
+      },
+      {
+       "a": 46.87,
+       "b": 54.12,
+       "fr": "En science : les microorganismes regroupent des êtres vivants microscopiques, comme les bactéries, les levures et d'autres champignons.",
+       "sci": true
+      },
+      {
+       "a": 54.4,
+       "b": 59.27,
+       "fr": "Les virus ne sont pas des cellules : ils ne peuvent se multiplier qu'à l'intérieur d'une cellule.",
+       "sci": true
+      },
+      {
+       "a": 59.55,
+       "b": 66.25,
+       "fr": "L'ensemble des microorganismes qui vivent dans et sur notre corps forme le microbiote, composé surtout de bactéries.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le microbiote, un allié",
+     "dur": 58.63,
+     "v": "clips/s08/c02.mp4",
+     "p": "clips/s08/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.91,
+       "fr": "Le microbiote intestinal nous rend de nombreux services.",
+       "sci": false
+      },
+      {
+       "a": 4.19,
+       "b": 10.91,
+       "fr": "Ses bactéries digèrent une partie des fibres alimentaires que nous ne savons pas digérer, et elles produisent certaines vitamines.",
+       "sci": false
+      },
+      {
+       "a": 11.79,
+       "b": 13.12,
+       "fr": "Il nous protège aussi.",
+       "sci": false
+      },
+      {
+       "a": 13.4,
+       "b": 18.58,
+       "fr": "En occupant toute la place, les bonnes bactéries empêchent les bactéries dangereuses de s'installer.",
+       "sci": false
+      },
+      {
+       "a": 18.86,
+       "b": 21.91,
+       "fr": "Et il aide notre système immunitaire à bien fonctionner.",
+       "sci": false
+      },
+      {
+       "a": 22.79,
+       "b": 28.61,
+       "fr": "Ce microbiote se forme dès la naissance, et il dépend de notre alimentation et de notre mode de vie.",
+       "sci": false
+      },
+      {
+       "a": 28.89,
+       "b": 32.27,
+       "fr": "Une alimentation variée, riche en fibres, le favorise.",
+       "sci": false
+      },
+      {
+       "a": 32.55,
+       "b": 36.79,
+       "fr": "À l'inverse, des antibiotiques pris sans nécessité peuvent le déséquilibrer.",
+       "sci": false
+      },
+      {
+       "a": 37.67,
+       "b": 48.79,
+       "fr": "En science : le microbiote intestinal participe à la digestion, à la production de vitamines et à la protection contre les microorganismes pathogènes, notamment en occupant leur place.",
+       "sci": true
+      },
+      {
+       "a": 49.07,
+       "b": 52.78,
+       "fr": "Il contribue aussi au bon fonctionnement du système immunitaire.",
+       "sci": true
+      },
+      {
+       "a": 53.06,
+       "b": 57.75,
+       "fr": "Sa composition dépend de l'histoire de chacun, de l'alimentation et des médicaments.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Agents pathogènes et prévention",
+     "dur": 72.59,
+     "v": "clips/s08/c03.mp4",
+     "p": "clips/s08/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.04,
+       "fr": "Certains microorganismes, dits pathogènes, provoquent des maladies.",
+       "sci": false
+      },
+      {
+       "a": 4.32,
+       "b": 8.89,
+       "fr": "Par exemple, une bactérie cause la tuberculose, et un virus cause la grippe.",
+       "sci": false
+      },
+      {
+       "a": 9.17,
+       "b": 14.65,
+       "fr": "Ils peuvent se transmettre par l'air, par contact, par l'eau ou l'alimentation, ou par voie sexuelle.",
+       "sci": false
+      },
+      {
+       "a": 15.53,
+       "b": 23.55,
+       "fr": "Contre ces maladies, il existe des gestes simples : se laver les mains, tousser dans son coude, cuire les aliments, et utiliser des préservatifs.",
+       "sci": false
+      },
+      {
+       "a": 23.83,
+       "b": 30.81,
+       "fr": "La vaccination protège aussi, en préparant notre système immunitaire à reconnaître un microbe avant de le rencontrer.",
+       "sci": false
+      },
+      {
+       "a": 31.69,
+       "b": 35.21,
+       "fr": "Contre les bactéries, les médecins utilisent des antibiotiques.",
+       "sci": false
+      },
+      {
+       "a": 35.49,
+       "b": 39.22,
+       "fr": "Attention : les antibiotiques ne servent à rien contre les virus.",
+       "sci": false
+      },
+      {
+       "a": 39.5,
+       "b": 44.28,
+       "fr": "Et à force de les utiliser, des bactéries résistantes apparaissent et se multiplient.",
+       "sci": false
+      },
+      {
+       "a": 44.56,
+       "b": 48.25,
+       "fr": "C'est pour cela qu'il faut les prendre uniquement quand le médecin les prescrit.",
+       "sci": false
+      },
+      {
+       "a": 49.13,
+       "b": 53.65,
+       "fr": "En science : les agents pathogènes sont des microorganismes qui provoquent des maladies.",
+       "sci": true
+      },
+      {
+       "a": 53.93,
+       "b": 58.45,
+       "fr": "On limite leur transmission par l'hygiène, et on s'en protège par la vaccination.",
+       "sci": true
+      },
+      {
+       "a": 58.73,
+       "b": 64.58,
+       "fr": "Les antibiotiques tuent les bactéries ou bloquent leur multiplication, mais ils sont sans effet sur les virus.",
+       "sci": true
+      },
+      {
+       "a": 64.86,
+       "b": 71.71,
+       "fr": "Leur usage excessif sélectionne des bactéries résistantes, ce qui est aujourd'hui un grand enjeu de santé publique.",
+       "sci": true
+      }
+     ]
+    }
+   ]
   }
  ]
 }
