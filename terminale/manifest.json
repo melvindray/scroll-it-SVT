@@ -1,0 +1,333 @@
+{
+ "level": "terminale",
+ "films": [
+  {
+   "id": "t01",
+   "title": "La méiose et le brassage génétique",
+   "poster": "clips/t01/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : chromosomes, 2n et n",
+     "dur": 87.31,
+     "v": "clips/t01/c01.mp4",
+     "p": "clips/t01/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.89,
+       "fr": "Avant de parler de méiose, il faut maîtriser quelques bases.",
+       "sci": false
+      },
+      {
+       "a": 4.17,
+       "b": 7.2,
+       "fr": "L'ADN de chaque cellule est découpé en chromosomes.",
+       "sci": false
+      },
+      {
+       "a": 7.48,
+       "b": 10.79,
+       "fr": "Chez l'être humain, une cellule du corps en contient quarante-six.",
+       "sci": false
+      },
+      {
+       "a": 11.67,
+       "b": 15.19,
+       "fr": "Ces quarante-six chromosomes vont par paires : il y en a vingt-trois paires.",
+       "sci": false
+      },
+      {
+       "a": 15.47,
+       "b": 19.22,
+       "fr": "Dans chaque paire, un chromosome vient de ta mère, et l'autre de ton père.",
+       "sci": false
+      },
+      {
+       "a": 19.5,
+       "b": 24.0,
+       "fr": "Les deux portent les mêmes gènes, aux mêmes endroits, mais pas forcément les mêmes allèles.",
+       "sci": false
+      },
+      {
+       "a": 24.28,
+       "b": 26.35,
+       "fr": "On les appelle des chromosomes homologues.",
+       "sci": false
+      },
+      {
+       "a": 27.23,
+       "b": 33.55,
+       "fr": "Une cellule qui possède des paires de chromosomes est dite diploïde, et on note deux n son nombre de chromosomes.",
+       "sci": false
+      },
+      {
+       "a": 33.83,
+       "b": 36.03,
+       "fr": "Chez l'humain, deux n égale quarante-six.",
+       "sci": false
+      },
+      {
+       "a": 36.31,
+       "b": 42.96,
+       "fr": "Une cellule qui ne possède qu'un seul chromosome de chaque paire est dite haploïde : on note n, et n égale vingt-trois.",
+       "sci": false
+      },
+      {
+       "a": 43.24,
+       "b": 46.97,
+       "fr": "C'est le cas des gamètes, c'est-à-dire des spermatozoïdes et des ovules.",
+       "sci": false
+      },
+      {
+       "a": 47.85,
+       "b": 51.05,
+       "fr": "Dernier rappel : avant une division, l'ADN est copié.",
+       "sci": false
+      },
+      {
+       "a": 51.33,
+       "b": 56.63,
+       "fr": "Chaque chromosome est alors formé de deux chromatides identiques, reliées par un centromère.",
+       "sci": false
+      },
+      {
+       "a": 56.91,
+       "b": 59.42,
+       "fr": "C'est la forme en X que l'on voit sur les photos.",
+       "sci": false
+      },
+      {
+       "a": 59.7,
+       "b": 63.46,
+       "fr": "Quand les chromatides se séparent, chaque chromosome n'en compte plus qu'une.",
+       "sci": false
+      },
+      {
+       "a": 64.34,
+       "b": 72.08,
+       "fr": "En science : les cellules du corps humain sont diploïdes, avec deux n égale quarante-six, soit vingt-trois paires de chromosomes homologues.",
+       "sci": true
+      },
+      {
+       "a": 72.36,
+       "b": 75.33,
+       "fr": "Les gamètes sont haploïdes, avec n égale vingt-trois.",
+       "sci": true
+      },
+      {
+       "a": 75.61,
+       "b": 81.09,
+       "fr": "Un chromosome possède une chromatide, ou deux chromatides après la réplication de l'ADN.",
+       "sci": true
+      },
+      {
+       "a": 81.37,
+       "b": 86.43,
+       "fr": "La fécondation, en réunissant deux gamètes haploïdes, reforme une cellule-œuf diploïde.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Les deux divisions de la méiose",
+     "dur": 80.7,
+     "v": "clips/t01/c02.mp4",
+     "p": "clips/t01/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.86,
+       "fr": "Si chaque parent te transmettait ses quarante-six chromosomes, tu en aurais quatre-vingt-douze, et tes enfants le double.",
+       "sci": false
+      },
+      {
+       "a": 7.14,
+       "b": 12.13,
+       "fr": "Ce n'est pas le cas, car les gamètes sont fabriqués par une division particulière : la méiose.",
+       "sci": false
+      },
+      {
+       "a": 13.01,
+       "b": 19.17,
+       "fr": "La méiose part d'une cellule diploïde dont les chromosomes ont déjà été copiés : ils sont à deux chromatides.",
+       "sci": false
+      },
+      {
+       "a": 19.45,
+       "b": 23.72,
+       "fr": "Elle enchaîne ensuite deux divisions, sans nouvelle copie de l'ADN entre les deux.",
+       "sci": false
+      },
+      {
+       "a": 24.0,
+       "b": 27.8,
+       "fr": "Pour simplifier, on représente ici seulement deux paires de chromosomes.",
+       "sci": false
+      },
+      {
+       "a": 28.68,
+       "b": 38.02,
+       "fr": "Pendant la première division, les chromosomes homologues se placent côte à côte, par paires, puis ils se séparent : un chromosome de chaque paire part dans chaque cellule fille.",
+       "sci": false
+      },
+      {
+       "a": 38.3,
+       "b": 42.97,
+       "fr": "On obtient deux cellules haploïdes, mais leurs chromosomes ont encore deux chromatides.",
+       "sci": false
+      },
+      {
+       "a": 43.85,
+       "b": 50.28,
+       "fr": "Pendant la deuxième division, ce sont les deux chromatides de chaque chromosome qui se séparent, comme dans une mitose.",
+       "sci": false
+      },
+      {
+       "a": 50.56,
+       "b": 55.7,
+       "fr": "À la fin, on obtient quatre cellules haploïdes, dont les chromosomes n'ont qu'une seule chromatide.",
+       "sci": false
+      },
+      {
+       "a": 55.98,
+       "b": 57.62,
+       "fr": "Ce sont les futurs gamètes.",
+       "sci": false
+      },
+      {
+       "a": 58.5,
+       "b": 64.52,
+       "fr": "En science : la méiose est une succession de deux divisions, précédée d'une seule réplication de l'ADN.",
+       "sci": true
+      },
+      {
+       "a": 64.8,
+       "b": 71.49,
+       "fr": "La première division est dite réductionnelle : elle sépare les chromosomes homologues, et fait passer de deux n à n.",
+       "sci": true
+      },
+      {
+       "a": 71.77,
+       "b": 76.0,
+       "fr": "La deuxième division est dite équationnelle : elle sépare les chromatides.",
+       "sci": true
+      },
+      {
+       "a": 76.28,
+       "b": 79.82,
+       "fr": "Une cellule mère diploïde donne ainsi quatre cellules haploïdes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Le brassage génétique",
+     "dur": 96.62,
+     "v": "clips/t01/c03.mp4",
+     "p": "clips/t01/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.08,
+       "fr": "Pourquoi deux frères et sœurs, nés des mêmes parents, sont-ils différents ?",
+       "sci": false
+      },
+      {
+       "a": 4.36,
+       "b": 7.5,
+       "fr": "Parce que chaque gamète reçoit une combinaison d'allèles unique.",
+       "sci": false
+      },
+      {
+       "a": 7.78,
+       "b": 12.88,
+       "fr": "La méiose mélange les allèles de deux façons : c'est ce qu'on appelle le brassage génétique.",
+       "sci": false
+      },
+      {
+       "a": 13.76,
+       "b": 21.74,
+       "fr": "Premier mélange : pendant la première division, chaque paire de chromosomes homologues se répartit au hasard, indépendamment des autres paires.",
+       "sci": false
+      },
+      {
+       "a": 22.02,
+       "b": 24.77,
+       "fr": "C'est comme si on lançait une pièce pour chaque paire.",
+       "sci": false
+      },
+      {
+       "a": 25.05,
+       "b": 27.14,
+       "fr": "C'est le brassage interchromosomique.",
+       "sci": false
+      },
+      {
+       "a": 28.02,
+       "b": 32.46,
+       "fr": "Avec deux paires de chromosomes, on obtient déjà quatre combinaisons possibles.",
+       "sci": false
+      },
+      {
+       "a": 32.74,
+       "b": 39.88,
+       "fr": "Avec vingt-trois paires, on en obtient deux puissance vingt-trois, soit plus de huit millions de gamètes différents, pour une seule personne.",
+       "sci": false
+      },
+      {
+       "a": 40.76,
+       "b": 50.75,
+       "fr": "Deuxième mélange : au début de la première division, les chromosomes homologues sont collés l'un contre l'autre, et leurs chromatides peuvent se croiser, puis échanger des morceaux.",
+       "sci": false
+      },
+      {
+       "a": 51.03,
+       "b": 52.69,
+       "fr": "C'est le crossing-over.",
+       "sci": false
+      },
+      {
+       "a": 52.97,
+       "b": 58.73,
+       "fr": "Il crée sur un même chromosome de nouvelles associations d'allèles : c'est le brassage intrachromosomique.",
+       "sci": false
+      },
+      {
+       "a": 59.61,
+       "b": 63.43,
+       "fr": "Enfin, la fécondation réunit au hasard un gamète de chaque parent.",
+       "sci": false
+      },
+      {
+       "a": 63.71,
+       "b": 69.32,
+       "fr": "En combinant tous ces mélanges, chaque individu est génétiquement unique, à l'exception des vrais jumeaux.",
+       "sci": false
+      },
+      {
+       "a": 70.2,
+       "b": 79.82,
+       "fr": "En science : le brassage interchromosomique vient de la répartition au hasard, et indépendante, des chromosomes homologues pendant l'anaphase de la première division.",
+       "sci": true
+      },
+      {
+       "a": 80.1,
+       "b": 90.43,
+       "fr": "Le brassage intrachromosomique vient des crossing-over, des échanges de portions de chromatides entre chromosomes homologues, pendant la prophase de la première division.",
+       "sci": true
+      },
+      {
+       "a": 90.71,
+       "b": 95.74,
+       "fr": "La fécondation, en réunissant deux gamètes au hasard, amplifie encore cette diversité.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

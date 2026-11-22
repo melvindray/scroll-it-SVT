@@ -1,0 +1,20 @@
+{
+ "levels": [
+  {
+   "id": "seconde",
+   "name": "Seconde",
+   "base": "seconde/"
+  },
+  {
+   "id": "premiere",
+   "name": "Première",
+   "base": "premiere/"
+  },
+  {
+   "id": "terminale",
+   "name": "Terminale",
+   "base": "terminale/"
+  }
+ ],
+ "track": "https://script.google.com/macros/s/AKfycbzQHgD5hOFod5V9SjdwbdPpbtb0j4ggXZznX8rydx9NFN5CGTWdN_Y9jIA9j0qo41PKYg/exec"
+}

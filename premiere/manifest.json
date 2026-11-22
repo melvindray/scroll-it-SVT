@@ -1,0 +1,339 @@
+{
+ "level": "premiere",
+ "films": [
+  {
+   "id": "p01",
+   "title": "Du gène à la protéine",
+   "poster": "clips/p01/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : ADN, gènes et protéines",
+     "dur": 72.15,
+     "v": "clips/p01/c01.mp4",
+     "p": "clips/p01/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 1.97,
+       "fr": "Commençons par un rappel.",
+       "sci": false
+      },
+      {
+       "a": 2.25,
+       "b": 7.05,
+       "fr": "L'ADN est une longue molécule en double hélice, rangée dans le noyau de chaque cellule.",
+       "sci": false
+      },
+      {
+       "a": 7.33,
+       "b": 14.71,
+       "fr": "Ses deux brins sont faits de nucléotides, A, T, C et G, et ils sont complémentaires : A est en face de T, et C en face de G.",
+       "sci": false
+      },
+      {
+       "a": 15.59,
+       "b": 19.2,
+       "fr": "Une portion d'ADN qui porte une information s'appelle un gène.",
+       "sci": false
+      },
+      {
+       "a": 19.48,
+       "b": 24.11,
+       "fr": "Et cette information sert le plus souvent à une seule chose : fabriquer une protéine.",
+       "sci": false
+      },
+      {
+       "a": 24.99,
+       "b": 31.86,
+       "fr": "Une protéine est une chaîne de petites molécules, les acides aminés, accrochés les uns aux autres comme les perles d'un collier.",
+       "sci": false
+      },
+      {
+       "a": 32.14,
+       "b": 38.92,
+       "fr": "Il existe vingt acides aminés différents, et c'est leur ordre qui donne à chaque protéine sa forme, et donc son rôle.",
+       "sci": false
+      },
+      {
+       "a": 39.8,
+       "b": 46.35,
+       "fr": "Le problème, c'est que l'ADN reste enfermé dans le noyau, alors que les protéines sont fabriquées dans le cytoplasme.",
+       "sci": false
+      },
+      {
+       "a": 46.63,
+       "b": 49.85,
+       "fr": "Il faut donc un messager pour transporter l'information.",
+       "sci": false
+      },
+      {
+       "a": 50.13,
+       "b": 51.95,
+       "fr": "Ce messager, c'est l'ARN messager.",
+       "sci": false
+      },
+      {
+       "a": 52.83,
+       "b": 55.98,
+       "fr": "En science : l'expression d'un gène se fait en deux étapes.",
+       "sci": true
+      },
+      {
+       "a": 56.26,
+       "b": 60.87,
+       "fr": "D'abord, la transcription, dans le noyau : l'ADN est copié en ARN messager.",
+       "sci": true
+      },
+      {
+       "a": 61.15,
+       "b": 66.68,
+       "fr": "Ensuite, la traduction, dans le cytoplasme : l'ARN messager est lu pour assembler la protéine.",
+       "sci": true
+      },
+      {
+       "a": 66.96,
+       "b": 71.27,
+       "fr": "On résume par la chaîne : ADN, puis ARN messager, puis protéine.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "La transcription",
+     "dur": 97.01,
+     "v": "clips/p01/c02.mp4",
+     "p": "clips/p01/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.28,
+       "fr": "Imagine un livre de recettes très précieux, interdit de sortie de la bibliothèque.",
+       "sci": false
+      },
+      {
+       "a": 5.56,
+       "b": 10.7,
+       "fr": "Pour cuisiner, on ne prend pas le livre : on photocopie seulement la recette dont on a besoin.",
+       "sci": false
+      },
+      {
+       "a": 10.98,
+       "b": 17.29,
+       "fr": "Dans la cellule, la bibliothèque, c'est le noyau, le livre, c'est l'ADN, et la photocopie, c'est l'ARN messager.",
+       "sci": false
+      },
+      {
+       "a": 18.17,
+       "b": 21.89,
+       "fr": "La photocopieuse de la cellule est une enzyme : l'ARN polymérase.",
+       "sci": false
+      },
+      {
+       "a": 22.17,
+       "b": 29.12,
+       "fr": "Elle se fixe au début du gène, puis elle sépare localement les deux brins de l'ADN, comme une fermeture éclair qu'on ouvre.",
+       "sci": false
+      },
+      {
+       "a": 30.0,
+       "b": 33.24,
+       "fr": "Elle lit un seul des deux brins, qu'on appelle le brin transcrit.",
+       "sci": false
+      },
+      {
+       "a": 33.52,
+       "b": 42.12,
+       "fr": "En face de chaque nucléotide de l'ADN, elle place le nucléotide d'ARN complémentaire, et elle les relie les uns aux autres pour former un brin d'ARN.",
+       "sci": false
+      },
+      {
+       "a": 43.0,
+       "b": 46.41,
+       "fr": "Attention, il y a un piège : l'ARN ne contient pas de thymine.",
+       "sci": false
+      },
+      {
+       "a": 46.69,
+       "b": 49.3,
+       "fr": "À la place, il contient de l'uracile, noté U.",
+       "sci": false
+      },
+      {
+       "a": 49.58,
+       "b": 53.4,
+       "fr": "Donc, en face d'un A de l'ADN, l'ARN polymérase place un U.",
+       "sci": false
+      },
+      {
+       "a": 53.68,
+       "b": 57.41,
+       "fr": "Par exemple, le brin transcrit T, A, C, donne l'ARN A, U, G.",
+       "sci": false
+      },
+      {
+       "a": 58.29,
+       "b": 69.45,
+       "fr": "Une fois le gène entièrement copié, l'ARN messager se détache, l'ADN se referme, et le messager sort du noyau par de petits trous, les pores nucléaires, pour rejoindre le cytoplasme.",
+       "sci": false
+      },
+      {
+       "a": 70.33,
+       "b": 72.95,
+       "fr": "En science : la transcription a lieu dans le noyau.",
+       "sci": true
+      },
+      {
+       "a": 73.23,
+       "b": 78.69,
+       "fr": "L'ARN polymérase fabrique un ARN messager complémentaire du brin transcrit de l'ADN.",
+       "sci": true
+      },
+      {
+       "a": 78.97,
+       "b": 84.97,
+       "fr": "L'ARN n'a qu'un seul brin, il contient un sucre appelé ribose, et de l'uracile à la place de la thymine.",
+       "sci": true
+      },
+      {
+       "a": 85.25,
+       "b": 96.13,
+       "fr": "Chez les eucaryotes, l'ARN est ensuite maturé : certaines portions, les introns, sont retirées, et seules les portions appelées exons sont conservées, avant que l'ARN messager quitte le noyau.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Le code génétique et la traduction",
+     "dur": 99.15,
+     "v": "clips/p01/c03.mp4",
+     "p": "clips/p01/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.02,
+       "fr": "L'ARN messager arrive dans le cytoplasme.",
+       "sci": false
+      },
+      {
+       "a": 3.3,
+       "b": 10.55,
+       "fr": "Il faut maintenant traduire un message écrit avec quatre lettres, A, U, G et C, en une chaîne faite parmi vingt acides aminés.",
+       "sci": false
+      },
+      {
+       "a": 10.83,
+       "b": 11.85,
+       "fr": "Comment faire ?",
+       "sci": false
+      },
+      {
+       "a": 12.13,
+       "b": 13.86,
+       "fr": "En lisant les lettres trois par trois.",
+       "sci": false
+      },
+      {
+       "a": 14.74,
+       "b": 17.49,
+       "fr": "Chaque groupe de trois nucléotides s'appelle un codon.",
+       "sci": false
+      },
+      {
+       "a": 17.77,
+       "b": 20.74,
+       "fr": "Et chaque codon correspond à un acide aminé précis.",
+       "sci": false
+      },
+      {
+       "a": 21.02,
+       "b": 25.35,
+       "fr": "Ce dictionnaire, qui relie les codons aux acides aminés, c'est le code génétique.",
+       "sci": false
+      },
+      {
+       "a": 25.63,
+       "b": 29.3,
+       "fr": "Par exemple, le codon U, U, U, correspond à la phénylalanine.",
+       "sci": false
+      },
+      {
+       "a": 30.18,
+       "b": 34.43,
+       "fr": "La lecture est faite par une petite machine du cytoplasme : le ribosome.",
+       "sci": false
+      },
+      {
+       "a": 34.71,
+       "b": 44.37,
+       "fr": "Il se fixe sur l'ARN messager, cherche le codon de départ, A, U, G, puis il avance codon après codon, en ajoutant à chaque fois le bon acide aminé à la chaîne.",
+       "sci": false
+      },
+      {
+       "a": 45.25,
+       "b": 50.58,
+       "fr": "Quand le ribosome rencontre un codon stop, comme U, A, A, il n'y a plus d'acide aminé à ajouter.",
+       "sci": false
+      },
+      {
+       "a": 50.86,
+       "b": 53.4,
+       "fr": "La protéine est terminée, et elle se détache.",
+       "sci": false
+      },
+      {
+       "a": 53.68,
+       "b": 57.67,
+       "fr": "Elle se replie ensuite pour prendre sa forme, et pouvoir jouer son rôle.",
+       "sci": false
+      },
+      {
+       "a": 58.55,
+       "b": 65.4,
+       "fr": "Le code génétique est universel : le même codon donne le même acide aminé chez l'humain, la bactérie ou la plante.",
+       "sci": false
+      },
+      {
+       "a": 65.68,
+       "b": 72.04,
+       "fr": "C'est grâce à cela qu'on peut faire fabriquer de l'insuline humaine par des bactéries, pour soigner les personnes diabétiques.",
+       "sci": false
+      },
+      {
+       "a": 72.92,
+       "b": 77.25,
+       "fr": "En science : la traduction a lieu dans le cytoplasme, au niveau des ribosomes.",
+       "sci": true
+      },
+      {
+       "a": 77.53,
+       "b": 81.92,
+       "fr": "L'ARN messager est lu par codons, c'est-à-dire par groupes de trois nucléotides.",
+       "sci": true
+      },
+      {
+       "a": 82.2,
+       "b": 85.96,
+       "fr": "Le code génétique fait correspondre chaque codon à un acide aminé.",
+       "sci": true
+      },
+      {
+       "a": 86.24,
+       "b": 89.95,
+       "fr": "Il comporte un codon de départ, A, U, G, et trois codons stop.",
+       "sci": true
+      },
+      {
+       "a": 90.23,
+       "b": 98.27,
+       "fr": "Il est redondant, car plusieurs codons peuvent coder le même acide aminé, et il est universel, car il est le même chez presque tous les êtres vivants.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
