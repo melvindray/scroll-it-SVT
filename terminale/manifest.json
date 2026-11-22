@@ -830,6 +830,564 @@
    ]
   },
   {
+   "id": "t08",
+   "title": "Symbioses et comportements",
+   "poster": "clips/t08/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Les symbioses",
+     "dur": 71.67,
+     "v": "clips/t08/c01.mp4",
+     "p": "clips/t08/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.13,
+       "fr": "Rappel : les mutations et le brassage génétique ne sont pas les seules sources de diversité du vivant.",
+       "sci": false
+      },
+      {
+       "a": 6.41,
+       "b": 10.79,
+       "fr": "Des associations entre espèces différentes créent aussi de nouvelles formes de vie.",
+       "sci": false
+      },
+      {
+       "a": 11.07,
+       "b": 17.19,
+       "fr": "Quand deux espèces vivent ensemble durablement et en tirent toutes les deux un bénéfice, on parle de symbiose.",
+       "sci": false
+      },
+      {
+       "a": 18.07,
+       "b": 20.07,
+       "fr": "Le lichen en est un bel exemple.",
+       "sci": false
+      },
+      {
+       "a": 20.35,
+       "b": 22.66,
+       "fr": "Il est formé d'un champignon et d'une algue.",
+       "sci": false
+      },
+      {
+       "a": 22.94,
+       "b": 28.89,
+       "fr": "L'algue fait la photosynthèse et fournit des sucres, et le champignon protège l'algue et lui apporte de l'eau.",
+       "sci": false
+      },
+      {
+       "a": 29.17,
+       "b": 33.35,
+       "fr": "Ensemble, ils colonisent des rochers nus où aucun des deux ne survivrait seul.",
+       "sci": false
+      },
+      {
+       "a": 34.23,
+       "b": 40.18,
+       "fr": "Autre exemple : la plupart des plantes vivent associées à des champignons du sol, au niveau de leurs racines.",
+       "sci": false
+      },
+      {
+       "a": 40.46,
+       "b": 42.49,
+       "fr": "Ce sont les mycorhizes.",
+       "sci": false
+      },
+      {
+       "a": 42.77,
+       "b": 48.08,
+       "fr": "Le champignon aide la plante à puiser l'eau et les sels minéraux, et la plante lui donne des sucres.",
+       "sci": false
+      },
+      {
+       "a": 48.96,
+       "b": 54.61,
+       "fr": "En science : une symbiose est une association durable entre deux espèces, à bénéfices réciproques.",
+       "sci": true
+      },
+      {
+       "a": 54.89,
+       "b": 59.93,
+       "fr": "Les lichens, les mycorhizes, ou encore le microbiote, en sont des exemples.",
+       "sci": true
+      },
+      {
+       "a": 60.21,
+       "b": 70.79,
+       "fr": "Les symbioses permettent l'apparition de nouvelles capacités et la colonisation de nouveaux milieux, sans modification du génome des partenaires : elles contribuent à la diversité du vivant.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "La transmission culturelle des comportements",
+     "dur": 58.99,
+     "v": "clips/t08/c02.mp4",
+     "p": "clips/t08/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.36,
+       "fr": "Certains comportements ne sont pas inscrits dans les gènes : ils s'apprennent.",
+       "sci": false
+      },
+      {
+       "a": 4.64,
+       "b": 9.44,
+       "fr": "Chez certains oiseaux, comme le pinson, les jeunes apprennent leur chant en écoutant un adulte.",
+       "sci": false
+      },
+      {
+       "a": 9.72,
+       "b": 12.79,
+       "fr": "Isolé, un jeune pinson produit un chant très simplifié.",
+       "sci": false
+      },
+      {
+       "a": 13.67,
+       "b": 17.3,
+       "fr": "Ces chants appris peuvent varier d'une région à l'autre, comme des accents.",
+       "sci": false
+      },
+      {
+       "a": 17.58,
+       "b": 23.79,
+       "fr": "Ils se transmettent de génération en génération, sans passer par l'ADN : c'est une transmission culturelle.",
+       "sci": false
+      },
+      {
+       "a": 24.67,
+       "b": 31.84,
+       "fr": "Chez les chimpanzés aussi, certains groupes utilisent des outils, comme des pierres pour casser des noix, que d'autres groupes n'utilisent pas.",
+       "sci": false
+      },
+      {
+       "a": 32.12,
+       "b": 34.57,
+       "fr": "Les jeunes apprennent en observant les adultes.",
+       "sci": false
+      },
+      {
+       "a": 34.85,
+       "b": 38.9,
+       "fr": "Ces comportements transmis contribuent eux aussi à la diversité du vivant.",
+       "sci": false
+      },
+      {
+       "a": 39.78,
+       "b": 49.08,
+       "fr": "En science : certains comportements sont acquis par apprentissage, auprès des congénères, et transmis de génération en génération sans modification du génome.",
+       "sci": true
+      },
+      {
+       "a": 49.36,
+       "b": 54.06,
+       "fr": "C'est le cas du chant de nombreux oiseaux, ou de l'utilisation d'outils chez les chimpanzés.",
+       "sci": true
+      },
+      {
+       "a": 54.34,
+       "b": 58.11,
+       "fr": "Cette transmission culturelle contribue à la diversité du vivant.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t09",
+   "title": "L'évolution, une grille de lecture",
+   "poster": "clips/t09/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "L'histoire de la lignée humaine",
+     "dur": 68.29,
+     "v": "clips/t09/c01.mp4",
+     "p": "clips/t09/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 7.77,
+       "fr": "Rappel : l'humain et le chimpanzé sont deux espèces actuelles qui partagent un ancêtre commun, vieux d'environ sept millions d'années.",
+       "sci": false
+      },
+      {
+       "a": 8.05,
+       "b": 14.41,
+       "fr": "Depuis cette séparation, la lignée humaine a compté de nombreuses espèces, aujourd'hui disparues sauf la nôtre.",
+       "sci": false
+      },
+      {
+       "a": 15.29,
+       "b": 18.43,
+       "fr": "Ces espèces de la lignée humaine sont appelées des homininés.",
+       "sci": false
+      },
+      {
+       "a": 18.71,
+       "b": 23.93,
+       "fr": "Elles partagent un caractère clé : la bipédie, c'est-à-dire la marche sur deux jambes.",
+       "sci": false
+      },
+      {
+       "a": 24.21,
+       "b": 27.65,
+       "fr": "Avec le temps, le volume du cerveau a aussi beaucoup augmenté.",
+       "sci": false
+      },
+      {
+       "a": 28.53,
+       "b": 33.41,
+       "fr": "Notre espèce, Homo sapiens, est apparue en Afrique il y a environ trois cent mille ans.",
+       "sci": false
+      },
+      {
+       "a": 33.69,
+       "b": 43.44,
+       "fr": "Elle a cohabité avec d'autres espèces humaines, comme Néandertal en Europe, avec qui elle s'est parfois reproduite : il reste un peu d'ADN néandertalien dans nos génomes.",
+       "sci": false
+      },
+      {
+       "a": 44.32,
+       "b": 53.71,
+       "fr": "En science : la lignée humaine, ou homininés, est un buisson d'espèces apparues après la divergence avec la lignée des chimpanzés, il y a environ sept millions d'années.",
+       "sci": true
+      },
+      {
+       "a": 53.99,
+       "b": 60.84,
+       "fr": "Les caractères dérivés comme la bipédie et l'augmentation du volume crânien sont apparus progressivement.",
+       "sci": true
+      },
+      {
+       "a": 61.12,
+       "b": 67.41,
+       "fr": "Homo sapiens apparaît en Afrique il y a environ trois cent mille ans, et a échangé des gènes avec Néandertal.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Notre corps, héritier de l’évolution",
+     "dur": 68.66,
+     "v": "clips/t09/c02.mp4",
+     "p": "clips/t09/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.12,
+       "fr": "L'évolution permet de comprendre notre corps.",
+       "sci": false
+      },
+      {
+       "a": 3.4,
+       "b": 8.29,
+       "fr": "Certaines de ses particularités, qui semblent mal conçues, s'expliquent par notre histoire.",
+       "sci": false
+      },
+      {
+       "a": 8.57,
+       "b": 15.74,
+       "fr": "Par exemple, chez l'humain, les voies de la respiration et de la nourriture se croisent dans la gorge, ce qui expose aux fausses routes.",
+       "sci": false
+      },
+      {
+       "a": 16.62,
+       "b": 29.2,
+       "fr": "Autre exemple : la bipédie a libéré nos mains, mais elle a aussi des inconvénients, comme les douleurs de dos, ou un accouchement plus difficile, car le bassin est étroit alors que la tête du bébé est grosse.",
+       "sci": false
+      },
+      {
+       "a": 29.48,
+       "b": 33.37,
+       "fr": "L'évolution ne produit pas des organismes parfaits, mais des compromis.",
+       "sci": false
+      },
+      {
+       "a": 34.25,
+       "b": 36.44,
+       "fr": "L'évolution éclaire aussi la médecine.",
+       "sci": false
+      },
+      {
+       "a": 36.72,
+       "b": 43.66,
+       "fr": "Les bactéries évoluent sous l'effet des antibiotiques, et les virus évoluent face à nos défenses immunitaires et aux vaccins.",
+       "sci": false
+      },
+      {
+       "a": 43.94,
+       "b": 46.45,
+       "fr": "Comprendre ces mécanismes aide à mieux soigner.",
+       "sci": false
+      },
+      {
+       "a": 47.33,
+       "b": 52.56,
+       "fr": "En science : la théorie de l'évolution est une grille de lecture du vivant, y compris du corps humain.",
+       "sci": true
+      },
+      {
+       "a": 52.84,
+       "b": 60.29,
+       "fr": "Certaines structures anatomiques s'expliquent par l'histoire évolutive, et résultent de compromis entre avantages et inconvénients.",
+       "sci": true
+      },
+      {
+       "a": 60.57,
+       "b": 67.78,
+       "fr": "L'évolution des agents pathogènes, comme l'antibiorésistance ou l'apparition de variants viraux, est un enjeu majeur de santé.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t07",
+   "title": "La plante, une vie fixée",
+   "poster": "clips/t07/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "L'organisation d'une plante",
+     "dur": 63.26,
+     "v": "clips/t07/c01.mp4",
+     "p": "clips/t07/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.29,
+       "fr": "Une plante ne peut pas se déplacer.",
+       "sci": false
+      },
+      {
+       "a": 2.57,
+       "b": 13.17,
+       "fr": "Pour trouver ce dont elle a besoin, elle a développé de très grandes surfaces d'échange avec son milieu : des feuilles, au contact de l'air et de la lumière, et des racines, au contact du sol.",
+       "sci": false
+      },
+      {
+       "a": 14.05,
+       "b": 15.65,
+       "fr": "Ces surfaces sont immenses.",
+       "sci": false
+      },
+      {
+       "a": 15.93,
+       "b": 24.4,
+       "fr": "Un seul plant de seigle possède des racines dont la surface totale dépasse celle d'un terrain de tennis, grâce à des millions de poils absorbants.",
+       "sci": false
+      },
+      {
+       "a": 24.68,
+       "b": 26.77,
+       "fr": "Les feuilles, elles, sont fines et nombreuses.",
+       "sci": false
+      },
+      {
+       "a": 27.65,
+       "b": 30.6,
+       "fr": "À l'intérieur, deux réseaux de vaisseaux relient les organes.",
+       "sci": false
+      },
+      {
+       "a": 30.88,
+       "b": 35.23,
+       "fr": "La sève brute, faite d'eau et de sels minéraux, monte des racines vers les feuilles.",
+       "sci": false
+      },
+      {
+       "a": 35.51,
+       "b": 41.63,
+       "fr": "La sève élaborée, chargée des sucres fabriqués par la photosynthèse, est distribuée à toute la plante.",
+       "sci": false
+      },
+      {
+       "a": 42.51,
+       "b": 48.61,
+       "fr": "En science : la vie fixée des plantes est associée à de grandes surfaces d'échange, aériennes et souterraines.",
+       "sci": true
+      },
+      {
+       "a": 48.89,
+       "b": 52.99,
+       "fr": "Les racines, avec leurs poils absorbants, prélèvent l'eau et les ions du sol.",
+       "sci": true
+      },
+      {
+       "a": 53.27,
+       "b": 56.34,
+       "fr": "Les feuilles captent la lumière et le dioxyde de carbone.",
+       "sci": true
+      },
+      {
+       "a": 56.62,
+       "b": 62.38,
+       "fr": "Les tissus conducteurs, xylème pour la sève brute et phloème pour la sève élaborée, relient les organes.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Se reproduire sans bouger",
+     "dur": 62.28,
+     "v": "clips/t07/c02.mp4",
+     "p": "clips/t07/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.21,
+       "fr": "Comment une plante fixée peut-elle se reproduire avec une autre plante ?",
+       "sci": false
+      },
+      {
+       "a": 4.49,
+       "b": 9.83,
+       "fr": "Le pollen, qui contient les gamètes mâles, doit être transporté jusqu'au pistil d'une autre fleur.",
+       "sci": false
+      },
+      {
+       "a": 10.11,
+       "b": 11.51,
+       "fr": "C'est la pollinisation.",
+       "sci": false
+      },
+      {
+       "a": 12.39,
+       "b": 16.32,
+       "fr": "Ce transport est souvent assuré par des animaux, surtout des insectes.",
+       "sci": false
+      },
+      {
+       "a": 16.6,
+       "b": 20.61,
+       "fr": "La fleur les attire avec ses couleurs, son parfum et son nectar sucré.",
+       "sci": false
+      },
+      {
+       "a": 20.89,
+       "b": 25.45,
+       "fr": "En butinant, l'insecte se couvre de pollen et le dépose sur la fleur suivante.",
+       "sci": false
+      },
+      {
+       "a": 25.73,
+       "b": 28.57,
+       "fr": "Les deux partenaires y gagnent : c'est une coopération.",
+       "sci": false
+      },
+      {
+       "a": 29.45,
+       "b": 33.97,
+       "fr": "Après la fécondation, la fleur se transforme en fruit, qui contient les graines.",
+       "sci": false
+      },
+      {
+       "a": 34.25,
+       "b": 41.36,
+       "fr": "Les graines doivent ensuite être dispersées, souvent encore par des animaux, qui mangent les fruits et rejettent les graines plus loin.",
+       "sci": false
+      },
+      {
+       "a": 42.24,
+       "b": 52.05,
+       "fr": "En science : chez les plantes à fleurs, la reproduction sexuée passe par la pollinisation, souvent assurée par des animaux pollinisateurs, dans une relation de coopération.",
+       "sci": true
+      },
+      {
+       "a": 52.33,
+       "b": 55.94,
+       "fr": "Après fécondation, la fleur devient un fruit contenant des graines.",
+       "sci": true
+      },
+      {
+       "a": 56.22,
+       "b": 61.4,
+       "fr": "La dispersion des graines, par le vent ou les animaux, permet la colonisation de nouveaux milieux.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "De la plante sauvage à la plante cultivée",
+     "dur": 69.36,
+     "v": "clips/t07/c03.mp4",
+     "p": "clips/t07/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 4.68,
+       "fr": "Il y a environ dix mille ans, les humains ont commencé à cultiver des plantes.",
+       "sci": false
+      },
+      {
+       "a": 4.96,
+       "b": 12.26,
+       "fr": "En gardant à chaque génération les graines des plantes qui leur convenaient le mieux, ils les ont peu à peu transformées : c'est la domestication.",
+       "sci": false
+      },
+      {
+       "a": 13.14,
+       "b": 19.77,
+       "fr": "Par exemple, le maïs vient d'une plante sauvage du Mexique, le téosinte, qui ne portait que quelques graines dures.",
+       "sci": false
+      },
+      {
+       "a": 20.05,
+       "b": 25.58,
+       "fr": "Les plantes cultivées ont souvent des graines plus grosses, plus nombreuses, et qui ne tombent pas toutes seules.",
+       "sci": false
+      },
+      {
+       "a": 26.46,
+       "b": 34.97,
+       "fr": "Aujourd'hui, l'amélioration des plantes utilise aussi des croisements contrôlés, et des techniques de biotechnologie, comme la modification d'un gène précis.",
+       "sci": false
+      },
+      {
+       "a": 35.25,
+       "b": 42.72,
+       "fr": "Mais en sélectionnant peu de variétés, on réduit la diversité génétique des cultures, ce qui les rend plus fragiles face aux maladies.",
+       "sci": false
+      },
+      {
+       "a": 43.6,
+       "b": 50.19,
+       "fr": "En science : la domestication des plantes résulte d'une sélection exercée par les humains depuis environ dix mille ans.",
+       "sci": true
+      },
+      {
+       "a": 50.47,
+       "b": 53.63,
+       "fr": "Elle a modifié les caractères des plantes, et leur génome.",
+       "sci": true
+      },
+      {
+       "a": 53.91,
+       "b": 58.75,
+       "fr": "Les techniques actuelles, croisements et biotechnologies, accélèrent cette amélioration.",
+       "sci": true
+      },
+      {
+       "a": 59.03,
+       "b": 68.48,
+       "fr": "La réduction de la diversité génétique des variétés cultivées est un enjeu, qui justifie la conservation des variétés anciennes et des espèces sauvages.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "t04",
    "title": "Comportements, mouvement et système nerveux",
    "poster": "clips/t04/poster.jpg",

@@ -896,6 +896,208 @@
    ]
   },
   {
+   "id": "p06",
+   "title": "Les enzymes",
+   "poster": "clips/p06/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Rappel : des protéines qui catalysent",
+     "dur": 51.35,
+     "v": "clips/p06/c01.mp4",
+     "p": "clips/p06/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.05,
+       "fr": "Rappel : une protéine est une chaîne d'acides aminés, qui se replie pour prendre une forme précise.",
+       "sci": false
+      },
+      {
+       "a": 6.33,
+       "b": 12.34,
+       "fr": "Les enzymes sont des protéines dont le rôle est d'accélérer des réactions chimiques : on dit qu'elles les catalysent.",
+       "sci": false
+      },
+      {
+       "a": 13.22,
+       "b": 19.96,
+       "fr": "Une enzyme n'est pas consommée par la réaction : une même molécule d'enzyme peut agir des milliers de fois par seconde.",
+       "sci": false
+      },
+      {
+       "a": 20.24,
+       "b": 25.07,
+       "fr": "La molécule transformée s'appelle le substrat, et la molécule obtenue, le produit.",
+       "sci": false
+      },
+      {
+       "a": 25.95,
+       "b": 31.15,
+       "fr": "Exemple : l'amylase, présente dans ta salive, découpe l'amidon du pain en petits sucres.",
+       "sci": false
+      },
+      {
+       "a": 31.43,
+       "b": 35.21,
+       "fr": "C'est pour cela que le pain prend un goût sucré quand on le mâche longtemps.",
+       "sci": false
+      },
+      {
+       "a": 36.09,
+       "b": 43.19,
+       "fr": "En science : les enzymes sont des protéines qui catalysent des réactions chimiques en augmentant leur vitesse, sans être modifiées.",
+       "sci": true
+      },
+      {
+       "a": 43.47,
+       "b": 45.95,
+       "fr": "Chacune transforme un substrat en produit.",
+       "sci": true
+      },
+      {
+       "a": 46.23,
+       "b": 50.47,
+       "fr": "Elles permettent au métabolisme de se dérouler à la température du corps.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Le site actif et la spécificité",
+     "dur": 59.05,
+     "v": "clips/p06/c02.mp4",
+     "p": "clips/p06/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.03,
+       "fr": "Chaque enzyme possède une petite poche, le site actif, dans laquelle vient se fixer le substrat.",
+       "sci": false
+      },
+      {
+       "a": 6.31,
+       "b": 10.91,
+       "fr": "Sa forme correspond exactement à celle du substrat, comme une serrure et sa clé.",
+       "sci": false
+      },
+      {
+       "a": 11.79,
+       "b": 19.64,
+       "fr": "C'est pour cela qu'une enzyme est spécifique : elle ne reconnaît qu'un seul substrat, ou quelques-uns, et ne catalyse qu'un seul type de réaction.",
+       "sci": false
+      },
+      {
+       "a": 19.92,
+       "b": 22.68,
+       "fr": "L'amylase découpe l'amidon, mais pas les protéines.",
+       "sci": false
+      },
+      {
+       "a": 23.56,
+       "b": 29.59,
+       "fr": "La forme du site actif dépend de la séquence des acides aminés de l'enzyme, donc du gène qui la code.",
+       "sci": false
+      },
+      {
+       "a": 29.87,
+       "b": 35.19,
+       "fr": "Une mutation qui change un acide aminé du site actif peut rendre l'enzyme inefficace.",
+       "sci": false
+      },
+      {
+       "a": 36.07,
+       "b": 42.02,
+       "fr": "En science : le substrat se fixe sur le site actif de l'enzyme, et forme un complexe enzyme-substrat.",
+       "sci": true
+      },
+      {
+       "a": 42.3,
+       "b": 52.07,
+       "fr": "La complémentarité de forme entre site actif et substrat explique la double spécificité de l'enzyme : spécificité de substrat et spécificité d'action.",
+       "sci": true
+      },
+      {
+       "a": 52.35,
+       "b": 58.17,
+       "fr": "La structure du site actif dépend de la séquence en acides aminés, donc de l'information génétique.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Ce qui influence l'activité d'une enzyme",
+     "dur": 58.61,
+     "v": "clips/p06/c03.mp4",
+     "p": "clips/p06/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.42,
+       "fr": "L'activité d'une enzyme dépend de la température.",
+       "sci": false
+      },
+      {
+       "a": 3.7,
+       "b": 9.25,
+       "fr": "Elle augmente avec la chaleur, jusqu'à un optimum, autour de trente-sept degrés pour nos enzymes.",
+       "sci": false
+      },
+      {
+       "a": 9.53,
+       "b": 14.29,
+       "fr": "Au-delà, l'enzyme se déforme, son site actif est détruit, et elle ne fonctionne plus.",
+       "sci": false
+      },
+      {
+       "a": 15.17,
+       "b": 17.75,
+       "fr": "Elle dépend aussi de l'acidité, le pH.",
+       "sci": false
+      },
+      {
+       "a": 18.03,
+       "b": 19.97,
+       "fr": "Chaque enzyme a un pH optimal.",
+       "sci": false
+      },
+      {
+       "a": 20.25,
+       "b": 27.72,
+       "fr": "L'amylase de la salive fonctionne bien à un pH neutre, alors que la pepsine de l'estomac a besoin d'un milieu très acide.",
+       "sci": false
+      },
+      {
+       "a": 28.6,
+       "b": 38.47,
+       "fr": "C'est pour cela qu'une forte fièvre est dangereuse : au-delà de quarante et un degrés, certaines enzymes du corps commencent à perdre leur forme, et le métabolisme est perturbé.",
+       "sci": false
+      },
+      {
+       "a": 39.35,
+       "b": 45.71,
+       "fr": "En science : l'activité enzymatique dépend des conditions du milieu, notamment de la température et du pH.",
+       "sci": true
+      },
+      {
+       "a": 45.99,
+       "b": 50.94,
+       "fr": "Chaque enzyme présente une activité maximale à une température et un pH optimaux.",
+       "sci": true
+      },
+      {
+       "a": 51.22,
+       "b": 57.73,
+       "fr": "Des conditions extrêmes modifient la structure de l'enzyme, ce qui peut la dénaturer de façon irréversible.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "p05",
    "title": "Variation génétique et santé",
    "poster": "clips/p05/poster.jpg",
@@ -1115,6 +1317,220 @@
        "a": 57.02,
        "b": 62.65,
        "fr": "La lutte passe par un usage raisonné, l'hygiène, la vaccination et la recherche de nouveaux traitements.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "title": "Écosystèmes et services environnementaux",
+   "poster": "clips/p07/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Qu'est-ce qu'un écosystème ?",
+     "dur": 66.17,
+     "v": "clips/p07/c01.mp4",
+     "p": "clips/p07/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 6.58,
+       "fr": "Un écosystème, c'est un milieu de vie, comme une forêt ou un étang, avec tous les êtres vivants qui y vivent.",
+       "sci": false
+      },
+      {
+       "a": 6.86,
+       "b": 11.32,
+       "fr": "Le milieu physique, avec son sol, son eau et son climat, s'appelle le biotope.",
+       "sci": false
+      },
+      {
+       "a": 11.6,
+       "b": 14.56,
+       "fr": "L'ensemble des êtres vivants s'appelle la biocénose.",
+       "sci": false
+      },
+      {
+       "a": 15.44,
+       "b": 18.73,
+       "fr": "Les êtres vivants d'un écosystème interagissent sans cesse.",
+       "sci": false
+      },
+      {
+       "a": 19.01,
+       "b": 21.51,
+       "fr": "Certains mangent les autres : c'est la prédation.",
+       "sci": false
+      },
+      {
+       "a": 21.79,
+       "b": 25.01,
+       "fr": "D'autres sont en compétition pour la nourriture ou la lumière.",
+       "sci": false
+      },
+      {
+       "a": 25.29,
+       "b": 28.93,
+       "fr": "D'autres encore coopèrent, comme la fleur et l'abeille qui la pollinise.",
+       "sci": false
+      },
+      {
+       "a": 29.81,
+       "b": 32.74,
+       "fr": "Ces relations alimentaires forment des réseaux trophiques.",
+       "sci": false
+      },
+      {
+       "a": 33.02,
+       "b": 36.28,
+       "fr": "Les plantes, qui font la photosynthèse, sont les producteurs.",
+       "sci": false
+      },
+      {
+       "a": 36.56,
+       "b": 40.55,
+       "fr": "Les animaux qui les mangent sont des consommateurs, eux-mêmes mangés par d'autres.",
+       "sci": false
+      },
+      {
+       "a": 40.83,
+       "b": 46.08,
+       "fr": "Et les décomposeurs, comme les champignons et les bactéries du sol, recyclent la matière morte.",
+       "sci": false
+      },
+      {
+       "a": 46.96,
+       "b": 51.89,
+       "fr": "En science : un écosystème est formé d'un biotope et d'une biocénose en interaction.",
+       "sci": true
+      },
+      {
+       "a": 52.17,
+       "b": 57.37,
+       "fr": "Les êtres vivants sont reliés par des relations trophiques, de compétition ou de coopération.",
+       "sci": true
+      },
+      {
+       "a": 57.65,
+       "b": 65.29,
+       "fr": "Les réseaux trophiques relient producteurs, consommateurs et décomposeurs, et la matière circule en cycles entre le vivant et le milieu.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Un équilibre dynamique",
+     "dur": 63.73,
+     "v": "clips/p07/c02.mp4",
+     "p": "clips/p07/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 2.23,
+       "fr": "Un écosystème n'est pas figé.",
+       "sci": false
+      },
+      {
+       "a": 2.51,
+       "b": 6.65,
+       "fr": "Les populations d'êtres vivants varient sans cesse, mais dans certaines limites.",
+       "sci": false
+      },
+      {
+       "a": 6.93,
+       "b": 13.88,
+       "fr": "Par exemple, quand les lièvres sont nombreux, les lynx qui les mangent se multiplient, puis les lièvres diminuent, et les lynx aussi.",
+       "sci": false
+      },
+      {
+       "a": 14.76,
+       "b": 16.62,
+       "fr": "On parle d'équilibre dynamique.",
+       "sci": false
+      },
+      {
+       "a": 16.9,
+       "b": 26.24,
+       "fr": "Après une perturbation modérée, comme une tempête qui abat des arbres, l'écosystème peut retrouver un fonctionnement proche de l'état initial : c'est la résilience.",
+       "sci": false
+      },
+      {
+       "a": 27.12,
+       "b": 35.89,
+       "fr": "Mais certaines perturbations, surtout humaines, sont trop fortes ou trop rapides : déforestation, pollution, espèces introduites, réchauffement climatique.",
+       "sci": false
+      },
+      {
+       "a": 36.17,
+       "b": 40.8,
+       "fr": "L'écosystème peut alors basculer vers un état très différent, souvent appauvri.",
+       "sci": false
+      },
+      {
+       "a": 41.68,
+       "b": 49.06,
+       "fr": "En science : un écosystème est en équilibre dynamique : les effectifs des populations fluctuent autour de valeurs moyennes.",
+       "sci": true
+      },
+      {
+       "a": 49.34,
+       "b": 54.91,
+       "fr": "Après une perturbation, il peut retrouver un état proche de l'état initial, c'est la résilience.",
+       "sci": true
+      },
+      {
+       "a": 55.19,
+       "b": 62.85,
+       "fr": "Des perturbations humaines intenses peuvent dépasser cette capacité et conduire à un nouvel état, souvent moins riche en biodiversité.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Les services rendus par les écosystèmes",
+     "dur": 55.42,
+     "v": "clips/p07/c03.mp4",
+     "p": "clips/p07/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 9.74,
+       "fr": "Les écosystèmes nous rendent des services indispensables, souvent gratuitement : ils produisent notre nourriture, du bois, des médicaments, et de l'eau potable.",
+       "sci": false
+      },
+      {
+       "a": 10.62,
+       "b": 20.43,
+       "fr": "Ils régulent aussi notre environnement : les forêts stockent du carbone, les zones humides limitent les inondations, et les insectes pollinisent la plupart des cultures fruitières.",
+       "sci": false
+      },
+      {
+       "a": 21.31,
+       "b": 25.36,
+       "fr": "Préserver la biodiversité, c'est donc aussi protéger ces services.",
+       "sci": false
+      },
+      {
+       "a": 25.64,
+       "b": 33.6,
+       "fr": "On peut agir de plusieurs façons : créer des aires protégées, replanter des haies, limiter les pesticides, ou restaurer des milieux dégradés.",
+       "sci": false
+      },
+      {
+       "a": 34.48,
+       "b": 49.14,
+       "fr": "En science : les services écosystémiques sont les bénéfices que les humains tirent des écosystèmes : services d'approvisionnement, comme la nourriture ou l'eau, et services de régulation, comme le stockage du carbone, la pollinisation ou la protection contre les crues.",
+       "sci": true
+      },
+      {
+       "a": 49.42,
+       "b": 54.54,
+       "fr": "Leur préservation passe par une gestion durable des écosystèmes, et des choix de société.",
        "sci": true
       }
      ]

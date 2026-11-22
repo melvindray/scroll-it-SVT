@@ -2,6 +2,452 @@
  "level": "seconde",
  "films": [
   {
+   "id": "s02",
+   "title": "L'organisme, un ensemble de cellules",
+   "poster": "clips/s02/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Les échelles du vivant",
+     "dur": 62.72,
+     "v": "clips/s02/c01.mp4",
+     "p": "clips/s02/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.6,
+       "fr": "Un organisme comme toi est organisé en plusieurs niveaux, emboîtés comme des poupées russes.",
+       "sci": false
+      },
+      {
+       "a": 5.88,
+       "b": 9.08,
+       "fr": "L'organisme contient des organes, comme le cœur ou l'estomac.",
+       "sci": false
+      },
+      {
+       "a": 9.36,
+       "b": 13.99,
+       "fr": "Chaque organe est formé de tissus, et chaque tissu est un groupe de cellules semblables.",
+       "sci": false
+      },
+      {
+       "a": 14.87,
+       "b": 17.02,
+       "fr": "Ces niveaux ont des tailles très différentes.",
+       "sci": false
+      },
+      {
+       "a": 17.3,
+       "b": 28.84,
+       "fr": "Un organe se mesure en centimètres, une cellule en micromètres, c'est-à-dire en millièmes de millimètre, et les molécules qui la composent, comme l'ADN, en nanomètres, mille fois plus petits encore.",
+       "sci": false
+      },
+      {
+       "a": 29.72,
+       "b": 35.16,
+       "fr": "Pour observer une cellule, il faut un microscope optique, qui grossit jusqu'à environ mille fois.",
+       "sci": false
+      },
+      {
+       "a": 35.44,
+       "b": 42.46,
+       "fr": "Pour voir l'intérieur d'une cellule en détail, on utilise un microscope électronique, qui grossit jusqu'à un million de fois.",
+       "sci": false
+      },
+      {
+       "a": 43.34,
+       "b": 48.29,
+       "fr": "En science : un organisme pluricellulaire est organisé en organes, tissus et cellules.",
+       "sci": true
+      },
+      {
+       "a": 48.57,
+       "b": 55.23,
+       "fr": "Les échelles vont du centimètre pour les organes, au micromètre pour les cellules, et au nanomètre pour les molécules.",
+       "sci": true
+      },
+      {
+       "a": 55.51,
+       "b": 61.84,
+       "fr": "Le microscope optique permet d'observer les cellules, et le microscope électronique leur structure interne.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "Des cellules spécialisées",
+     "dur": 57.65,
+     "v": "clips/s02/c02.mp4",
+     "p": "clips/s02/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.12,
+       "fr": "Toutes tes cellules viennent d'une seule, la cellule-œuf.",
+       "sci": false
+      },
+      {
+       "a": 3.4,
+       "b": 5.45,
+       "fr": "Elles possèdent donc toutes le même ADN.",
+       "sci": false
+      },
+      {
+       "a": 5.73,
+       "b": 10.23,
+       "fr": "Pourtant, une cellule de la peau, un neurone et un globule rouge sont très différents.",
+       "sci": false
+      },
+      {
+       "a": 11.11,
+       "b": 14.85,
+       "fr": "C'est parce que chaque type de cellule n'utilise qu'une partie de ses gènes.",
+       "sci": false
+      },
+      {
+       "a": 15.13,
+       "b": 22.32,
+       "fr": "Un globule rouge exprime le gène de l'hémoglobine, qui transporte le dioxygène, alors qu'un neurone exprime d'autres gènes.",
+       "sci": false
+      },
+      {
+       "a": 22.6,
+       "b": 25.33,
+       "fr": "On parle de cellules spécialisées, ou différenciées.",
+       "sci": false
+      },
+      {
+       "a": 26.21,
+       "b": 28.0,
+       "fr": "Leur forme est liée à leur fonction.",
+       "sci": false
+      },
+      {
+       "a": 28.28,
+       "b": 31.8,
+       "fr": "Le globule rouge, petit et souple, se faufile dans les vaisseaux.",
+       "sci": false
+      },
+      {
+       "a": 32.08,
+       "b": 36.22,
+       "fr": "Le neurone, avec ses longs prolongements, transmet des messages à distance.",
+       "sci": false
+      },
+      {
+       "a": 36.5,
+       "b": 40.42,
+       "fr": "Les cellules de l'intestin, couvertes de replis, absorbent les nutriments.",
+       "sci": false
+      },
+      {
+       "a": 41.3,
+       "b": 46.87,
+       "fr": "En science : toutes les cellules d'un organisme ont le même ADN, mais elles n'expriment pas les mêmes gènes.",
+       "sci": true
+      },
+      {
+       "a": 47.15,
+       "b": 51.63,
+       "fr": "Cette expression différente explique leur spécialisation, ou différenciation.",
+       "sci": true
+      },
+      {
+       "a": 51.91,
+       "b": 56.77,
+       "fr": "La forme et le contenu d'une cellule sont adaptés à sa fonction dans l'organisme.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Cellules et matrice extracellulaire",
+     "dur": 55.21,
+     "v": "clips/s02/c03.mp4",
+     "p": "clips/s02/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.42,
+       "fr": "Les cellules d'un organisme ne flottent pas librement.",
+       "sci": false
+      },
+      {
+       "a": 3.7,
+       "b": 9.63,
+       "fr": "Elles sont maintenues ensemble par une sorte de ciment qu'elles fabriquent elles-mêmes : la matrice extracellulaire.",
+       "sci": false
+      },
+      {
+       "a": 10.51,
+       "b": 17.75,
+       "fr": "Chez les animaux, cette matrice contient des protéines comme le collagène, qui donne de la résistance à la peau, aux tendons et aux os.",
+       "sci": false
+      },
+      {
+       "a": 18.03,
+       "b": 22.91,
+       "fr": "Chez les plantes, chaque cellule est entourée d'une paroi rigide, faite surtout de cellulose.",
+       "sci": false
+      },
+      {
+       "a": 23.79,
+       "b": 30.19,
+       "fr": "Cette matrice joue un rôle important : elle donne sa solidité à l'organisme, et elle relie les cellules entre elles.",
+       "sci": false
+      },
+      {
+       "a": 30.47,
+       "b": 37.75,
+       "fr": "C'est grâce à la paroi de ses cellules qu'un arbre peut se dresser très haut, et c'est grâce au collagène que ta peau résiste aux tensions.",
+       "sci": false
+      },
+      {
+       "a": 38.63,
+       "b": 44.09,
+       "fr": "En science : la matrice extracellulaire est un ensemble de molécules sécrétées par les cellules.",
+       "sci": true
+      },
+      {
+       "a": 44.37,
+       "b": 50.64,
+       "fr": "Chez les animaux, elle contient notamment du collagène ; chez les végétaux, elle forme la paroi, riche en cellulose.",
+       "sci": true
+      },
+      {
+       "a": 50.92,
+       "b": 54.33,
+       "fr": "Elle assure la cohésion et la résistance mécanique des tissus.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": "Le métabolisme des cellules",
+   "poster": "clips/s03/poster.jpg",
+   "clips": [
+    {
+     "n": 1,
+     "title": "Qu'est-ce que le métabolisme ?",
+     "dur": 63.43,
+     "v": "clips/s03/c01.mp4",
+     "p": "clips/s03/c01.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 9.89,
+       "fr": "Une cellule est le siège d'une multitude de réactions chimiques : elle transforme des molécules en d'autres molécules, pour produire de l'énergie et fabriquer ses constituants.",
+       "sci": false
+      },
+      {
+       "a": 10.17,
+       "b": 13.11,
+       "fr": "L'ensemble de ces réactions s'appelle le métabolisme.",
+       "sci": false
+      },
+      {
+       "a": 13.99,
+       "b": 18.24,
+       "fr": "Ces réactions sont accélérées par des protéines particulières, les enzymes.",
+       "sci": false
+      },
+      {
+       "a": 18.52,
+       "b": 21.05,
+       "fr": "Chaque enzyme catalyse une réaction précise.",
+       "sci": false
+      },
+      {
+       "a": 21.33,
+       "b": 25.07,
+       "fr": "Sans elles, la plupart des réactions seraient bien trop lentes pour la vie.",
+       "sci": false
+      },
+      {
+       "a": 25.95,
+       "b": 29.92,
+       "fr": "Selon leur métabolisme, on distingue deux grands types d'êtres vivants.",
+       "sci": false
+      },
+      {
+       "a": 30.2,
+       "b": 36.11,
+       "fr": "Les autotrophes, comme les plantes, fabriquent leur propre matière organique à partir de matière minérale.",
+       "sci": false
+      },
+      {
+       "a": 36.39,
+       "b": 42.55,
+       "fr": "Les hétérotrophes, comme les animaux et les champignons, doivent se nourrir de matière organique déjà fabriquée.",
+       "sci": false
+      },
+      {
+       "a": 43.43,
+       "b": 47.8,
+       "fr": "En science : le métabolisme est l'ensemble des réactions chimiques d'une cellule.",
+       "sci": true
+      },
+      {
+       "a": 48.08,
+       "b": 52.22,
+       "fr": "Elles sont catalysées par des enzymes, et elles s'enchaînent en voies métaboliques.",
+       "sci": true
+      },
+      {
+       "a": 52.5,
+       "b": 62.55,
+       "fr": "Les cellules autotrophes produisent leur matière organique à partir de matière minérale ; les cellules hétérotrophes utilisent de la matière organique prélevée dans leur milieu.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "title": "La photosynthèse",
+     "dur": 58.16,
+     "v": "clips/s03/c02.mp4",
+     "p": "clips/s03/c02.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 5.15,
+       "fr": "Les plantes vertes fabriquent leur matière grâce à la lumière : c'est la photosynthèse.",
+       "sci": false
+      },
+      {
+       "a": 5.43,
+       "b": 11.11,
+       "fr": "Elle a lieu dans les chloroplastes des cellules des feuilles, qui contiennent un pigment vert, la chlorophylle.",
+       "sci": false
+      },
+      {
+       "a": 11.99,
+       "b": 17.94,
+       "fr": "Pour cela, la plante prélève du dioxyde de carbone dans l'air, et de l'eau et des sels minéraux dans le sol.",
+       "sci": false
+      },
+      {
+       "a": 18.22,
+       "b": 24.08,
+       "fr": "Avec l'énergie de la lumière, elle les transforme en glucose, un sucre, et elle rejette du dioxygène.",
+       "sci": false
+      },
+      {
+       "a": 24.96,
+       "b": 32.92,
+       "fr": "Le glucose sert ensuite à fabriquer toute la matière de la plante : la cellulose de ses parois, l'amidon de ses réserves, et ses protéines.",
+       "sci": false
+      },
+      {
+       "a": 33.2,
+       "b": 36.1,
+       "fr": "Et le dioxygène rejeté est celui que nous respirons.",
+       "sci": false
+      },
+      {
+       "a": 36.98,
+       "b": 42.04,
+       "fr": "En science : la photosynthèse est réalisée dans les chloroplastes, grâce à la chlorophylle.",
+       "sci": true
+      },
+      {
+       "a": 42.32,
+       "b": 51.28,
+       "fr": "Elle convertit l'énergie lumineuse en énergie chimique, en produisant du glucose à partir de dioxyde de carbone et d'eau, avec un rejet de dioxygène.",
+       "sci": true
+      },
+      {
+       "a": 51.56,
+       "b": 57.28,
+       "fr": "Le glucose est ensuite transformé en d'autres molécules organiques, comme l'amidon et la cellulose.",
+       "sci": true
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Respiration et fermentation",
+     "dur": 59.19,
+     "v": "clips/s03/c03.mp4",
+     "p": "clips/s03/c03.jpg",
+     "cues": [
+      {
+       "a": 0.5,
+       "b": 3.68,
+       "fr": "Toutes les cellules, même celles des plantes, ont besoin d'énergie.",
+       "sci": false
+      },
+      {
+       "a": 3.96,
+       "b": 7.99,
+       "fr": "Elles la tirent de la dégradation de molécules organiques, comme le glucose.",
+       "sci": false
+      },
+      {
+       "a": 8.87,
+       "b": 11.49,
+       "fr": "La voie la plus efficace est la respiration.",
+       "sci": false
+      },
+      {
+       "a": 11.77,
+       "b": 16.43,
+       "fr": "Dans les mitochondries, le glucose est complètement dégradé grâce au dioxygène.",
+       "sci": false
+      },
+      {
+       "a": 16.71,
+       "b": 20.95,
+       "fr": "Cela libère beaucoup d'énergie, et produit du dioxyde de carbone et de l'eau.",
+       "sci": false
+      },
+      {
+       "a": 21.83,
+       "b": 25.86,
+       "fr": "Quand le dioxygène manque, certaines cellules réalisent une fermentation.",
+       "sci": false
+      },
+      {
+       "a": 26.14,
+       "b": 30.03,
+       "fr": "Le glucose n'est dégradé que partiellement, et peu d'énergie est libérée.",
+       "sci": false
+      },
+      {
+       "a": 30.31,
+       "b": 37.15,
+       "fr": "Par exemple, la levure fermente le sucre en alcool et en dioxyde de carbone : c'est ce qui fait lever la pâte à pain.",
+       "sci": false
+      },
+      {
+       "a": 38.03,
+       "b": 46.59,
+       "fr": "En science : la respiration cellulaire oxyde complètement le glucose en présence de dioxygène, dans les mitochondries, et libère beaucoup d'énergie.",
+       "sci": true
+      },
+      {
+       "a": 46.87,
+       "b": 52.18,
+       "fr": "La fermentation dégrade partiellement le glucose sans dioxygène, et libère peu d'énergie.",
+       "sci": true
+      },
+      {
+       "a": 52.46,
+       "b": 58.31,
+       "fr": "Ces deux voies permettent aux cellules, autotrophes comme hétérotrophes, de couvrir leurs besoins énergétiques.",
+       "sci": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "s01",
    "title": "L'ADN, la molécule de l'hérédité",
    "poster": "clips/s01/poster.jpg",
