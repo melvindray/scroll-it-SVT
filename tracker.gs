@@ -29,7 +29,7 @@ function setupQuiz_() {
     r.getRange('H2:J2').setValues([['Quiz terminés', 'Score moyen (/5)', 'Dernier quiz']]).setFontWeight('bold');
     r.getRange('H3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", COUNTIF(Scores!B2:B, id))))');
     r.getRange('I3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(ROUND(AVERAGEIF(Scores!B2:B, id, Scores!G2:G), 1), ""))))');
-    r.getRange('J3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(INDEX(SORT(FILTER({Scores!A2:A, Scores!F2:F&" : "&Scores!G2:G&"/"&Scores!H2:H}, Scores!B2:B=id), 1, FALSE), 1, 2), ""))))');
+    r.getRange('J3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(INDEX(SORT(FILTER(Scores!F2:F&" : "&Scores!G2:G&"/"&Scores!H2:H, Scores!B2:B=id), FILTER(Scores!A2:A, Scores!B2:B=id), FALSE), 1), ""))))');
   }
   const s = ss.getSheetByName('Résumé');
   if (s && !s.getRange('F1').getValue()) {
@@ -47,21 +47,21 @@ function setup() {
     const r = ss.insertSheet('Suivi', 0);
     r.getRange('A1').setValue('Suivi par élève').setFontWeight('bold');
     r.getRange('A2:G2').setValues([['Classe', 'Groupe', 'Élève', 'ID', 'Vidéos terminées', 'Minutes regardées', 'Dernière activité']]).setFontWeight('bold');
-    r.getRange('A3').setFormula('=IFERROR(SORT(FILTER({Inscrits!C2:C, Inscrits!D2:D, Inscrits!B2:B, Inscrits!A2:A}, Inscrits!A2:A<>""), 1, TRUE, 3, TRUE), "")');
-    r.getRange('E3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", COUNTIFS(Activité!B2:B, id, Activité!H2:H, "terminée"))))');
-    r.getRange('F3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", ROUND(SUMIFS(Activité!I2:I, Activité!B2:B, id, Activité!H2:H, "watch")/60, 1))))');
-    r.getRange('G3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(MAXIFS(Activité!A2:A, Activité!B2:B, id), ""))))');
+    r.getRange('A3').setFormula('=IFERROR(SORT(FILTER(CHOOSECOLS(Inscrits!A2:D, 3, 4, 2, 1), Inscrits!A2:A<>""), 1, TRUE, 3, TRUE), "")');
+    r.getRange('E3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", COUNTIFS(\'Activité\'!B2:B, id, \'Activité\'!H2:H, "terminée"))))');
+    r.getRange('F3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", ROUND(SUMIFS(\'Activité\'!I2:I, \'Activité\'!B2:B, id, \'Activité\'!H2:H, "watch")/60, 1))))');
+    r.getRange('G3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(MAXIFS(\'Activité\'!A2:A, \'Activité\'!B2:B, id), ""))))');
     r.getRange('G3:G').setNumberFormat('dd/mm/yyyy hh:mm'); r.hideColumns(4); r.setFrozenRows(2);
     const s = ss.insertSheet('Résumé', 1);
     s.getRange('A1:B5').setValues([
       ['Élèves inscrits', '=COUNTA(Inscrits!A2:A)'],
-      ["Actifs aujourd'hui", '=IFERROR(COUNTUNIQUE(FILTER(Activité!B2:B, INT(Activité!A2:A)=TODAY())), 0)'],
-      ['Actifs (7 jours)', '=IFERROR(COUNTUNIQUE(FILTER(Activité!B2:B, Activité!A2:A>=TODAY()-6)), 0)'],
-      ['Minutes regardées (7 jours)', '=ROUND(SUMIFS(Activité!I2:I, Activité!A2:A, ">="&(TODAY()-6))/60)'],
+      ["Actifs aujourd'hui", "=IFERROR(COUNTUNIQUE(FILTER('Activité'!B2:B, 'Activité'!B2:B<>\"\", INT('Activité'!A2:A)=TODAY())), 0)"],
+      ['Actifs (7 jours)', "=IFERROR(COUNTUNIQUE(FILTER('Activité'!B2:B, 'Activité'!B2:B<>\"\", 'Activité'!A2:A>=TODAY()-6)), 0)"],
+      ['Minutes regardées (7 jours)', "=ROUND(SUMIFS('Activité'!I2:I, 'Activité'!A2:A, \">=\"&(TODAY()-6))/60)"],
       ['', ''],
     ]);
     s.getRange('A7').setValue('Vidéos les plus regardées').setFontWeight('bold');
-    s.getRange('A8').setFormula("=IFERROR(QUERY(Activité!D2:I, \"select D, G, count(F), sum(I) where H = 'watch' group by D, G order by count(F) desc limit 30 label D 'Classe', G 'Vidéo', count(F) 'Vues', sum(I) 'Secondes'\", 0), \"\")");
+    s.getRange('A8').setFormula("=IFERROR(QUERY('Activité'!D2:I, \"select D, G, count(F), sum(I) where H = 'watch' group by D, G order by count(F) desc limit 30 label D 'Classe', G 'Vidéo', count(F) 'Vues', sum(I) 'Secondes'\", 0), \"\")");
     s.getRange('A1:A5').setFontWeight('bold');
     const s1 = ss.getSheetByName('Sheet1') || ss.getSheetByName('Feuille 1'); if (s1 && s1.getLastRow() === 0) ss.deleteSheet(s1);
   }
