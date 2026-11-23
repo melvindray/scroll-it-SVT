@@ -87,6 +87,55 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 .item:not(.ui) .side{opacity:0;pointer-events:none}
 .item:not(.ui) .subs{bottom:calc(16px + var(--bot));right:12px}
 @media (prefers-reduced-motion:reduce){.item .meta,.subs,.side{transition:none}}
+.seek{position:absolute;inset-inline:0;top:50%;transform:translateY(-50%);display:flex;justify-content:space-between;padding:0 14%;z-index:3;pointer-events:none;transition:opacity .25s ease}
+.item:not(.ui) .seek{opacity:0}
+.item.ui .seek button{pointer-events:auto}
+.seek button{width:62px;height:62px;border-radius:50%;background:rgba(15,20,23,.6);backdrop-filter:blur(6px);display:grid;place-items:center;position:relative}
+.seek svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.seek b{position:absolute;font-size:11px;font-weight:800;top:50%;left:50%;transform:translate(-50%,-42%)}
+.qitem{background:radial-gradient(circle at 50% 35%,color-mix(in srgb,var(--acc) 22%,var(--bg)),var(--bg) 70%)}
+.qcard{position:relative;z-index:2;max-width:360px;margin:0 24px;text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}
+.qcard .tag{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);font-weight:800}
+.qcard h2{margin:0;font-size:24px;line-height:1.2;text-wrap:balance}
+.qcard p{margin:0;color:var(--soft)}
+.qcard .go{padding:14px 30px;border-radius:99px;background:var(--acc);color:#0F1417;font-size:17px;font-weight:700}
+.qcard .best{font-size:14px;color:var(--ink)}
+#quiz{position:fixed;inset:0;z-index:25;background:var(--bg);overflow-y:auto;display:none}
+#quiz.open{display:block}
+#quiz .in{max-width:620px;margin:0 auto;padding:calc(14px + var(--top)) max(16px,env(safe-area-inset-right,0px)) calc(28px + var(--bot)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:14px}
+#quiz .qh{display:flex;align-items:center;gap:10px}
+#quiz .qh .t{flex:1;min-width:0;font-size:13px;color:var(--soft)}
+#quiz .qh .t b{display:block;color:var(--ink);font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#quiz .x{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.1);font-size:20px;line-height:1}
+#quiz .dots{display:flex;gap:6px}
+#quiz .dots i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.14)}
+#quiz .dots i.ok{background:#6FD39A}#quiz .dots i.ko{background:#F0705F}#quiz .dots i.now{background:var(--acc)}
+#quiz h2{margin:4px 0 0;font-size:19px;line-height:1.35}
+#quiz .ch{display:flex;flex-direction:column;gap:10px}
+#quiz .ch button{display:flex;gap:12px;align-items:flex-start;text-align:left;padding:13px 14px;border-radius:14px;border:1.5px solid rgba(255,255,255,.16);background:rgba(255,255,255,.04)}
+#quiz .ch button .l{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);font-weight:800;font-size:13px}
+#quiz .ch button .tx{flex:1;min-width:0}
+#quiz .ch button .why{display:block;margin-top:6px;font-size:14px;color:var(--soft);line-height:1.45}
+#quiz .ch button .why b{color:var(--ink)}
+#quiz .ch.done button{cursor:default}
+#quiz .ch button.good{border-color:#6FD39A;background:rgba(111,211,154,.1)}
+#quiz .ch button.good .l{background:#6FD39A;color:#0F1417}
+#quiz .ch button.bad{border-color:#F0705F;background:rgba(240,112,95,.1)}
+#quiz .ch button.bad .l{background:#F0705F;color:#0F1417}
+#quiz .ch button.pick{box-shadow:0 0 0 3px rgba(255,255,255,.25)}
+#quiz .verdict{font-weight:800;font-size:17px}
+#quiz .verdict.ok{color:#6FD39A}#quiz .verdict.ko{color:#F0705F}
+#quiz .logic{border-radius:14px;background:var(--panel);padding:14px;display:flex;flex-direction:column;gap:10px;border-left:3px solid var(--acc)}
+#quiz .logic h4{margin:0;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+#quiz .logic p{margin:2px 0 0;line-height:1.5}
+#quiz .nextq{align-self:stretch;padding:14px;border-radius:99px;background:var(--acc);color:#0F1417;font-weight:800;font-size:16px}
+#quiz .sec{align-self:stretch;padding:12px;border-radius:99px;background:rgba(255,255,255,.1);font-weight:700}
+#quiz .score{font-size:46px;font-weight:800;text-align:center;margin:10px 0 0}
+#quiz .score small{font-size:20px;color:var(--soft)}
+#quiz .recap{display:flex;flex-direction:column;gap:8px}
+#quiz .recap div{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:12px;background:var(--panel);font-size:14px}
+#quiz .recap div i{font-style:normal;font-weight:800}
+.list .chips button.quiz{border:1.5px dashed var(--acc)}
 </style>
 </head>
 <body>
@@ -94,6 +143,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 <div id="feed"></div>
 <video id="vid" playsinline webkit-playsinline preload="auto"></video>
 
+<div id="quiz" role="dialog" aria-modal="true" aria-label="Quiz"><div class="in"></div></div>
 <div class="sheet" id="menu"><div>
   <h3>Réglages</h3>
   <div class="row seg" id="subSeg"><label>Sous-titres</label><button data-v="on">Oui</button><button data-v="off">Non</button></div>
@@ -117,9 +167,9 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 <script>
 const $ = s => document.querySelector(s), feed = $('#feed'), V = $('#vid');
 const LS = { get: (k, d) => { try { const v = localStorage.getItem('svt_' + k); return v == null ? d : JSON.parse(v); } catch { return d; } }, set: (k, v) => { try { localStorage.setItem('svt_' + k, JSON.stringify(v)); } catch {} } };
-const st = { subs: LS.get('subs', 'on'), filt: LS.get('filt', 'all'), speed: LS.get('speed', 1), seen: LS.get('seen', {}), fav: LS.get('fav', {}), pos: LS.get('pos', {}) };
+const st = { subs: LS.get('subs', 'on'), filt: LS.get('filt', 'all'), speed: LS.get('speed', 1), seen: LS.get('seen', {}), fav: LS.get('fav', {}), pos: LS.get('pos', {}), quiz: LS.get('quiz', {}) };
 const ICON = { heart: '<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>', next: '<svg viewBox="0 0 24 24"><path d="M6 5l9 7-9 7zM18 5v14"/></svg>', list: '<svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>' };
-let LEVELS = [], DATA = {}, items = [], cur = -1, started = false, io;
+let LEVELS = [], DATA = {}, QUIZ = {}, items = [], cur = -1, started = false, io;
 const esc = s => String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const key = (f, c) => f.id + '/' + c.n;
 const me = () => LS.get('me', null);
@@ -155,7 +205,8 @@ async function gate() {
 async function boot() {
   const cfg = await (await fetch('config.json', { cache: 'no-cache' })).json();
   LEVELS = cfg.levels; TRACK = cfg.track || null;
-  await Promise.all(LEVELS.map(async l => { try { const m = await (await fetch(l.base + 'manifest.json', { cache: 'no-cache' })).json(); m.films.forEach(f => { f.clips.forEach(c => { c.v = l.base + c.v; c.p = l.base + (c.p || f.poster); }); }); DATA[l.id] = m; } catch (e) { DATA[l.id] = { films: [] }; } }));
+  await Promise.all(LEVELS.map(async l => { try { const m = await (await fetch(l.base + 'manifest.json', { cache: 'no-cache' })).json(); m.films.forEach(f => { f.clips.forEach(c => { c.v = l.base + c.v; c.p = l.base + (c.p || f.poster); }); }); DATA[l.id] = m; } catch (e) { DATA[l.id] = { films: [] }; }
+    try { Object.assign(QUIZ, await (await fetch(l.base + 'quiz.json', { cache: 'no-cache' })).json()); } catch (e) {} }));
   try { await gate(); } catch (e) { return; }
   if (me()) { applyMe(); build(); }
   setInterval(() => Q.length && flush(), 30000);
@@ -164,20 +215,24 @@ function applyMe() { const m = me(); setAcc(m.lvl); $('#lvl').textContent = lvNa
 function films() { const m = me(); return ((DATA[m && m.lvl] || { films: [] }).films); }
 function build() {
   V.pause(); feed.innerHTML = ''; items = []; cur = -1;
-  films().forEach(f => f.clips.forEach(c => { const k = key(f, c); if (st.filt === 'new' && st.seen[k]) return; if (st.filt === 'fav' && !st.fav[k]) return; items.push({ f, c, k }); }));
+  films().forEach(f => { f.clips.forEach(c => { const k = key(f, c); if (st.filt === 'new' && st.seen[k]) return; if (st.filt === 'fav' && !st.fav[k]) return; items.push({ f, c, k }); });
+    if (quizOf(f) && st.filt !== 'fav' && !(st.filt === 'new' && st.quiz[f.id])) items.push({ f, quiz: true, k: f.id + '/quiz' }); });
   if (!items.length) { feed.innerHTML = `<div class="empty">${st.filt === 'fav' ? 'Pas encore de favoris : touche deux fois une vidéo pour la garder.' : st.filt === 'new' ? 'Tu as tout vu, bravo !' : 'Pas encore de vidéos pour ta classe.'}</div>`; drawFilms(); return; }
   io && io.disconnect();
   io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting && e.intersectionRatio > 0.6) activate(+e.target.dataset.i); }), { root: feed, threshold: [0.6] });
   items.forEach((it, i) => {
     const d = document.createElement('div'); d.className = 'item'; d.dataset.i = i;
+    if (it.quiz) { d.classList.add('qitem'); drawQuizCard(d, it); feed.appendChild(d); io.observe(d); return; }
     d.innerHTML = `<div class="poster" style="background-image:url('${it.c.p}')"></div><div class="still" style="background-image:url('${it.c.p}')"></div><div class="vslot"></div>
       ${st.seen[it.k] ? '' : '<div class="badge">Nouveau</div>'}<div class="subs"></div>
+      <div class="seek"><button class="sk" data-d="-15" aria-label="Reculer de 15 secondes"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg><b>15</b></button><button class="sk" data-d="15" aria-label="Avancer de 15 secondes"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg><b>15</b></button></div>
       <div class="side"><button class="fv ${st.fav[it.k] ? 'on' : ''}"><span class="ic">${ICON.heart}</span>Garder</button><button class="nx"><span class="ic">${ICON.next}</span>Suivante</button><button class="ls"><span class="ic">${ICON.list}</span>Vidéos</button></div>
       <div class="meta"><div class="film">${esc(it.f.title)}</div><div class="chap"><b>${it.c.n}/${it.f.clips.length}</b> · ${esc(it.c.title)}</div></div><div class="prog"><i></i></div>`;
     feed.appendChild(d); io.observe(d);
     d.querySelector('.fv').onclick = e => { e.stopPropagation(); toggleFav(i); };
     d.querySelector('.nx').onclick = e => { e.stopPropagation(); go(i + 1); };
     d.querySelector('.ls').onclick = e => { e.stopPropagation(); openMenu(); };
+    d.querySelectorAll('.sk').forEach(b => b.onclick = e => { e.stopPropagation(); seek(i, +b.dataset.d); });
     let lastTap = 0, tmr;
     d.addEventListener('click', e => { const now = Date.now(); if (now - lastTap < 300) { clearTimeout(tmr); if (!st.fav[it.k]) toggleFav(i); } else tmr = setTimeout(() => togglePlay(i), 260); lastTap = now; });
   });
@@ -190,18 +245,20 @@ const preloader = document.createElement('link'); preloader.rel = 'preload'; pre
 function activate(i) {
   if (i === cur) return; const prev = cur; cur = i; endWatch(); watchIt = items[i]; lastT = 0;
   if (prev >= 0 && el(prev)) el(prev).classList.remove('paused', 'ui');
-  const it = items[i], d = el(i); V.pause(); d.querySelector('.vslot').appendChild(V);
+  const it = items[i], d = el(i); V.pause();
+  if (it.quiz) { st.pos[st.filt] = it.k; LS.set('pos', st.pos); return; }
+  d.querySelector('.vslot').appendChild(V);
   V.src = it.c.v; V.currentTime = 0; V.playbackRate = st.speed;
   const nx = items[i + 1]; if (nx) { preloader.href = nx.c.v; document.head.appendChild(preloader); }
   st.pos[st.filt] = it.k; LS.set('pos', st.pos);
   if (started) play(i);
 }
 function play(i) { el(i).classList.remove('paused', 'ui'); V.muted = false; V.playbackRate = st.speed; V.play().catch(() => el(i).classList.add('paused', 'ui')); }
-function togglePlay(i) { if (i !== cur) return; if (V.paused) play(i); else { V.pause(); el(i).classList.add('paused', 'ui'); } }
+function togglePlay(i) { if (i !== cur || items[i].quiz) return; if (V.paused) play(i); else { V.pause(); el(i).classList.add('paused', 'ui'); } }
 V.addEventListener('timeupdate', () => onTime(cur));
 V.addEventListener('ended', () => { if (cur >= 0) { markSeen(cur); go(cur + 1); } });
 function onTime(i) {
-  if (i < 0 || !items[i]) return; const it = items[i], t = V.currentTime, d = el(i);
+  if (i < 0 || !items[i] || items[i].quiz) return; const it = items[i], t = V.currentTime, d = el(i);
   if (watchIt === it && !V.paused) { const dt = t - lastT; if (dt > 0 && dt < 2) watched += dt; } lastT = t;
   d.querySelector('.prog i').style.width = (100 * t / (V.duration || it.c.dur)) + '%';
   const q = it.c.cues.find(c => t >= c.a - 0.1 && t <= c.b + 0.4), s = d.querySelector('.subs');
@@ -209,6 +266,7 @@ function onTime(i) {
   if (s.innerHTML !== h) s.innerHTML = h;
   if (t > (V.duration || it.c.dur) * 0.85) markSeen(i);
 }
+function seek(i, dt) { if (i !== cur || items[i].quiz) return; const dur = V.duration || items[i].c.dur || 0; V.currentTime = Math.max(0, Math.min(dur - 0.3, V.currentTime + dt)); lastT = V.currentTime; logEv(dt < 0 ? 'recul 15 s' : 'avance 15 s', items[i], V.currentTime); play(i); }
 function go(i) { if (i < items.length) feed.scrollTo({ top: i * feed.clientHeight, behavior: 'smooth' }); }
 function markSeen(i) { const it = items[i]; if (st.seen[it.k]) return; st.seen[it.k] = Date.now(); LS.set('seen', st.seen); logEv('terminée', it); const b = el(i).querySelector('.badge'); b && b.remove(); }
 function toggleFav(i) { const k = items[i].k; if (st.fav[k]) delete st.fav[k]; else { st.fav[k] = Date.now(); logEv('favori', items[i]); } LS.set('fav', st.fav); el(i).querySelector('.fv').classList.toggle('on', !!st.fav[k]); }
@@ -220,8 +278,9 @@ function segs() {
   });
 }
 function drawFilms() {
-  $('#films').innerHTML = films().map(f => `<div class="f"><div>${esc(f.title)}</div><small>${f.clips.length} vidéos</small><div class="chips">${f.clips.map(c => `<button data-k="${f.id}/${c.n}" class="${st.seen[f.id + '/' + c.n] ? 'seen' : ''} ${st.fav[f.id + '/' + c.n] ? 'fav' : ''}">${c.n} · ${esc(c.title)}</button>`).join('')}</div></div>`).join('');
-  $('#films').querySelectorAll('button').forEach(b => b.onclick = () => { closeMenu(); let j = items.findIndex(x => x.k === b.dataset.k); if (j < 0) { st.filt = 'all'; LS.set('filt', 'all'); segs(); build(); j = items.findIndex(x => x.k === b.dataset.k); } setTimeout(() => feed.scrollTo({ top: j * feed.clientHeight }), 50); });
+  $('#films').innerHTML = films().map(f => `<div class="f"><div>${esc(f.title)}</div><small>${f.clips.length} vidéos</small><div class="chips">${f.clips.map(c => `<button data-k="${f.id}/${c.n}" class="${st.seen[f.id + '/' + c.n] ? 'seen' : ''} ${st.fav[f.id + '/' + c.n] ? 'fav' : ''}">${c.n} · ${esc(c.title)}</button>`).join('')}${quizOf(f) ? `<button data-quiz="${f.id}" class="quiz ${st.quiz[f.id] ? 'seen' : ''}">Quiz${st.quiz[f.id] ? ' · ' + st.quiz[f.id].best + '/' + quizOf(f).length : ''}</button>` : ''}</div></div>`).join('');
+  $('#films').querySelectorAll('button[data-quiz]').forEach(b => b.onclick = () => { closeMenu(); openQuiz(films().find(f => f.id === b.dataset.quiz)); });
+  $('#films').querySelectorAll('button[data-k]').forEach(b => b.onclick = () => { closeMenu(); let j = items.findIndex(x => x.k === b.dataset.k); if (j < 0) { st.filt = 'all'; LS.set('filt', 'all'); segs(); build(); j = items.findIndex(x => x.k === b.dataset.k); } setTimeout(() => feed.scrollTo({ top: j * feed.clientHeight }), 50); });
 }
 function openMenu() { drawFilms(); $('#menu').classList.add('open'); }
 function closeMenu() { $('#menu').classList.remove('open'); }
@@ -232,9 +291,48 @@ function enter() {
   started = true; $('#start').remove();
   requestAnimationFrame(() => { if (cur >= 0) play(cur); else activate(Math.round(feed.scrollTop / feed.clientHeight)); });
 }
-document.addEventListener('keydown', e => { if (!started) return; if (e.key === 'ArrowDown') go(cur + 1); if (e.key === 'ArrowUp') go(Math.max(0, cur - 1)); if (e.key === ' ') { e.preventDefault(); togglePlay(cur); } });
+document.addEventListener('keydown', e => { if (!started || $('#quiz').classList.contains('open')) return; if (e.key === 'ArrowLeft') seek(cur, -15); if (e.key === 'ArrowRight') seek(cur, 15); if (e.key === 'ArrowDown') go(cur + 1); if (e.key === 'ArrowUp') go(Math.max(0, cur - 1)); if (e.key === ' ') { e.preventDefault(); togglePlay(cur); } });
 document.addEventListener('visibilitychange', () => { if (document.hidden) { endWatch(); if (cur >= 0) { watchIt = items[cur]; V.pause(); el(cur) && el(cur).classList.add('paused'); } flush(true); } });
 try { if ('serviceWorker' in navigator && location.protocol === 'https:' && !location.hostname.endsWith('claude.ai') && !location.hostname.includes('claudeusercontent')) navigator.serviceWorker.register('sw.js').catch(() => {}); } catch (e) {}
+// ---- quiz de fin de chapitre (5 QCM corrigés, réponses envoyées au Google Sheet)
+const quizOf = f => QUIZ[f.id] && QUIZ[f.id].length ? QUIZ[f.id] : null;
+const L = 'ABCD';
+function drawQuizCard(d, it) { const r = st.quiz[it.f.id], n = quizOf(it.f).length;
+  d.innerHTML = `<div class="qcard"><span class="tag">Quiz du chapitre</span><h2>${esc(it.f.title)}</h2><p>${n} questions pour vérifier ce que tu as retenu. Chaque réponse est corrigée et expliquée.</p>${r ? `<span class="best">Ton meilleur score : <b>${r.best}/${n}</b></span>` : ''}<button class="go">${r ? 'Refaire le quiz' : 'Commencer le quiz'}</button></div>`;
+  d.querySelector('.go').onclick = e => { e.stopPropagation(); openQuiz(it.f); }; }
+let QZ = null;
+function qLog(e, extra) { if (!me()) return; Q.push(Object.assign({ t: Date.now(), e, f: QZ.f.id, ti: QZ.f.title }, extra)); LS.set('q', Q); }
+function openQuiz(f) { if (!f || !quizOf(f)) return; V.pause(); if (cur >= 0 && el(cur) && !items[cur].quiz) el(cur).classList.add('paused', 'ui');
+  QZ = { f, qs: quizOf(f), i: 0, res: [] }; qLog('quiz commencé', {}); $('#quiz').classList.add('open'); drawQ(); }
+function closeQuiz() { $('#quiz').classList.remove('open'); if (QZ && QZ.res.length && QZ.res.length < QZ.qs.length) qLog('quiz abandonné', { qn: QZ.res.length, s: QZ.res.filter(x => x).length }); QZ = null; flush(); build(); drawFilms(); }
+function qDots() { return `<div class="dots">${QZ.qs.map((_, k) => `<i class="${k < QZ.res.length ? (QZ.res[k] ? 'ok' : 'ko') : k === QZ.i ? 'now' : ''}"></i>`).join('')}</div>`; }
+function qHead() { return `<div class="qh"><div class="t">Quiz<b>${esc(QZ.f.title)}</b></div><button class="x" aria-label="Fermer le quiz">×</button></div>` + qDots(); }
+function drawQ() { const q = QZ.qs[QZ.i], box = $('#quiz .in');
+  box.innerHTML = qHead() + `<div class="t" style="color:var(--soft);font-size:13px">Question ${QZ.i + 1} sur ${QZ.qs.length}</div><h2>${esc(q.q)}</h2><div class="ch">${q.c.map((c, k) => `<button data-k="${k}"><span class="l">${L[k]}</span><span class="tx">${esc(c[0])}<span class="why" hidden></span></span></button>`).join('')}</div><div class="after"></div>`;
+  box.querySelector('.x').onclick = closeQuiz; $('#quiz').scrollTop = 0;
+  box.querySelectorAll('.ch button').forEach(b => b.onclick = () => answer(+b.dataset.k)); }
+function answer(k) { const q = QZ.qs[QZ.i], box = $('#quiz .in'), ch = box.querySelector('.ch'); if (ch.classList.contains('done')) return; ch.classList.add('done');
+  const ok = k === q.ok; QZ.res.push(ok);
+  qLog('quiz', { qn: QZ.i + 1, qt: q.q.slice(0, 160), r: L[k] + ' · ' + q.c[k][0].slice(0, 120), ok: ok ? 1 : 0 });
+  ch.querySelectorAll('button').forEach((b, j) => { b.disabled = true; b.classList.add(j === q.ok ? 'good' : 'bad'); if (j === k) b.classList.add('pick');
+    const w = b.querySelector('.why'); w.hidden = false; w.innerHTML = `<b>${j === q.ok ? 'Bonne réponse.' : 'Faux.'}</b> ${esc(q.c[j][1])}`; });
+  box.querySelector('.dots').outerHTML = qDots();
+  const last = QZ.i === QZ.qs.length - 1;
+  box.querySelector('.after').outerHTML = `<div class="verdict ${ok ? 'ok' : 'ko'}">${ok ? 'Bravo, c’est juste !' : 'Pas tout à fait : la bonne réponse est la ' + L[q.ok] + '.'}</div>
+    <div class="logic"><div><h4>Ce que la question m’apprend</h4><p>${esc(q.info)}</p></div><div><h4>Le lien avec le cours</h4><p>${esc(q.lien)}</p></div></div>
+    <button class="nextq">${last ? 'Voir mon score' : 'Question suivante'}</button>`;
+  box.querySelector('.nextq').onclick = () => { if (last) endQuiz(); else { QZ.i++; drawQ(); } };
+  box.querySelector('.verdict').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+function endQuiz() { const s = QZ.res.filter(x => x).length, n = QZ.qs.length, prev = st.quiz[QZ.f.id];
+  st.quiz[QZ.f.id] = { best: Math.max(s, prev ? prev.best : 0), last: s, n: (prev ? prev.n : 0) + 1, t: Date.now() }; LS.set('quiz', st.quiz);
+  qLog('quiz terminé', { s, qn: n, ti2: 'tentative ' + st.quiz[QZ.f.id].n }); flush();
+  const box = $('#quiz .in');
+  box.innerHTML = qHead() + `<div class="score">${s}<small> / ${n}</small></div><p style="text-align:center;color:var(--soft);margin:0">${s === n ? 'Parfait, tu maîtrises ce chapitre !' : s >= 3 ? 'Bien joué. Relis la correction des questions ratées.' : 'Revois les vidéos du chapitre, puis refais le quiz.'}</p>
+    <div class="recap">${QZ.qs.map((q, k) => `<div><i style="color:${QZ.res[k] ? '#6FD39A' : '#F0705F'}">${QZ.res[k] ? '✓' : '✗'}</i><span>${esc(q.q)}</span></div>`).join('')}</div>
+    <button class="nextq" id="qAgain">Refaire le quiz</button><button class="sec" id="qBack">Continuer les vidéos</button>`;
+  box.querySelector('.x').onclick = closeQuiz; $('#quiz').scrollTop = 0;
+  $('#qAgain').onclick = () => { const f = QZ.f; QZ = { f, qs: quizOf(f), i: 0, res: [] }; qLog('quiz commencé', {}); drawQ(); };
+  $('#qBack').onclick = () => { const f = QZ.f; closeQuiz(); const j = items.findIndex(x => x.k === f.id + '/quiz'); if (j >= 0) setTimeout(() => go(j + 1), 60); }; }
 segs(); boot();
 </script>
 </body>

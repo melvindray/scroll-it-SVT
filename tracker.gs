@@ -3,10 +3,15 @@
 // 2. Colle tout ce fichier, enregistre, puis Déployer > Nouveau déploiement > Application Web
 //    (Exécuter en tant que : moi · Qui a accès : tout le monde). Copie l'URL obtenue.
 // Pour couper l'accès d'un élève : onglet « Inscrits », écris  non  dans la colonne « Accès » de sa ligne.
+// Mise à jour (quiz) : colle ce fichier à la place de l'ancien, enregistre, puis Déployer > Gérer les déploiements >
+//    crayon > Version : Nouvelle version > Déployer. L'URL ne change pas.
+// Onglets quiz : « Quiz » (chaque réponse de chaque élève) et « Scores » (chaque quiz terminé).
 
 const TABS = {
   users: ['Inscrits', ['ID', 'Élève', 'Classe', 'Groupe', 'Inscrit le', 'Vu pour la dernière fois', 'Accès', 'Appareil']],
   act: ['Activité', ['Date', 'ID', 'Élève', 'Classe', 'Film', 'Vidéo', 'Titre', 'Événement', 'Secondes']],
+  quiz: ['Quiz', ['Date', 'ID', 'Élève', 'Classe', 'Groupe', 'Chapitre', 'N° question', 'Question', 'Réponse choisie', 'Juste (1) / faux (0)']],
+  score: ['Scores', ['Date', 'ID', 'Élève', 'Classe', 'Groupe', 'Chapitre', 'Score', 'Sur', 'Tentative']],
 };
 
 function sheet_(k) {
@@ -15,6 +20,24 @@ function sheet_(k) {
   let sh = ss.getSheetByName(name);
   if (!sh) { sh = ss.insertSheet(name); sh.appendRow(head); sh.setFrozenRows(1); sh.getRange(1, 1, 1, head.length).setFontWeight('bold'); }
   return sh;
+}
+
+function setupQuiz_() {
+  sheet_('quiz'); sheet_('score');
+  const ss = SpreadsheetApp.getActive(), r = ss.getSheetByName('Suivi');
+  if (r && !r.getRange('H2').getValue()) {
+    r.getRange('H2:J2').setValues([['Quiz terminés', 'Score moyen (/5)', 'Dernier quiz']]).setFontWeight('bold');
+    r.getRange('H3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", COUNTIF(Scores!B2:B, id))))');
+    r.getRange('I3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(ROUND(AVERAGEIF(Scores!B2:B, id, Scores!G2:G), 1), ""))))');
+    r.getRange('J3').setFormula('=MAP(D3:D, LAMBDA(id, IF(id="", "", IFERROR(INDEX(SORT(FILTER({Scores!A2:A, Scores!F2:F&" : "&Scores!G2:G&"/"&Scores!H2:H}, Scores!B2:B=id), 1, FALSE), 1, 2), ""))))');
+  }
+  const s = ss.getSheetByName('Résumé');
+  if (s && !s.getRange('F1').getValue()) {
+    s.getRange('F1').setValue('Quiz : score moyen par chapitre').setFontWeight('bold');
+    s.getRange('F2').setFormula("=IFERROR(QUERY(Scores!D2:H, \"select D, F, count(G), avg(G) where G is not null group by D, F order by avg(G) asc label D 'Classe', F 'Chapitre', count(G) 'Quiz faits', avg(G) 'Score moyen'\", 0), \"\")");
+    s.getRange('K1').setValue('Questions les plus ratées').setFontWeight('bold');
+    s.getRange('K2').setFormula("=IFERROR(QUERY(Quiz!D2:J, \"select F, G, H, count(J), avg(J) where J is not null group by F, G, H order by avg(J) asc limit 25 label F 'Chapitre', G 'N°', H 'Question', count(J) 'Réponses', avg(J) 'Taux de réussite'\", 0), \"\")");
+  }
 }
 
 function setup() {
@@ -74,7 +97,13 @@ function doPost(e) {
     let u = findUser_(id);
     if (!u) { sheet_('users').appendRow([id, name, lvl, grp, now, now, 'oui', String(d.ua || '').slice(0, 30)]); u = findUser_(id); }
     else { u.sh.getRange(u.row, 3).setValue(lvl); u.sh.getRange(u.row, 6).setValue(now); }
-    const ev = (d.ev || []).slice(0, 200).map(x => [new Date(x.t || now), id, name, lvl, String(x.f || ''), x.c || '', String(x.ti || '').slice(0, 80), String(x.e || ''), Math.round(+x.s || 0)]);
+    setupQuiz_();
+    const all = (d.ev || []).slice(0, 200), str = (x, n) => String(x == null ? '' : x).slice(0, n);
+    const qz = all.filter(x => x.e === 'quiz').map(x => [new Date(x.t || now), id, name, lvl, grp, str(x.ti, 80), +x.qn || '', str(x.qt, 200), str(x.r, 160), x.ok ? 1 : 0]);
+    if (qz.length) { const sh = sheet_('quiz'); sh.getRange(sh.getLastRow() + 1, 1, qz.length, 10).setValues(qz); }
+    const sc = all.filter(x => x.e === 'quiz terminé').map(x => [new Date(x.t || now), id, name, lvl, grp, str(x.ti, 80), +x.s || 0, +x.qn || 5, str(x.ti2, 20).replace('tentative ', '')]);
+    if (sc.length) { const sh = sheet_('score'); sh.getRange(sh.getLastRow() + 1, 1, sc.length, 9).setValues(sc); }
+    const ev = all.filter(x => x.e !== 'quiz').map(x => [new Date(x.t || now), id, name, lvl, String(x.f || ''), x.c || '', String(x.ti || '').slice(0, 80), String(x.e || ''), x.e === 'quiz terminé' ? 0 : Math.round(+x.s || 0)]);
     if (ev.length) { const sh = sheet_('act'); sh.getRange(sh.getLastRow() + 1, 1, ev.length, 9).setValues(ev); }
     return json_({ ok: true });
   } finally { lock.releaseLock(); }
